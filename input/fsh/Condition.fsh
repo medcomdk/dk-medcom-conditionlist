@@ -5,7 +5,6 @@ Profile: MedComCoreCondition
 Parent: DkCoreCondition
 Description: "An example profile of the Condition resource."
 * code ^short = "The cde representing the condition"
-
 /* Instance: ConditionExample123
 InstanceOf: MedComCoreCondition
 Description: "An example of a condition with a license to krill."
