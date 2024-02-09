@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: Danish MedCom Diagnosis Card
-canonical: IG for the Diagnosis Card
+id: medcom.fhir.dk.diagnosiscard
+canonical: http://medcomfhir.dk/ig/diagnosiscard
 name: MedComDiagnosisCard
-# title: Example Title
+title: DK MedCom Diagnosis Card
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
