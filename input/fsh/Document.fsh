@@ -4,3 +4,11 @@
 Profile: MedComCoreDocument
 Parent: Bundle
 Description: "An example profile of the Condition resource."
+* id 1..
+* id MS
+* type MS
+* type = #document
+* type ^short = "Always a document"
+* timestamp 1.. MS
+* entry MS
+* entry.resource MS

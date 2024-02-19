@@ -3,7 +3,7 @@
 // SUSHI will look for definitions in any file using the .fsh ending.
 Profile: MedComCoreComposition
 Parent: Composition
-Description: "An example profile of the Condition resource."
+Description: "An example profile of the Composition resource."
 /* Instance: ConditionExample123
 InstanceOf: MedComCoreCondition
 Description: "An example of a condition with a license to krill."
