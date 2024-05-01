@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: medcom.fhir.dk.diagnosiscard
-canonical: http://medcomfhir.dk/ig/diagnosiscard
-name: MedComDiagnosisCard
-title: DK MedCom Diagnosis Card
+id: medcom.fhir.dk.shareddiagnoses
+canonical: http://medcomfhir.dk/ig/shareddiagnoses
+name: MedCom Shared Diagnoses
+title: DK MedCom Shared Diagnoses
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -26,6 +26,7 @@ publisher:
 #
 dependencies:
   medcom.fhir.dk.core: 2.3.0
+  medcom.fhir.dk.document: dev
   hl7.fhir.dk.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
