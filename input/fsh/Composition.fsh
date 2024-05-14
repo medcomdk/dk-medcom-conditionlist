@@ -17,15 +17,15 @@ Usage: #example
 * status = #final
 * type = $loinc#11503-0 "Medical records"
 // * category = $loinc#LP173421-1 "Report" 
-* subject = Reference(69e475df-20c8-4f54-8cea-9843568205fd)
+* subject = Reference(Patient/a474f707-775d-4ef3-b329-30d9d2f3efab)
 // * encounter = Reference(Encounter/xcda)
 * date = "2024-05-01T12:00:00+01:00"
-* author = Reference(1fcad31f-8967-4f49-b6af-7e64082e8fec)
+* author = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
 * title = "Delte diagnoser for 2509479989"
 // * attester.mode = #legal
 // * attester.time = "2012-01-04T09:10:14Z"
 // * attester.party = Reference(Practitioner/xcda-author) "Harold Hippocrates, MD"
-* custodian = Reference(97d47a38-5189-4012-a3c6-cc57e102f9f55)
+//* custodian = Reference(97d47a38-5189-4012-a3c6-cc57e102f9f55)
 // * relatesTo[0].code = #replaces
 // * relatesTo[=].targetReference = Reference(Composition/old-example)
 // * relatesTo[+].code = #appends
@@ -48,4 +48,4 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<p>History of family member diseases - not available</p>\n\t\t\t</div>"
 * section[=].mode = #snapshot
-* section[=].emptyReason = $list-empty-reason#withheld "Information Withheld" */
+* section[=].emptyReason = $list-empty-reason#withheld "Information Withheld" */ 

@@ -22,3 +22,4 @@ Usage: #example
 * identifier.value = "7c596b9a-112e-4386-ae71-5ecdd3ed7c50"
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Composition/72f2d9ad-cd73-4f63-950f-2ad178760a55"
 * entry[=].resource = 72f2d9ad-cd73-4f63-950f-2ad178760a55
+
