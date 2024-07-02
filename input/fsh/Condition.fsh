@@ -22,8 +22,8 @@ Description: "An example profile of the Condition resource."
 * code.text ^short = "[ConditionText - LPS egen ekstra tekst]"
 * code.text 1..1 MS
 * note 0..1 MS
-* note.annotation.text MS
-* note.annotation.text ^short = "Additional description for the condition (Danish: Tillægstekst)"
+* note.text MS
+* note.text ^short = "Additional description for the condition (Danish: Tillægstekst)"
 * onsetDateTime 1..1 MS
 * onsetDateTime ^short = "[DebutDate - Debut dato for diagnoseforløbet]"
 * recordedDate 1..1 MS
