@@ -4,10 +4,9 @@
 Profile: MedComSharedDiagnosesComposition
 Parent: MedComDocumentComposition
 Description: "An example profile of the Composition resource."
-* confidentiality MS
 * type = $loinc#11503-0 "Medical records"
-* section.text 1..1
-* section.entry 1..
+* date ^short = "Last update of the condition list"
+* title ^short = "Expected: 'Diagnoseliste for **CPR-nummer**'"
 
 Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
 InstanceOf: MedComSharedDiagnosesComposition

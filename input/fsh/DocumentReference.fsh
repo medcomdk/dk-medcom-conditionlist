@@ -12,7 +12,7 @@ Description: "Instance of DocumentReference, containing relevant metadata"
 * type = $LoincOID#56446-8 "Appointment Summary Document"
 * authenticator = Reference(1fcad31f-8967-4f49-b6af-7e64082e8fec)
 * category = $DanishiheOID#001 "Klinisk rapport"
-* author = Reference(97d47a38-5189-4012-a3c6-cc57e102f9f5)
+* author[institution] = Reference(97d47a38-5189-4012-a3c6-cc57e102f9f5)
 * subject = Reference(69e475df-20c8-4f54-8cea-9843568205fd)
 * content.attachment.contentType = $IANAMediaOID#text/xml "MimeType-text/xml"
 * content.attachment.language = $IANALanguageOID#da "Danish"
