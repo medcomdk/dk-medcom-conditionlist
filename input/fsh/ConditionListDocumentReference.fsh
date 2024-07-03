@@ -1,7 +1,7 @@
 Profile: ConditionListDocumentReference
 Parent: MedComDocumentReference
 Id: conditionlist-documentreference
-Description: "ConditionListDocumentReference"
+Description: "A profile for the MedCom ConditionListDocumentReference resource."
 * type from $ApdTypeCode (required) 
 //* category.coding.system from $ClassCode (required)
 //* content.attachment.contentType from $ContentType (required)

@@ -5,7 +5,7 @@
 Profile: MedComConditionListCondition
 Parent: DkCoreCondition
 Id: medcom-conditionlist-condition
-Description: "An example profile of the Condition resource."
+Description: "An profile of the MedCom ConditionList Condition resource."
 * identifier 1..1 MS
 * identifier ^short = "[DiagnosisId - Unikt diagnose id] Of the type GUID"
 * code.coding[ICPC2code] ^short = "[ICPCCode]"
