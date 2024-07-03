@@ -2,8 +2,9 @@
 // This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
 
-Profile: MedComCoreCondition
+Profile: MedComConditionListCondition
 Parent: DkCoreCondition
+Id: medcom-conditionlist-condition
 Description: "An example profile of the Condition resource."
 * identifier 1..1 MS
 * identifier ^short = "[DiagnosisId - Unikt diagnose id] Of the type GUID"
@@ -37,7 +38,6 @@ Description: "An example profile of the Condition resource."
 * clinicalStatus obeys medcom-conditionList-2
 * recorder 1..1 MS
 * recorder only Reference(MedComCorePractitioner)
-
 
 Invariant: medcom-conditionList-2
 Description: "ClinicalStatus must be 'active' or 'inactive'"

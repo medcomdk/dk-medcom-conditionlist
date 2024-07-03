@@ -1,7 +1,7 @@
 Instance: 1fcad31f-8967-4f49-b6af-7e64082e8fec
-InstanceOf: MedComDocumentAuthorPerson
+InstanceOf: MedComDocumentPractitioner
 Usage: #example
-Title: "Example of a MedCom Document Author Person"
+Title: "Example of a MedCom Document Practitioner"
 Description: "Example of a MedCom Document author Person with a name"
 * name.use = #official
 * name.family = "Vestergaard"
@@ -9,7 +9,7 @@ Description: "Example of a MedCom Document author Person with a name"
 * name.given[1] = "Test"
 
 Instance: 69e475df-20c8-4f54-8cea-9843568205fd
-InstanceOf: XDSSourcePatient
+InstanceOf: MedComDocumentSourcePatient
 Title: "Example of a MedCom Document Source Patient - Elmer test Hansen"
 Description: "Patient described. Valid only if used in a Bundle."
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
@@ -22,9 +22,9 @@ Description: "Patient described. Valid only if used in a Bundle."
 * gender = #male
 
 Instance: 97d47a38-5189-4012-a3c6-cc57e102f9f5
-InstanceOf: MedComDocumentAuthorOrganization
+InstanceOf: MedComDocumentOrganization
 Usage: #example
-Title: "Example of a MedCom Document Author Organization"
-Description: "An example of a MedCom document author organization"
+Title: "Example of a MedCom Document Organization"
+Description: "An example of a MedCom document organization"
 * name = "MedCom"
 * identifier[SOR-ID].value = "123456789012345"

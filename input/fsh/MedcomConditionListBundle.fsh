@@ -1,21 +1,11 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
-// SUSHI will look for definitions in any file using the .fsh ending.
-Profile: MedComCoreDocument
-Parent: Bundle
-Description: "An example profile of the Condition resource."
-* id 1..
-* id MS
-* type MS
-* type = #document
-* type ^short = "Always a document"
-* timestamp 1.. MS
-* entry MS
-* entry.resource MS
+Profile: MedComConditionListBundle
+Parent: MedComDocumentBundle
+Id: medcom-conditionlist-bundle
+Description: "A profile of the MedCom ConditionList Document resource."
 * obeys medcom-conditionList-1
 
 Instance: 23d8ece4-7cff-47c1-9680-571377c6ea74
-InstanceOf: MedComDocumentBundle
+InstanceOf: MedComConditionListBundle
 Usage: #example
 * type = #document
 * timestamp = 2024-05-01T12:00:00+01:00

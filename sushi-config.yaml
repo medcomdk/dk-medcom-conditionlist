@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: medcom.fhir.dk.shareddiagnoses
+id: medcom.fhir.dk.conditionlist
 canonical: http://medcomfhir.dk/ig/shareddiagnoses
-name: MedCom Shared Diagnoses
-title: DK MedCom Shared Diagnoses
+name: MedCom Condition List
+title: DK MedCom Condition List
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0

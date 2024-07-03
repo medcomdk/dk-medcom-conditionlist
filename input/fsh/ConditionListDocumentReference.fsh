@@ -1,6 +1,22 @@
+Profile: ConditionListDocumentReference
+Parent: MedComDocumentReference
+Id: conditionlist-documentreference
+Description: "ConditionListDocumentReference"
+* type from $ApdTypeCode (required) 
+//* category.coding.system from $ClassCode (required)
+//* content.attachment.contentType from $ContentType (required)
+//* content.attachment.language from $Language (required)
+* content.format from $ApdFormatCode (required)
+* context.event from $ApdEventCode (required)
+//* context.facilityType from $ApdFacilityType (required)
+//* context.practiceSetting from $ApdPracticeSetting (required)
+* extension.valueCoding from $ApdHomeCommunityID (required)
+* extension.valueString = "1.0.0"
+* subject 1..
+
 // Metadata instance
 Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
-InstanceOf: MedComCoreDocumentReference
+InstanceOf: MedComDocumentReference
 Title: "Instance of DocumentReference."
 Description: "Instance of DocumentReference, containing relevant metadata"
 * contained[+] = 1fcad31f-8967-4f49-b6af-7e64082e8fec
