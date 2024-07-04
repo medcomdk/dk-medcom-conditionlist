@@ -5,13 +5,14 @@ This implementation guide (IG) is provided by MedCom to describe the use of MedC
 This IG contains profiles for MedCom ConditionList. The purpose of a ConditionList is to gather selected diagnoses into a condition list, thereby providing a well-defined overview of the patient's current health status and previously significant relevant diagnoses. The diagnoses included in the ConditionList are exclusively selected to be shared by the patient's general practitioner.
 The ConditionList supports: 
 * On-demand retrieval of a patient's ConditionlList
-* Diagnosis: Often both as a medical classification system code as well as a written diagnosis text selected by the patient's general practitioner. Most often, the medical clasification systems will be either ICPC2 or SKS-D **(LINKS?)**.
+* Diagnosis: Often both as one or more medical classification system codes as well as a written diagnosis text selected by the patient's general practitioner. Most often, the medical clasification systems will be either ICPC2 or SKS-D or both (LINKS til systemer?).
 * Distinctions between diagnosis categories: 'Active' (Danish: Aktuel) and 'inactive' (Danish: relevant).
 * Distinctions between diagnosis types: 'encounter-diagnosis' (Danish: Kontaktdiagnose) and 'problem-list-item' (Danish: Forløbsdiagnose).
 * Information about dates related to the condition list as well as the individual diagnosis.
 * An additional text/note (Danish: Tillægstekst) related to the diagnosis, given by the patient's general practitioner.
-* Information about the patient and the patient's general practitioner.
+* Information about the patient and the patient's general practitioner's organization.
 
+(OBS: Skal der stå noget tekst her om hvorfor felterne kan være blanke, eller hører det kun til under sundhedsfaglige retningslinjer og til testprotokollen?)
 More information about the [clinical guidelines for applications](LINK) can be found here.
 
 #### ConditionList
@@ -19,22 +20,24 @@ The structure of a ConditionList is depicted on the following diagram:
 
 FIGURE HERE
 
-ConditionList follows the general MedCom FHIR Document model.
+ConditionList follows the general MedCom FHIR Document model. (LINK og kort beskrivelse her omkring MedCom FHIR Document, så de efterfølgende tekster giver mening)
 The following sections describe the overall purpose of each profile.
 
 <!-- ? = i tvivl om det skal beskrives her?-->
-##### MedComConditionListBundle and MedComDocumentBundle?
+##### MedComConditionListBundle
+[MedComConditionListBundle](LINK) is a profile specifically for ConditionList, inheriting from [MedComDocumentBundle](LINK). MedComConditionListBundle differs from the MedComDocumentBundle by enforcing specific constraints related to the ConditionList, whereas MedComDocumentBundle provides a more general structure for any MedCom FHIR Document bundle.
 
-##### MedComConditionListComposition and MedComDocumentComposition?
+##### MedComConditionListComposition
+[MedComConditionListComposition](LINK) is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](LINK). The key differences are: the type is fixed to "Medical records" to standardize the document type; the date field is specified as "Last update of the condition list", and the title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'" (English translation for understanding purposes only: "Condition list for 'CPR-number (Unique identification number for a citizen in Denmark, called civil person register)'".
 
-##### MedComConditionListCondition and DkCoreCondition?
+##### MedComConditionListCondition
+[MedComConditionListCondition](LINK) is the profile that specifies each instance of the patient's diagnoses in a ConditionList. It inherits from [DkCoreCondition](https://hl7.dk/fhir/core/StructureDefinition-dk-core-condition.html).
 
 ##### MedComDocumentSourcePatient
-MedComDocumentSourcePatient is a profile for sharing patient information via FHIR Documents in the Danish healthcare system, inheriting from [MedComCorePatient](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html). In the ConditionList, it is not possible to use a substitute CPR number.
+[MedComDocumentSourcePatient](LINK) is a profile for sharing patient information via FHIR Documents in the Danish healthcare system, inheriting from [MedComCorePatient](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html). Note that it is not allowed to use X-eCPR or d-eCPR (Danish: erstatnings-CPR-numre) in a ConditionList.
 
-##### MedComDocumentPractitioner and MedComCorePractitioner
-
-##### MedComDocumentOrganization and MedComCoreOrganization?
+##### MedComDocumentOrganization
+ [MedComDocumentOrganization](LINK) is a profile representing Danish healthcare organizations in FHIR Documents, inheriting from [MedComCoreOrganization](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html). It includes additional requirements for the organization's name and "Ydernummer", which is a unique identification number for Danish healthcare organizations. This profile ensures that all relevant organizational information is correctly represented and standardized for document-based exchange.
 
 ##### ConditionListDocumentReference and MedComDocumentReference?
 
