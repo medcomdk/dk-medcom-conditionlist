@@ -29,7 +29,8 @@ The following sections describe the overall purpose of each profile.
 
 ##### MedComConditionListCondition and DkCoreCondition?
 
-##### MedComDocumentSourcePatient and MedComCorePatient
+##### MedComDocumentSourcePatient
+MedComDocumentSourcePatient is a profile for sharing patient information via FHIR Documents in the Danish healthcare system, inheriting from [MedComCorePatient](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html). In the ConditionList, it is not possible to use a substitute CPR number.
 
 ##### MedComDocumentPractitioner and MedComCorePractitioner
 
