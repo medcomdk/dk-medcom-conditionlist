@@ -4,8 +4,8 @@ This implementation guide (IG) is provided by MedCom to describe the use of MedC
 
 This IG contains profiles for MedCom ConditionList. The purpose of a ConditionList is to gather selected diagnoses into a condition list, thereby providing a well-defined overview of the patient's current health status and previously significant relevant diagnoses. The diagnoses included in the ConditionList are exclusively selected to be shared by the patient's general practitioner.
 The ConditionList supports: 
-* On demand retrieval of a patient's ConditionlList
-* Diagnosis information **(Skal der stå noget om begrebet helbredstilstand som i anvendermodellen"?)**: Often both as a medical classification system code as well as a written diagnosis text selected by the patient's general practitioner. Most often, the medical clasification systems will be either ICPC2 or SKS-D **(LINKS?)**.
+* On-demand retrieval of a patient's ConditionlList
+* Diagnosis: Often both as a medical classification system code as well as a written diagnosis text selected by the patient's general practitioner. Most often, the medical clasification systems will be either ICPC2 or SKS-D **(LINKS?)**.
 * Distinctions between diagnosis categories: 'Active' (Danish: Aktuel) and 'inactive' (Danish: relevant).
 * Distinctions between diagnosis types: 'encounter-diagnosis' (Danish: Kontaktdiagnose) and 'problem-list-item' (Danish: Forløbsdiagnose).
 * Information about dates related to the condition list as well as the individual diagnosis.
