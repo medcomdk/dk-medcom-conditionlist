@@ -23,7 +23,6 @@ FIGURE HERE
 ConditionList follows the general MedCom FHIR Document model. (LINK og kort beskrivelse her omkring MedCom FHIR Document, så de efterfølgende tekster giver mening)
 The following sections describe the overall purpose of each profile.
 
-<!-- ? = i tvivl om det skal beskrives her?-->
 ##### MedComConditionListBundle
 [MedComConditionListBundle](LINK) is a profile specifically for ConditionList, inheriting from [MedComDocumentBundle](LINK). MedComConditionListBundle differs from the MedComDocumentBundle by enforcing specific constraints related to the ConditionList, whereas MedComDocumentBundle provides a more general structure for any MedCom FHIR Document bundle.
 
@@ -39,7 +38,7 @@ The following sections describe the overall purpose of each profile.
 ##### MedComDocumentOrganization
  [MedComDocumentOrganization](LINK) is a profile representing Danish healthcare organizations in FHIR Documents, inheriting from [MedComCoreOrganization](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html). It includes additional requirements for the organization's name and "Ydernummer", which is a unique identification number for Danish healthcare organizations. This profile ensures that all relevant organizational information is correctly represented and standardized for document-based exchange.
 
-##### ConditionListDocumentReference and MedComDocumentReference?
+##### ConditionListDocumentReference
 onditionListDocumentReference is a profile for referencing ConditionList documents within the Danish healthcare system. It inherits from MedComDocumentReference.
  It provides metadata about the document, enabling easy access and retrieval of ConditionList documents within the Danish healthcare system.
 
