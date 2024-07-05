@@ -28,7 +28,7 @@ The following sections describe the overall purpose of each profile.
 [MedComConditionListBundle](LINK) is a profile specifically for ConditionList, inheriting from [MedComDocumentBundle](LINK). MedComConditionListBundle differs from the MedComDocumentBundle by enforcing specific constraints related to the ConditionList, whereas MedComDocumentBundle provides a more general structure for any MedCom FHIR Document bundle.
 
 ##### MedComConditionListComposition
-[MedComConditionListComposition](LINK) is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](LINK). The key differences are: the type is fixed to "Medical records" to standardize the document type; the date field is specified as "Last update of the condition list", and the title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'" (English translation for understanding purposes only: "Condition list for 'CPR-number (Unique identification number for a citizen in Denmark, called civil person register)'".
+[MedComConditionListComposition](LINK) is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](LINK). The key differences are: the type is fixed to "Medical records" to standardize the document type; the date field is specified as "Last update of the condition list", and the title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'" (English translation for understanding purposes only: "Condition list for 'CPR-number (Unique identification number for a citizen in Denmark, called civil person register))'".
 
 ##### MedComConditionListCondition
 [MedComConditionListCondition](LINK) is the profile that specifies each instance of the patient's diagnoses in a ConditionList. It inherits from [DkCoreCondition](https://hl7.dk/fhir/core/StructureDefinition-dk-core-condition.html).
@@ -40,17 +40,21 @@ The following sections describe the overall purpose of each profile.
  [MedComDocumentOrganization](LINK) is a profile representing Danish healthcare organizations in FHIR Documents, inheriting from [MedComCoreOrganization](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html). It includes additional requirements for the organization's name and "Ydernummer", which is a unique identification number for Danish healthcare organizations. This profile ensures that all relevant organizational information is correctly represented and standardized for document-based exchange.
 
 ##### ConditionListDocumentReference and MedComDocumentReference?
+onditionListDocumentReference is a profile for referencing ConditionList documents within the Danish healthcare system. It inherits from MedComDocumentReference.
+ It provides metadata about the document, enabling easy access and retrieval of ConditionList documents within the Danish healthcare system.
 
 ##### MedComDocumentHomeCommunityID extension
+Extension containing information about operational and in production home communities (XCA) in Danish Document Sharing.
 
 ##### MedComDocumentVersionID extension
+Extension containing information about the version of the DocumentReference for a specific standard.
 
 #### Timestamps
-A ConditionList includes several timestamps. These timestamps are present in the profiles XXX and have different purposes:
-* A
-* B
-* C
-* D
+A ConditionList includes several timestamps. These timestamps are present in the profiles MedComConditionListComposition and MedComConditionListCondition. They have different purposes:
+* 'date' element in MedComConditionListComposition: The last update date of the condition list performed by the patient's general practitioner must be included (Danish: senest opdateret).
+* 'recordedDate' element in MedComConditionListCondition: The date of the individual diagnosis entry in the database must be included if known (Danish: registreringsdato).
+* 'onsetDateTime' element in MedComConditionListCondition: Actual or estimated date the condition began, in the opinion of the patient's general practitioner must be included if known (Danish: debutdato).
+* 'abatementDateTime' element in MedComConditionListCondition: The date or estimated date that the condition resolved or went into remission must be included if known(Danish: afslutningsdato).
 
 #### IDs
 All instances of a profile shall have a global unique id by using an UUID. [Read more about the use of ids here](LINK).
@@ -73,20 +77,17 @@ Content in this IG can be downloaded in npm format under [Download](LINK). This 
 On the [introduction page for ConditionList](LINK) the following documentation can be found: 
 * Clinical guidelines
 * Use cases
-* Mapping of documents from the previous IHE-XDS metadata to FHIR
+* Mapping of documents from the previous IHE-XDS metadata to FHIR (skal måske kun stå under 'medcom document'?)
 
 ### Governance
-
 MedComs FHIR profiles and extension are managed in GitHub under MedCom: [Source code](LINK)
 
 A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage/#4-change-management-and-versioning) of MedComs FHIR artefacts, can be found on the link.
 
 #### Quality Assurance Report
-
 In the Quality Assurance report (QA-report) for this IG, there is XXX
 
 ### Contact 
-
 [MedCom](https://www.medcom.dk/) is responsible for this IG.
 
 If you have any questions, please contact <fhir@medcom.dk> or write to MedCom's stream in [Zulip](https://chat.fhir.org/#narrow/stream/315677-denmark.2Fmedcom.2FFHIRimplementationErfaGroup).
