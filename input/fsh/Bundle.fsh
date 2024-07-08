@@ -1,9 +1,9 @@
 // This is a simple example of a FSH file.
 // This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
-Profile: MedComCoreDocument
-Parent: Bundle
-Description: "An example profile of the Condition resource."
+Profile: MedComConditionListDocument
+Parent: MedComDocumentBundle
+Description: "An example profile of the Composistion resource."
 * id 1..
 * id MS
 * type MS
@@ -23,6 +23,10 @@ Usage: #example
 * identifier.value = "7c596b9a-112e-4386-ae71-5ecdd3ed7c50"
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Composition/72f2d9ad-cd73-4f63-950f-2ad178760a55"
 * entry[=].resource = 72f2d9ad-cd73-4f63-950f-2ad178760a55
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Patient/a474f707-775d-4ef3-b329-30d9d2f3efab"
+* entry[=].resource = a474f707-775d-4ef3-b329-30d9d2f3efab
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec"
+* entry[=].resource = 1fcad31f-8967-4f49-b6af-7e64082e8fec
 
 Invariant: medcom-conditionList-1
 Description: "The system of Patient.identifier shall be 'urn:oid:1.2.208.176.1.2', which represents an official Danish CPR-number"

@@ -1,15 +1,15 @@
 // This is a simple example of a FSH file.
 // This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
-Profile: MedComSharedDiagnosesComposition
+Profile: MedComConditionListComposition
 Parent: MedComDocumentComposition
 Description: "An example profile of the Composition resource."
 * type = $loinc#11503-0 "Medical records"
 * date ^short = "Last update of the condition list"
-* title ^short = "Expected: 'Diagnoseliste for **CPR-nummer**'"
+* title ^short = "Expected: 'Diagnoseoversigt for **CPR-nummer**'"
 
 Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
-InstanceOf: MedComSharedDiagnosesComposition
+InstanceOf: MedComConditionListComposition
 Usage: #example
 // * identifier.system = "http://healthintersections.com.au/test" // ? -Establishes the namespace for the value - that is, a URL that describes a set values that are unique.
 // * identifier.value = "1" // ? -The portion of the identifier typically relevant to the user and which is unique within the context of the system.
@@ -20,7 +20,7 @@ Usage: #example
 // * encounter = Reference(Encounter/xcda)
 * date = "2024-05-01T12:00:00+01:00"
 * author = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
-* title = "Delte diagnoser for 2509479989"
+* title = "Diagnoseoversigt for 2509479989"
 // * attester.mode = #legal
 // * attester.time = "2012-01-04T09:10:14Z"
 // * attester.party = Reference(Practitioner/xcda-author) "Harold Hippocrates, MD"
