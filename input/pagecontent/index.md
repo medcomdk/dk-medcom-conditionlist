@@ -12,7 +12,7 @@ The ConditionList supports:
 * An additional text/note (Danish: Tillægstekst) related to the diagnosis, given by the patient's general practitioner.
 * Information about the patient and the patient's general practitioner's organization.
 
-(OBS: Skal der stå noget tekst her om hvorfor felterne kan være blanke, eller hører det kun til under sundhedsfaglige retningslinjer og til testprotokollen?)
+(OBS: Skal der stå noget tekst her om hvorfor felterne kan være blanke, eller hører det kun til under sundhedsfaglige retningslinjer og til testprotokollen? Også anbefaling om at det medsendes, hvis man har det.)
 More information about the [clinical guidelines for applications](LINK) can be found here.
 
 #### ConditionList
@@ -51,9 +51,9 @@ Extension containing information about the version of the DocumentReference for 
 #### Timestamps
 A ConditionList includes several timestamps. These timestamps are present in the profiles MedComConditionListComposition and MedComConditionListCondition. They have different purposes:
 * 'date' element in MedComConditionListComposition: The last update date of the condition list performed by the patient's general practitioner must be included (Danish: senest opdateret).
-* 'recordedDate' element in MedComConditionListCondition: The date of the individual diagnosis entry in the database must be included if known (Danish: registreringsdato).
-* 'onsetDateTime' element in MedComConditionListCondition: Actual or estimated date the condition began, in the opinion of the patient's general practitioner must be included if known (Danish: debutdato).
-* 'abatementDateTime' element in MedComConditionListCondition: The date or estimated date that the condition resolved or went into remission must be included if known(Danish: afslutningsdato).
+* 'recordedDate' element in MedComConditionListCondition: The date of the individual diagnosis entry in the database (Danish: registreringsdato).
+* 'onsetDateTime' element in MedComConditionListCondition: Actual or estimated date the condition began, in the opinion of the patient's general practitioner (Danish: debutdato).
+* 'abatementDateTime' element in MedComConditionListCondition: The date or estimated date that the condition resolved or went into remission (Danish: afslutningsdato). 
 
 #### IDs
 All instances of a profile shall have a global unique id by using an UUID. [Read more about the use of ids here](LINK).

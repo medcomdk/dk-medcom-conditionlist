@@ -21,7 +21,7 @@ Usage: #example
 // * encounter = Reference(Encounter/xcda)
 * date = "2024-05-01T12:00:00+01:00"
 * author = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
-* title = "Delte diagnoser for 2509479989"
+* title = "Diagnoseoversigt for 2509479989"
 // * attester.mode = #legal
 // * attester.time = "2012-01-04T09:10:14Z"
 // * attester.party = Reference(Practitioner/xcda-author) "Harold Hippocrates, MD"
