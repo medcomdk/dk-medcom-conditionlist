@@ -17,7 +17,7 @@ Usage: #example
 * status = #final
 * type = $loinc#11503-0 "Medical records"
 // * category = $loinc#LP173421-1 "Report" 
-* subject = Reference(Patient/a474f707-775d-4ef3-b329-30d9d2f3efab)
+* subject = Reference(Patient/69e475df-20c8-4f54-8cea-9843568205fd)
 // * encounter = Reference(Encounter/xcda)
 * date = "2024-05-01T12:00:00+01:00"
 * author = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
