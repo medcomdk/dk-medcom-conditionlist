@@ -1,0 +1,17 @@
+@startuml DocumentModel
+
+hide empty members
+
+package "MedComDocumentBundle" as document {
+    package "MedComConditionListComposition" as composition {
+        class "MedComConditionListOrganization" as organization <<MedComCoreOrganization>>
+        class "MedComDocumentPractitioner" as practitioner <<MedComCorePractitioner>>
+        class "MedComDocumentPatient" as patient <<DkCorePatient>>
+        class "MedComConditionListCondition" as condition <<DkCoreCondition>>
+    }
+   
+}
+
+
+
+@enduml

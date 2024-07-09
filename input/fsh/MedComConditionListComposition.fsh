@@ -8,8 +8,12 @@ Description: "A profile for the MedCom ConditionList Composition resource."
 * type = $loinc#11503-0 "Medical records"
 * date ^short = "Last update of the condition list"
 * title ^short = "Expected: 'Diagnoseoversigt for **CPR-nummer**'"
+* author[institution] only Reference(MedComOrganizationListOrganization)
+* section.entry only Reference(MedComConditionListCondition)
+* section.entry 1..
 
-Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
+
+/* Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
 InstanceOf: MedComConditionListComposition
 Usage: #example
 // * identifier.system = "http://healthintersections.com.au/test" // ? -Establishes the namespace for the value - that is, a URL that describes a set values that are unique.
@@ -48,4 +52,4 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<p>History of family member diseases - not available</p>\n\t\t\t</div>"
 * section[=].mode = #snapshot
-* section[=].emptyReason = $list-empty-reason#withheld "Information Withheld" */ 
+* section[=].emptyReason = $list-empty-reason#withheld "Information Withheld" */  

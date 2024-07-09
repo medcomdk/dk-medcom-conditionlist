@@ -16,6 +16,7 @@ Description: "An profile of the MedCom ConditionList Condition resource."
 * code.id ^short = "[Other code (OBS: Skal måske fjernes)]"
 * code.text ^short = "The condition text selected by the recorder (Danish: Diagnosetekst)."
 * code.text 0..1 MS
+* subject 1..1 MS
 * note 0..1 MS
 * note.text MS
 * note.text ^short = "Additional description for the condition (Danish: Tillægstekst)"

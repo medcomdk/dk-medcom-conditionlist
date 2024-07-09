@@ -1,6 +1,6 @@
-Profile: ConditionListDocumentReference
+Profile: MedComConditionListDocumentReference
 Parent: MedComDocumentReference
-Id: conditionlist-documentreference
+Id: medcom-conditionlist-documentreference
 Description: "A profile for the MedCom ConditionListDocumentReference resource."
 * type from $ApdTypeCode (required) 
 //* category.coding.system from $ClassCode (required)
@@ -31,6 +31,7 @@ Description: "Instance of DocumentReference, containing relevant metadata"
 * author[institution] = Reference(97d47a38-5189-4012-a3c6-cc57e102f9f5)
 * subject = Reference(69e475df-20c8-4f54-8cea-9843568205fd)
 * content.attachment.contentType = $IANAMediaOID#text/xml "MimeType-text/xml"
+* securityLabel = #N
 * content.attachment.language = $IANALanguageOID#da "Danish"
 * content.attachment.creation = "2023-09-08T13:28:17+01:00"
 * content.attachment.hash = "da39a3ee5e6b4b0d3255bfef95601890afd80709"

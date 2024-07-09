@@ -10,7 +10,7 @@ Description: "Example of a MedCom Document author Person with a name"
 * name.given[1] = "Test"
 
 Instance: 69e475df-20c8-4f54-8cea-9843568205fd
-InstanceOf: MedComDocumentSourcePatient
+InstanceOf: MedComDocumentPatient
 Title: "Example of a MedCom Document Source Patient - Elmer test Hansen"
 Description: "Patient described. Valid only if used in a Bundle."
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
