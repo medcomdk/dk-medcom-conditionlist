@@ -64,9 +64,10 @@ dependencies:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
+parameters:
+  show-inherited-invariants: false
+  special-url: [urn:oid:1.2.208.176.2.1, urn:iso:std:iso:11073:10101, urn:oid:1.2.208.176.2.4, urn:oid:1.2.208.176.2.21, urn:oid:1.2.208.176.2.4.12]
+
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │

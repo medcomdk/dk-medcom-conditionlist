@@ -5,7 +5,7 @@
 Profile: MedComConditionListCondition
 Parent: DkCoreCondition
 Id: medcom-conditionlist-condition
-Description: "An profile of the MedCom ConditionList Condition resource."
+Description: "An instanceof the MedCom ConditionList Condition resource."
 * code.coding[ICPC2code].code 0..1 MS
 * code.coding[ICPC2code].display 0..1 MS
 * code.coding[ICPC2code].system MS
@@ -79,17 +79,7 @@ Usage: #example
 * clinicalStatus = $condition-clinical#active
 * recordedDate = "2021-03-15"
 
-Instance: 2f703d89-787d-418f-a804-b986aa181492
-InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing one code, diagnosis text, additional information and onsetDateTime"
-Usage: #example
-* code = urn:oid:1.2.208.176.2.4.12#DE11 "Type 2-diabetes"
-* code.text = "Type 2-diabetes"
-* note.text = "The patient particularly suffers from fatigue due to the diagnosis."
-* subject = Reference(Patient/69e475df-20c8-4f54-8cea-9843568205fd)
-* onsetDateTime = "2020-02-20"
-* recordedDate = "2024-03-15"
+
 
 Instance: 67e02616-49fc-490b-88e4-c29917853308
 InstanceOf: MedComConditionListCondition

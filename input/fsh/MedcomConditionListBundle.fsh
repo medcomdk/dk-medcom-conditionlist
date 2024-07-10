@@ -4,7 +4,8 @@ Id: medcom-conditionlist-bundle
 Description: "A profile of the MedCom ConditionList Document resource." */
 //* obeys medcom-conditionList-1
 
-Instance: 23d8ece4-7cff-47c1-9680-571377c6ea74
+
+Instance: 50cca8a7-8384-4bc5-88c7-ea6ef10d328d
 InstanceOf: MedComDocumentBundle
 Usage: #example
 * type = #document
