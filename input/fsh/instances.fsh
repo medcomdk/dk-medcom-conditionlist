@@ -30,14 +30,7 @@ Description: "An example of a MedCom document organization with only SOR-ID as i
 * name = "MedCom"
 * identifier[SOR-ID].value = "123456789012345"
 
-Instance: fd3206c6-c265-49f9-82c3-8b4c96280403
-InstanceOf: MedComDocumentOrganization
-Usage: #example
-Title: "Example of a MedCom Document Organization"
-Description: "An example of a MedCom document organization with SOR-ID and 'Ydernummer' as identifier"
-* name = "MedCom"
-* identifier[SOR-ID].value = "123456789012345"
-* identifier[Ydernummer].value = "123456"
+
 
 Instance: a474f707-775d-4ef3-b329-30d9d2f3efab
 InstanceOf: MedComCorePatient
