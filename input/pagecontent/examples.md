@@ -1,25 +1,23 @@
 ### Examples related to ConditionList
+This page contain examples for different scenarios of the ConditionList document. Each example is a Bundle with different content mainly in the Condition instance. Below are the examples divided into two; 1) examples that are expected to be very frequent and 2) examples missing important information, but is still valid.
 
-Bundle containing as much information as included in the standard and multiple conditions. 
-[Maximum Bundle](Bundle-23d8ece4-7cff-47c1-9680-571377c6ea74.html)
+#### Examples containing important information
+Important information referres to the codes and text concerning each diagnosis. Therefore are these examples expected to illustrate frequently exchanged documents. 
 
-#### MedComConditionListCondition
-The following list contains a number of examples to show a subset of the outcome space for various combinations of MedComConditionListConditions.
+[1st ConditionList](Bundle-23d8ece4-7cff-47c1-9680-571377c6ea74.html) can be seen as a maximum example. It contains three diagnoses for a patient that together contains all the allowed elements for the conditions. This illustrates how it is expected to include several condition within the same section in a Composition. The Composition includes - besides the mandatory elements - also an attester and author person. Only the event element is left out, since this is not relevant for the ConditionList.
 
-A Bundle 
+[2nd ConditionList](Bundle-b991dcb7-6f2a-4e56-96f9-6b4b23cb9472.html) can be seen as a minimum example. It contains one diagnoses for a patient, where two codes, a text, status and dates are included, but without the display values for the codes. The composition includes the required information.
 
-[1) Example containing as much information as possible](MedComConditionListCondition-4416f7a6-bfd0-4cb1-bf39-fd83bdb2186a.html)
+#### Examples missing important information
+As described on [page for the Condtion](./StructureDefinition-medcom-conditionlist-condition-intro.html) the quality of the registered diagnose is not always as expected. However, it is decided to exchange the available information despite of the incompleteness. In the following examples, the Composition instances will include the minimum required information. 
 
-[2) Example containing as little information as possible](MedComConditionListCondition-1d894d1f-f00b-4b23-acd6-8331c172bee4.html)
+[3rd ConditionList](Bundle-96d37376-e176-4c6a-9c49-2b56e7aae665.html) contains no code nor text describing the diagnosis. The only information for this diagnoses is the date it was registered in the GP's system.
 
-[3) Example containing one code, clinical status and recorded date](MedComConditionListCondition-4af8657b-ec44-4d8c-81f3-56b0fc9af2c8.html)
+[4th ConditionList](Bundle-df3915a2-6f88-4dea-955a-1b0008b23853.html) contains a IPCP2 code without a display value and a text. Further, the status of the diagnosis is active.
 
-[4) Example containing one code, diagnosis text, additional information and onsetDateTime](MedComConditionListCondition-2f703d89-787d-418f-a804-b986aa181492.html)
+[5th ConditionList](Bundle-a4630688-dc6b-4484-9ef7-b9a08148c407.html) contains a text describing the diagnosis, a active status, onset and recorded dates. However, no codes for the diagnosis is included. 
 
-[5) Example containing no code, condition text, category and onSetDateTime](MedComConditionListCondition-67e02616-49fc-490b-88e4-c29917853308.html)
+[6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead. No text is included.
 
-[6) Example containing only type of diagnosis](MedComConditionListCondition-e84ebce1-a2ea-4e12-a8d3-bbce94da4ba4.html)
 
-[7) Example containing only additional information about the diagnosis](MedComConditionListCondition-3f9e5b46-43a4-4e95-b8cf-eab18f2e6ca9.html)
-
-#### Andre eksempler...
+#### Example for DocumentReference.

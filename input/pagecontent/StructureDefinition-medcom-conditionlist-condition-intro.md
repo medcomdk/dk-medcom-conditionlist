@@ -7,7 +7,7 @@ The codes for the condition are provided to the ConditionList by the general pra
 
 The SKS-D-code and ICPC2-code must be included in the respective slice at Condition.code.coding, so they can be intepreted correct based on the system. It is allowed to include the display-value for the codes. The text selected by the GP must always be added in the element Condition.code.text.
 
-It should be expected that in rare cases, not both codes and a text is available. In these cases, the following must be followed: 
+The quality of the registered diagnose is not always as expected with two codes and a text. However, it is decided to exchange the available information despite of the incompleteness. To accommodate these cases, the following must be followed: 
 * If only one SKS-D or ICPC2 code and a text is available, these information must be included in the respective elements 
 * If no code, but a text is available, the text must be included in the text-element 
 * If one or both SKS-D or ICPC2 codes are available, but no text is available, the codes must be included in the respective elements
@@ -15,7 +15,7 @@ It should be expected that in rare cases, not both codes and a text is available
 * If a code from another CodeSystem than SKS-D or ICPC2 is available, this code must be included in a new slice with a suited system, code and if available a display name.
 
 #### Condition status and category 
-Both the status and category is selected by the GP. If the information is available, the diagnosis should be marked with a Condition.clinicalStatus. This status can either be 'active' (Danish: known as 'aktuel'), which represents conditions that the subject is currently experiencing, or 'inactive' (Danish: known as 'relevant'), which represents condition that the subject is no longer experiencing symptoms of. 
+Both the status and category is selected by the GP. If the information is available, the diagnosis should be marked with a Condition.clinicalStatus. This status can either be 'active' (Danish: known as 'aktuel'), which represents conditions that the patient is currently experiencing, or 'inactive' (Danish: known as 'relevant'), which represents condition that the patient no longer receives treatment for. 
 
 If the information is available, the diagnosis should be marked with a Condition.category, representing the type of diagnoses. The category can either be a 'problem-list-item' (Danish: forløbsdiagnose), which represents a condition that is managed over time, or a 'encounter-diagnosis' (Danish: kontaktdiagnose), which represents a diagnose that has been subject during an encounter. 
 

@@ -32,3 +32,4 @@ Alias: $IANAMediaOID = urn:oid:2.16.840.1.113883.5.79
 
 Alias: $clinical-status = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $category = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $sct = http://snomed.info/sct

@@ -19,7 +19,8 @@ Description: "An instance of a Bundle including maximum information"
 * entry[=].resource = 2f703d89-787d-418f-a804-b986aa181492
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/9dd0e1c2-3c7d-423f-977c-29119c314fd1"
 * entry[=].resource = 9dd0e1c2-3c7d-423f-977c-29119c314fd1
-
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/f90a8472-6495-4865-be5d-fae6650a033e"
+* entry[=].resource = f90a8472-6495-4865-be5d-fae6650a033e
 
 
 Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
@@ -38,11 +39,13 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * confidentiality = #N
 * attester.party = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
 * attester.mode = #official
-* section[0].text.status = #generated
+/* * section[0].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Code</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Date</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Type</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>BodySite</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Severity</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Stroke</td>\n\t\t\t\t\t\t<td>2010-07-18</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Burnt Ear</td>\n\t\t\t\t\t\t<td>2012-05-24</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td>Left Ear</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Asthma</td>\n\t\t\t\t\t\t<td>2012-11-12</td>\n\t\t\t\t\t\t<td>Finding</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td>Mild</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>"
 * section[=].mode = #snapshot
-* section[=].entry[0] = Reference(Condition/2f703d89-787d-418f-a804-b986aa181492)
+*/
+* section[0].entry[0] = Reference(Condition/2f703d89-787d-418f-a804-b986aa181492)
 * section[=].entry[1] = Reference(Condition/9dd0e1c2-3c7d-423f-977c-29119c314fd1)
+* section[=].entry[2] = Reference(Condition/f90a8472-6495-4865-be5d-fae6650a033e)
 
 
 Instance: 69e475df-20c8-4f54-8cea-9843568205fd
@@ -55,7 +58,7 @@ Description: "Patient described. Valid only if used in a Bundle."
 * name[official].family = "Hansen"
 * name[official].given[0] = "Elmer"
 * name[official].given[1] = "Test"
-* birthDate = "1905-08-23"
+* birthDate = "1947-09-25"
 * gender = #male
 
 
@@ -98,6 +101,20 @@ Usage: #example
 * recordedDate = "2023-05-01"
 * onsetDateTime = "2023-03-20"
 * abatementDateTime = "2023-06-07"
+
+Instance: f90a8472-6495-4865-be5d-fae6650a033e
+InstanceOf: MedComConditionListCondition
+Title: "Instance of a ConditionList Condition."
+Description: "Instance of a ConditionList Condition, containing two code, diagnosis text, additional information and onsetDateTime"
+Usage: #example
+* clinicalStatus = $clinical-status#active
+* category = $category#problem-list-item
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DI109 "Essentiel Hypertension"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#K86 "Ukompliceret Hypertension"
+* code.text = "Hypertensio arterialis essentialis"
+* subject = Reference(Patient/69e475df-20c8-4f54-8cea-9843568205fd)
+* recordedDate = "2024-01-17"
+
 
 Instance: 1fcad31f-8967-4f49-b6af-7e64082e8fec
 InstanceOf: MedComDocumentPractitioner
