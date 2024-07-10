@@ -5,10 +5,10 @@ Profile: MedComConditionListComposition
 Parent: MedComDocumentComposition
 Id: medcom-conditionlist-composition
 Description: "A profile for the MedCom ConditionList Composition resource."
-* type = $loinc#11503-0 "Medical records"
+* type = $loinc#29308-4 "Diagnosis"
 * date ^short = "Last update of the condition list"
 * title ^short = "Expected: 'Diagnoseoversigt for **CPR-nummer**'"
-* author[institution] only Reference(MedComOrganizationListOrganization)
+* author[institution] only Reference(MedComConditionListOrganization)
 * section.entry only Reference(MedComConditionListCondition)
 * section.entry 1..
 

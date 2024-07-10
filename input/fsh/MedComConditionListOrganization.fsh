@@ -2,7 +2,7 @@
 // This file can be renamed, and additional FSH files can be added.
 // SUSHI will look for definitions in any file using the .fsh ending.
 
-Profile: MedComOrganizationListOrganization
+Profile: MedComConditionListOrganization
 Parent: MedComDocumentOrganization
 Id: medcom-conditionlist-organization
 Description: "An profile of the MedCom ConditionList Organization resource."

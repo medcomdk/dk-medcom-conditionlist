@@ -12,8 +12,6 @@ Description: "An profile of the MedCom ConditionList Condition resource."
 * code.coding[SKS-D].code 0..1 MS
 * code.coding[SKS-D].display 0..1 MS
 * code.coding[SKS-D].system MS
-* code.id MS
-* code.id ^short = "[Other code (OBS: Skal måske fjernes)]"
 * code.text ^short = "The condition text selected by the recorder (Danish: Diagnosetekst)."
 * code.text 0..1 MS
 * subject 1..1 MS
