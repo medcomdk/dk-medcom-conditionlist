@@ -8,15 +8,14 @@
   * [1.3 Technical specification](#13-technical-specification)
   * [1.4 Mapping from CDA to FHIR](#14-mapping-from-oioxml-to-fhir)
 * [2 Test and Certification](#2-test-and-certification)
-
+<br> <br> 
 
 This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize all patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. Together with the patient, the general practitioners maintain list for diagnosis, coordinating all diagnoses across the healthcare system. The lists are available for both patients and healthcare providers.
 
 The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP). A simple illustration of the flow of data is depicted in <a href="Fig1">Figure 1</a>. 1) The general pracitioner and the patient will at a consultation go trough the patient's diagnosis. The diagnosis are then stored in a database with relevant information. 2) Another healthcare professional with the rigth autorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patients diagnosis. 
 
-<a href="Fig1">Figure 1</a> illustrated the flow of the ConditionList. 
 <figure>
-<img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:50%" id="Fig1">
+<img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:60%" id="Fig1">
 <figcaption text-align = "center"><b>Figure 1 illustrates the flow of data when a ConditionList is created and requested.</b></figcaption>
 </figure>
  
@@ -60,7 +59,7 @@ The technical specification for the ConditionList standard is composed by profil
 ### 1.4 Mapping from logical data model to ConditionList
 The page is intended to help translate the logical data model to the FHIR standard. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
 
-[Danish: Use cases](assets/documents/Mapping-DA.md)
+[Mapping](assets/documents/Mapping-DA.md)
 
 
 ## 2 Test and Certification
