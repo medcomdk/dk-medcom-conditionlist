@@ -2,7 +2,8 @@
 Instance: 23d8ece4-7cff-47c1-9680-571377c6ea74
 InstanceOf: MedComDocumentBundle
 Usage: #example
-Description: "An instance of a Bundle including maximum information"
+Title: "Bundle instance - 1st ConditionList"
+Description: "Bundle instance - 1st ConditionList - Maximum example"
 * type = #document
 * timestamp = 2024-05-01T12:00:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -26,7 +27,8 @@ Description: "An instance of a Bundle including maximum information"
 Instance: 72f2d9ad-cd73-4f63-950f-2ad178760a55
 InstanceOf: MedComConditionListComposition
 Usage: #example
-Description: "An instanceof the MedCom ConditionList Condition resource."
+Title: "Composition instance - 1st ConditionList"
+Description: "Composition instance - 1st ConditionList"
 * status = #final
 * type = $loinc#29308-4 "Diagnosis"
 * language = #da "Danish"
@@ -39,10 +41,8 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * confidentiality = #N
 * attester.party = Reference(Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec)
 * attester.mode = #official
-/* * section[0].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Code</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Date</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Type</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>BodySite</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Severity</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Stroke</td>\n\t\t\t\t\t\t<td>2010-07-18</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Burnt Ear</td>\n\t\t\t\t\t\t<td>2012-05-24</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td>Left Ear</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Asthma</td>\n\t\t\t\t\t\t<td>2012-11-12</td>\n\t\t\t\t\t\t<td>Finding</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td>Mild</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>"
-* section[=].mode = #snapshot
-*/
+* section[0].text.status = #generated
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 2f703d89-787d-418f-a804-b986aa181492</b></p><a name=\"2f703d89-787d-418f-a804-b986aa181492\"> </a><a name=\"hc2f703d89-787d-418f-a804-b986aa181492\"> </a><a name=\"hc2f703d89-787d-418f-a804-b986aa181492-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DE11}, {urn:oid:1.2.208.176.2.31 T90}\">Type 2-diabetes</span></p><p><b>subject</b>: <a href=\"Patient-69e475df-20c8-4f54-8cea-9843568205fd.html\">Elmer Test Hansen (official) Male, DoB: 1947-09-25 ( urn:oid:1.2.208.176.1.2#2509479989)</a></p><p><b>onset</b>: 2020-02-20</p><p><b>recordedDate</b>: 2023-03-15</p><p><b>note</b>: Patienten er særligt ramt af træthed grundet sygdommen.</p><p class=\"res-header-id\"><b>Generated Narrative: Condition 9dd0e1c2-3c7d-423f-977c-29119c314fd1</b></p><a name=\"9dd0e1c2-3c7d-423f-977c-29119c314fd1\"> </a><a name=\"hc9dd0e1c2-3c7d-423f-977c-29119c314fd1\"> </a><a name=\"hc9dd0e1c2-3c7d-423f-977c-29119c314fd1-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical inactive}\">Inactive</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DC43}, {urn:oid:1.2.208.176.2.31 S77}\">Modermærkekræft</span></p><p><b>subject</b>: <a href=\"Patient-69e475df-20c8-4f54-8cea-9843568205fd.html\">Elmer Test Hansen (official) Male, DoB: 1947-09-25 ( urn:oid:1.2.208.176.1.2#2509479989)</a></p><p><b>onset</b>: 2023-03-20</p><p><b>abatement</b>: 2023-06-07</p><p><b>recordedDate</b>: 2023-05-01</p><p><b>note</b>: Modermærkekræft på patientens venstre læg.</p><p class=\"res-header-id\"><b>Generated Narrative: Condition f90a8472-6495-4865-be5d-fae6650a033e</b></p><a name=\"f90a8472-6495-4865-be5d-fae6650a033e\"> </a><a name=\"hcf90a8472-6495-4865-be5d-fae6650a033e\"> </a><a name=\"hcf90a8472-6495-4865-be5d-fae6650a033e-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DI109}, {urn:oid:1.2.208.176.2.31 K86}\">Hypertensio arterialis essentialis</span></p><p><b>subject</b>: <a href=\"Patient-69e475df-20c8-4f54-8cea-9843568205fd.html\">Elmer Test Hansen (official) Male, DoB: 1947-09-25 ( urn:oid:1.2.208.176.1.2#2509479989)</a></p><p><b>recordedDate</b>: 2024-01-17</p></div>"
 * section[0].entry[0] = Reference(Condition/2f703d89-787d-418f-a804-b986aa181492)
 * section[=].entry[1] = Reference(Condition/9dd0e1c2-3c7d-423f-977c-29119c314fd1)
 * section[=].entry[2] = Reference(Condition/f90a8472-6495-4865-be5d-fae6650a033e)
@@ -50,8 +50,8 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 
 Instance: 69e475df-20c8-4f54-8cea-9843568205fd
 InstanceOf: MedComDocumentPatient
-Title: "Example of a MedCom Document Source Patient - Elmer test Hansen"
-Description: "Patient described. Valid only if used in a Bundle."
+Title: "Patient instance - 1st ConditionList"
+Description: "Patient instance - 1st ConditionList - Elmer Test Hansen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "2509479989"
 * name[official].use = #official
@@ -65,16 +65,16 @@ Description: "Patient described. Valid only if used in a Bundle."
 Instance: fd3206c6-c265-49f9-82c3-8b4c96280403
 InstanceOf: MedComConditionListOrganization
 Usage: #example
-Title: "Example of a MedCom ConditionList Organization"
-Description: "An example of a MedCom ConditionList organization with SOR-ID and 'Ydernummer' as identifier"
+Title: "Organization instance - 1st ConditionList"
+Description: "Organization instance - 1st ConditionList - incl. SOR-ID and Ydernummer as identifiers"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
 * identifier[Ydernummer].value = "091034"
  
 Instance: 2f703d89-787d-418f-a804-b986aa181492
 InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing two code, diagnosis text, additional information and onsetDateTime"
+Title: "Condition instance - 1st ConditionList"
+Description: "Condition instance - 1st ConditionList - Type 2-diabetes"
 Usage: #example
 * clinicalStatus = $clinical-status#active
 * category = $category#problem-list-item
@@ -88,8 +88,8 @@ Usage: #example
 
 Instance: 9dd0e1c2-3c7d-423f-977c-29119c314fd1
 InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing two code, diagnosis text, additional information and onsetDateTime"
+Title: "Condition instance - 1st ConditionList"
+Description: "Condition instance - 1st ConditionList - Modermærkekræft"
 Usage: #example
 * clinicalStatus = $clinical-status#inactive
 * category = $category#encounter-diagnosis
@@ -104,8 +104,8 @@ Usage: #example
 
 Instance: f90a8472-6495-4865-be5d-fae6650a033e
 InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing two code, diagnosis text, additional information and onsetDateTime"
+Title: "Condition instance - 1st ConditionList"
+Description: "Condition instance - 1st ConditionList - Hypertension"
 Usage: #example
 * clinicalStatus = $clinical-status#active
 * category = $category#problem-list-item
@@ -119,8 +119,8 @@ Usage: #example
 Instance: 1fcad31f-8967-4f49-b6af-7e64082e8fec
 InstanceOf: MedComDocumentPractitioner
 Usage: #example
-Title: "Example of a MedCom Document Practitioner"
-Description: "Example of a MedCom Document author Person with a name"
+Title: "Practitioner instance - 1st ConditionList"
+Description: "Practitioner instance - 1st ConditionList"
 * name.use = #official
 * name.family = "Vestergaard"
 * name.given[0] = "Bo"

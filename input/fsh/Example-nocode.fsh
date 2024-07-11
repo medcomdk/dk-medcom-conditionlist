@@ -2,7 +2,8 @@
 Instance: 96d37376-e176-4c6a-9c49-2b56e7aae665
 InstanceOf: MedComDocumentBundle
 Usage: #example
-Description: "An instance of a Bundle including maximum information"
+Title: "Bundle instance - 3rd ConditionList"
+Description: "Bundle instance - 3rd ConditionList - no diagnosis"
 * type = #document
 * timestamp = 2024-07-10T12:50:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -20,7 +21,8 @@ Description: "An instance of a Bundle including maximum information"
 Instance: a2b5706a-17a2-4ad0-8a6b-059c71483036
 InstanceOf: MedComConditionListComposition
 Usage: #example
-Description: "An instanceof the MedCom ConditionList Condition resource."
+Title: "Composition instance - 3rd ConditionList"
+Description: "Composition instance - 3rd ConditionList"
 * status = #final
 * type = $loinc#29308-4 "Diagnosis"
 * language = #da "Danish"
@@ -30,15 +32,14 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * author[institution] = Reference(Organization/8d5fa00a-fe4e-4c88-ab16-4458409621a9)
 * title = "Diagnoseoversigt for 2509479989"
 * confidentiality = #N
-/* * section[0].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Code</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Date</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Type</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>BodySite</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Severity</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Stroke</td>\n\t\t\t\t\t\t<td>2010-07-18</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Burnt Ear</td>\n\t\t\t\t\t\t<td>2012-05-24</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td>Left Ear</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Asthma</td>\n\t\t\t\t\t\t<td>2012-11-12</td>\n\t\t\t\t\t\t<td>Finding</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td>Mild</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>"
-* section[=].mode = #snapshot*/
+* section[0].text.status = #generated
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ff9f7978-3995-4280-9956-1101861df51e</b></p><a name=\"ff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"hcff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"hcff9f7978-3995-4280-9956-1101861df51e-en-US\"> </a><p><b>subject</b>: <a href=\"Patient-da0f8262-1be9-420c-98fb-ecc7b5a2333c.html\">Else Test Lauridsen (official) Female, DoB: 1991-01-02 ( urn:oid:1.2.208.176.1.2#0201919990)</a></p><p><b>recordedDate</b>: 2021-06-15</p></div>"
 * section[0].entry[0] = Reference(Condition/ff9f7978-3995-4280-9956-1101861df51e)
 
 Instance: da0f8262-1be9-420c-98fb-ecc7b5a2333c
 InstanceOf: MedComDocumentPatient
-Title: "Example of a MedCom Document Source Patient - Elmer test Hansen"
-Description: "Patient described. Valid only if used in a Bundle."
+Title: "Patient instance - 3rd ConditionList"
+Description: "Patient instance - 3rd ConditionList - Else Test Lauridsen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "0201919990"
 * name[official].use = #official
@@ -52,16 +53,16 @@ Description: "Patient described. Valid only if used in a Bundle."
 Instance: 8d5fa00a-fe4e-4c88-ab16-4458409621a9
 InstanceOf: MedComConditionListOrganization
 Usage: #example
-Title: "Example of a MedCom ConditionList Organization"
-Description: "An example of a MedCom ConditionList organization with SOR-ID and 'Ydernummer' as identifier"
+Title: "Organization instance - 3rd ConditionList"
+Description: "Organization instance - 3rd ConditionList - incl. SOR-ID"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
  
 
 Instance: ff9f7978-3995-4280-9956-1101861df51e
 InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing as little information as possible"
+Title: "Condition instance - 3rd ConditionList"
+Description: "Condition instance - 3rd ConditionList - no diagnosis"
 Usage: #example
 * subject = Reference(Patient/da0f8262-1be9-420c-98fb-ecc7b5a2333c)
 * recordedDate = "2021-06-15"

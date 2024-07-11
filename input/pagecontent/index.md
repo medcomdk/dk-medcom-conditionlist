@@ -62,7 +62,6 @@ Content in this IG can be downloaded in npm format under [Download](LINK). This 
 
 #### Non-technical guidelines
 On the [introduction page for ConditionList](LINK) the following documentation can be found: 
-* Clinical guidelines
 * Use cases
 * Mapping of documents from the previous IHE-XDS metadata to FHIR (skal måske kun stå under 'medcom document'?)
 

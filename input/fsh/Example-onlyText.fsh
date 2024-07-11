@@ -2,7 +2,8 @@
 Instance: a4630688-dc6b-4484-9ef7-b9a08148c407
 InstanceOf: MedComDocumentBundle
 Usage: #example
-Description: "An instance of a Bundle including maximum information"
+Title: "Bundle instance - 5th ConditionList"
+Description: "Bundle instance - 5th ConditionList - incl. text without code"
 * type = #document
 * timestamp = 2024-07-10T12:50:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -20,7 +21,8 @@ Description: "An instance of a Bundle including maximum information"
 Instance: 2590fc0b-d6fb-4d7f-86fb-60b7474d59a5
 InstanceOf: MedComConditionListComposition
 Usage: #example
-Description: "An instanceof the MedCom ConditionList Condition resource."
+Title: "Composition instance - 5th ConditionList"
+Description: "Composition instance - 5th ConditionList"
 * status = #final
 * type = $loinc#29308-4 "Diagnosis"
 * language = #da "Danish"
@@ -30,15 +32,14 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * author[institution] = Reference(Organization/465b576f-9620-4394-adc7-ff00a95971d1)
 * title = "Diagnoseoversigt for 2509479989"
 * confidentiality = #N
-/* * section[0].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Code</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Date</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Type</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>BodySite</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<b>Severity</b>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Stroke</td>\n\t\t\t\t\t\t<td>2010-07-18</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Burnt Ear</td>\n\t\t\t\t\t\t<td>2012-05-24</td>\n\t\t\t\t\t\t<td>Diagnosis</td>\n\t\t\t\t\t\t<td>Left Ear</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Asthma</td>\n\t\t\t\t\t\t<td>2012-11-12</td>\n\t\t\t\t\t\t<td>Finding</td>\n\t\t\t\t\t\t<td/>\n\t\t\t\t\t\t<td>Mild</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>"
-* section[=].mode = #snapshot*/
+* section[0].text.status = #generated
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 5af29fb2-f724-4918-94b2-cfeb18e263ac</b></p><a name=\"5af29fb2-f724-4918-94b2-cfeb18e263ac\"> </a><a name=\"hc5af29fb2-f724-4918-94b2-cfeb18e263ac\"> </a><a name=\"hc5af29fb2-f724-4918-94b2-cfeb18e263ac-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>code</b>: <span title=\"Codes:\">KOL</span></p><p><b>subject</b>: <a href=\"Patient-19bdc614-503b-481d-ae65-4040daf7060d.html\">Knut Odvar Test Mosebryggersen (official) Male, DoB: 1982-02-15 ( urn:oid:1.2.208.176.1.2#1502829995)</a></p><p><b>onset</b>: 2019-11-25</p><p><b>recordedDate</b>: 2020-03-15</p></div>"
 * section[0].entry[0] = Reference(Condition/5af29fb2-f724-4918-94b2-cfeb18e263ac)
 
 Instance: 19bdc614-503b-481d-ae65-4040daf7060d
 InstanceOf: MedComDocumentPatient
-Title: "Example of a MedCom Document Source Patient - Elmer test Hansen"
-Description: "Patient described. Valid only if used in a Bundle."
+Title: "Patient instance - 5th ConditionList"
+Description: "Patient instance - 5th ConditionList - Knut Odvar Test Mosebryggersen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "1502829995"
 * name[official].use = #official
@@ -53,16 +54,16 @@ Description: "Patient described. Valid only if used in a Bundle."
 Instance: 465b576f-9620-4394-adc7-ff00a95971d1
 InstanceOf: MedComConditionListOrganization
 Usage: #example
-Title: "Example of a MedCom ConditionList Organization"
-Description: "An example of a MedCom ConditionList organization with SOR-ID and 'Ydernummer' as identifier"
+Title: "Organization instance - 5th ConditionList"
+Description: "Organization instance - 5th ConditionList - incl. SOR-ID"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
 
 
 Instance: 5af29fb2-f724-4918-94b2-cfeb18e263ac
 InstanceOf: MedComConditionListCondition
-Title: "Instance of a ConditionList Condition."
-Description: "Instance of a ConditionList Condition, containing only additional information about the diagnosis"
+Title: "Condition instance - 5th ConditionList"
+Description: "Condition instance - 5th ConditionList - KOL"
 Usage: #example
 * code.text = "KOL"
 * subject = Reference(Patient/19bdc614-503b-481d-ae65-4040daf7060d)

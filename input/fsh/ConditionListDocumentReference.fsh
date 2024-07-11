@@ -17,8 +17,8 @@ Description: "A profile for the MedCom ConditionListDocumentReference resource."
 // Metadata instance
 Instance: 94e65db8-2f0c-4a2c-a7c9-06a160d59a12
 InstanceOf: MedComDocumentReference
-Title: "Instance of DocumentReference."
-Description: "Instance of DocumentReference, containing relevant metadata"
+Title: "DocumentReference instance"
+Description: "DocumentReference instance"
 * contained[+] = 1fcad31f-8967-4f49-b6af-7e64082e8fec
 * contained[+] = 97d47a38-5189-4012-a3c6-cc57e102f9f5
 * contained[+] = 69e475df-20c8-4f54-8cea-9843568205fd
@@ -49,3 +49,10 @@ Description: "Instance of DocumentReference, containing relevant metadata"
 * extension[1].valueString = "1.0.0"
 
 
+Instance: 97d47a38-5189-4012-a3c6-cc57e102f9f5
+InstanceOf: MedComDocumentOrganization
+Usage: #example
+Title: "Organization instance - referenced from DocumentReference"
+Description: "Organization instance - referenced from DocumentReference"
+* name = "MedCom"
+* identifier[SOR-ID].value = "123456789012345"
