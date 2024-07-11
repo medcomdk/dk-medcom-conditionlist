@@ -10,64 +10,69 @@
 * [2 Test and Certification](#2-test-and-certification)
 
 
-This page presents MedCom SharedDiagnoses (Danish: Delte diagnoser) standard. The purpose of the standard is to centralize all patient/citizen diagnoses from general practice and other healthcare providers into a single system. General practitioners maintain an accurate and updated diagnosis list, coordinating all diagnoses across the healthcare system with the patient’s input. The lists are available for both patients and healthcare providers.
- 
-> Clinical Guidelines for application and use cases are in both Danish and English. The remaining documentation will be in English.
+This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize all patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. Together with the patient, the general practitioners maintain list for diagnosis, coordinating all diagnoses across the healthcare system. The lists are available for both patients and healthcare providers.
 
+The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP). A simple illustration of the flow of data is depicted in <a href="Fig1">Figure 1</a>. 1) The general pracitioner and the patient will at a consultation go trough the patient's diagnosis. The diagnosis are then stored in a database with relevant information. 2) Another healthcare professional with the rigth autorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patients diagnosis. 
+
+<a href="Fig1">Figure 1</a> illustrated the flow of the ConditionList. 
+<figure>
+<img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:50%" id="Fig1">
+<figcaption text-align = "center"><b>Figure 1 illustrates the flow of data when a ConditionList is created and requested.</b></figcaption>
+</figure>
+ 
 ## 1 Standard Documentation {#standard}
-The standard documentation below provides the necessary content to understand the needs for modernization, the role of the SharedDiagnoses document, what to implement and how to get a MedCom certificate. The standard documentation for SharedDiagnoses includes:
-  * Clinical Guidelines
+The project Shared Condition Overview is owned by the Danish Health Data Agency (Danish: Sundhedsdatastyrelsen (SDS)) and is a part of the program "Et samlet patientoverblik". In this collaboration, both SDS and MedCom has provided content for the standard and its usage. 
+
+On the project page for <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">Shared Condition Overview on NSPOP</a>, the following documentation can be found: 
+  * Overall purpose of the standard
+  * Logical information and data models
+  * Business rules
+  * Technical guide for implementation of the ConditionList standard.
+
+On this page, provided by MedCom, additional information on how to implement the standard ConditionList:
+  * User stories
   * Use cases
-  * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
-  * *mention other relevant documentation*
+  * Technical Specifications in terms of the relevant Implementation Guide (IG).
+  * Test and certification
 <p>&nbsp;</p>
 
-### 1.1 Clinical Guidelines for application 
-The Clinical Guidelines for application is the foundation for the SharedDiagnoses standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for SharedDiagnoses. It is important for both implementers and business specialists to understand the Clinical Guidelines for application to ensure that the implemented standard supports the requirements.
+### 1.1 User stories
+A user story is an informal, general description of a systems functionality as perceived from the user's perspective. User stories have the end user at the center of the dialogue about system functionality. User stories describes which needs the end user wants fulfilled, so that the developer understands the context of the development task: why they are developing the function and what value it must provide the end user. Not all user stories will be supported with this current implementation, which is noted for the specific user story.
 
-Below, you can find the Clinical Guidelines available in both Danish and English.:
+[Danish: User stories (docx)](assets/documents/UserStories_SharedConditionOverview.docx) <br> 
 
-[Danish: Sundhedsfaglige retningslinjer for anvendelse](assets/documents/Clinical-guidelines-DA.md) <br> 
-[English: Clinical guidelines for application](assets/documents/Clinical-guidelines-ENG.md) 
 
 ### 1.2 Use Cases
 
-Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of SharedDiagnoses. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
+Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the ConditionList standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
-The use cases for SharedDiagnoses are qualified in collaboration with EPR- and vendors catering to the municipalities.
+Below can the use cases in English be found:
 
-Below can the use cases in Danish and English be found:
-
-[Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
-[English: Use cases](assets/documents/UseCases-ENG.md) 
+[English: Use cases](assets/documents/UseCases-DA.md)
 
 ### 1.3 Technical specification
 
-The technical specification for the SharedDiagnoses standard is composed by profiles form *IG name* 
+The technical specification for the ConditionList standard is composed by profiles from two IGs.
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-document/" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">MedCom Condition List</a>, which provides the requirements specific for the use of the ConditionList standard.
 
-The profiles that are part of the technical specification for SharedDiagnoses are: 
- * *Insert link to ImplemantationGuides*
 
-The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further, the structure of the standard is described and supported with examples in different degree of technical skills.
+### 1.4 Mapping from logical data model to ConditionList
+The page is intended to help translate the logical data model to the FHIR standard. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
 
-[Click here to read an introduction to the technical specificationscan be found here.](assets/documents/Intro-Technical-Spec-ENG.md)
+[Danish: Use cases](assets/documents/Mapping-DA.md)
 
-### 1.4 Mapping from CDA??? to FHIR
-(Der er ingen mapping, vel?)
-Short description concerning the previous CDA standard that is replaced by SharedDiagnoses. 
-The document is intended to help translate the previous standard to the new FHIR standard.Furthermore, not all elements from the FHIR elements are represented in the document;  thus, it cannot stand alone for implementation. 
 
 ## 2 Test and Certification
-Certification of a system implies both an approved testprotocol and run-through of TouchStone test scripts. TouchStone describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
+Certification of a system implies both an approved testprotocol and run-through of TouchStone test scripts for providing systems and approved test protocol for receiving systems. TouchStone describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
 
- [Click here to find the description of test and certification of FHIR standards in MedCom.](https://tmsmedcom.github.io/GitHubPagesTest/#test-and-certification). 
+<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification">Click here to find the description of test and certification of FHIR standards in MedCom.</a> 
 
-**Sending a STANDARDNAME message**
-  * Testprotocol
-  * TouchStone Testscripts
+**Providing a ConditionList document**
+  * Testprotocol [Link will be provided]
+  * TouchStone Testscripts [Link will be provided]
 <p>&nbsp;</p>
  
-**Receiving a STANDARDNAME message**
-  * Testprotocol
-  * TouchStone Testscripts
+**Receiving a ConditionList document**
+  * Testprotocol [Link will be provided]
 <p>&nbsp;</p>
