@@ -4,7 +4,7 @@ This implementation guide (IG) is provided by MedCom to describe the use of MedC
 
 This IG contains profiles for MedCom ConditionList. The purpose of a ConditionList is to gather selected diagnoses into a condition list, thereby providing a well-defined overview of the patient's current health status and previously significant relevant diagnoses. The diagnoses included in the ConditionList are exclusively selected to be shared by the patient's general practitioner.
 
-More information about the project [Shared Condition Overview](https://medcomdk.github.io/dk-medcom-shareddiagnoses/) can be found here.
+More information about the project [Shared Condition Overview](https://medcomdk.github.io/dk-medcom-conditionlist/) can be found here.
 
 #### ConditionList
 The structure of a ConditionList is depicted on the following diagram:

@@ -8,19 +8,19 @@ Description: "Bundle instance - 1st ConditionList - Maximum example"
 * timestamp = 2024-05-01T12:00:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:7c596b9a-112e-4386-ae71-5ecdd3ed7c50"
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Composition/72f2d9ad-cd73-4f63-950f-2ad178760a55"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/72f2d9ad-cd73-4f63-950f-2ad178760a55"
 * entry[=].resource = 72f2d9ad-cd73-4f63-950f-2ad178760a55 
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Patient/69e475df-20c8-4f54-8cea-9843568205fd"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/69e475df-20c8-4f54-8cea-9843568205fd"
 * entry[=].resource = 69e475df-20c8-4f54-8cea-9843568205fd
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Organization/fd3206c6-c265-49f9-82c3-8b4c96280403"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/fd3206c6-c265-49f9-82c3-8b4c96280403"
 * entry[=].resource = fd3206c6-c265-49f9-82c3-8b4c96280403
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Practitioner/1fcad31f-8967-4f49-b6af-7e64082e8fec"
 * entry[=].resource = 1fcad31f-8967-4f49-b6af-7e64082e8fec
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/2f703d89-787d-418f-a804-b986aa181492"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/2f703d89-787d-418f-a804-b986aa181492"
 * entry[=].resource = 2f703d89-787d-418f-a804-b986aa181492
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/9dd0e1c2-3c7d-423f-977c-29119c314fd1"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/9dd0e1c2-3c7d-423f-977c-29119c314fd1"
 * entry[=].resource = 9dd0e1c2-3c7d-423f-977c-29119c314fd1
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/f90a8472-6495-4865-be5d-fae6650a033e"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/f90a8472-6495-4865-be5d-fae6650a033e"
 * entry[=].resource = f90a8472-6495-4865-be5d-fae6650a033e
 
 

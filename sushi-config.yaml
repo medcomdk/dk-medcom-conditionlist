@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.fhir.dk.conditionlist
-canonical: http://medcomfhir.dk/ig/shareddiagnoses
+canonical: http://medcomfhir.dk/ig/conditionlist
 name: MedCom Condition List
 title: DK MedCom Condition List
 # description: Example Implementation Guide for getting started with SUSHI

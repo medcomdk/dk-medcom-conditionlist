@@ -1,2 +1,2 @@
-# dk-medcom-shareddiagnoses
-This repo includes code for the Danish MedCom standard Shared Diagnoses that shares diagnoses across healthcare providers in Denmark.
+# dk-medcom-conditionlist
+This repo includes code for the Danish MedCom standard ConditionList that shares diagnoses across healthcare providers in Denmark as FHIR documents.

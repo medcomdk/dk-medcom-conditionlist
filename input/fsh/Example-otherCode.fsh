@@ -8,13 +8,13 @@ Description: "Bundle instance - 6th ConditionList - other CodeSystem"
 * timestamp = 2024-07-10T12:50:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:233f4560-880a-42f6-9284-d270888d3792"
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Composition/16227c45-2d8d-445e-89d8-60589f22dae2"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/16227c45-2d8d-445e-89d8-60589f22dae2"
 * entry[=].resource = 16227c45-2d8d-445e-89d8-60589f22dae2 
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Patient/170b6e56-125d-42bf-9002-298166c4ff98"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/170b6e56-125d-42bf-9002-298166c4ff98"
 * entry[=].resource = 170b6e56-125d-42bf-9002-298166c4ff98
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Organization/50b53da4-90cf-48b2-b579-dfeebee73428"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/50b53da4-90cf-48b2-b579-dfeebee73428"
 * entry[=].resource = 50b53da4-90cf-48b2-b579-dfeebee73428
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/shareddiagnoses/Condition/1b66f0a7-6d59-4e6a-a2bc-874cd194674b"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/1b66f0a7-6d59-4e6a-a2bc-874cd194674b"
 * entry[=].resource = 1b66f0a7-6d59-4e6a-a2bc-874cd194674b
 
 
