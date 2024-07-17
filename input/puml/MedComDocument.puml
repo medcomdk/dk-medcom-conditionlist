@@ -2,16 +2,19 @@
 
 hide empty members
 
-package "MedComDocumentBundle" as document {
-    package "MedComConditionListComposition" as composition {
-        class "MedComConditionListOrganization" as organization <<MedComCoreOrganization>>
-        class "MedComDocumentPractitioner" as practitioner <<MedComCorePractitioner>>
-        class "MedComDocumentPatient" as patient <<DkCorePatient>>
-        class "MedComConditionListCondition" as condition <<DkCoreCondition>>
-    }
+class "MedComDocumentBundle" as document
+class "MedComConditionListComposition" as composition
+class "MedComConditionListOrganization" as organization <<MedComCoreOrganization>>
+class "MedComDocumentPractitioner" as practitioner <<MedComCorePractitioner>>
+class "MedComDocumentPatient" as patient <<DkCorePatient>>
+class "MedComConditionListCondition" as condition <<DkCoreCondition>>
    
-}
-
+document -- composition : "entry"
+composition -- organization : "author"
+composition -- practitioner : "author"
+composition -- patient : "subject"
+composition -- condition : "section.entry"
+condition -- patient : "subject"
 
 
 @enduml
