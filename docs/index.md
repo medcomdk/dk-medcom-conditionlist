@@ -16,7 +16,7 @@ This page presents the project Shared Condition Overview (Danish: Deling af diag
 The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP). A simple illustration of the flow of data is depicted in <a href="Fig1">Figure 1</a>. A short description of the flow follows: 1) The general practitioner and the patient will at a consultation go through the patient's diagnoses and share them. The diagnoses are then stored in a database with relevant information. 2) Another healthcare professional with the right authorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patient's diagnoses. 
 
 <figure>
-<img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:60%" id="Fig1">
+<img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:40%" id="Fig1">
 <figcaption text-align = "center"><b>Figure 1 illustrates the flow of data when a ConditionList is created and requested.</b></figcaption>
 </figure>
  
@@ -33,6 +33,7 @@ On this page, provided by MedCom, additional information on how to implement the
   * User stories
   * Use cases
   * Technical Specifications in terms of the relevant Implementation Guide (IG).
+  * Mapping from logical data model to ConditionList
   * Test and certification
 <p>&nbsp;</p>
 
@@ -52,13 +53,13 @@ Use cases describe the different scenarios a standard support. For a certain rea
 
 The technical specification for the ConditionList standard is composed by profiles from two IGs.
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-document/" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">MedCom Condition List</a>, which provides the requirements specific for the use of the ConditionList standard.
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-conditionlist/" target="_blank">MedCom Condition List</a>, which provides the requirements specific for the use of the ConditionList standard.
 
 
 ### 1.4 Mapping from logical data model to ConditionList
 The page is intended to help translate the logical data model to the FHIR standard. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
 
-[Mapping](assets/documents/Mapping-DA.md)
+[Danish: Mapping](assets/documents/Mapping-DA.md)
 
 
 ## 2 Test and Certification

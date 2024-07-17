@@ -339,6 +339,11 @@ The following documentation is in Danish, to maintain the exact wording from the
 .tg .tg-4pqp{background-color:#200000;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-dgf3{background-color:#E5E5E5;border-color:inherit;text-align:left;vertical-align:top}
 </style>
+<table class="tg" style="undefined;table-layout: fixed; width: 600px">
+<colgroup>
+<col style="width: 300px">
+<col style="width: 300px">
+</colgroup>
 <table class="tg"><thead>
   <tr>
     <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
