@@ -20,4 +20,7 @@ As described on [page for the MedComCondtionListCondition](./StructureDefinition
 [6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead. No text is included.
 
 
-### Example for DocumentReference.
+### Example for DocumentReference
+Below is an example of a DocumentReference for the ConditionList standard. The content is based on the information from the 1st ConditionList example. 
+
+[DocumentReference](DocumentReference-94e65db8-2f0c-4a2c-a7c9-06a160d59a12.html)
