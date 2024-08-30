@@ -11,7 +11,9 @@ The structure of a ConditionList is depicted on the following diagram:
 
 <img alt="Shows the general MedCom document model. Each document must at least contain the following resources: Bundle, Composition, Organization, Patient and Condition." src="./DocumentModel.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
-ConditionList follows the [general MedCom FHIR Document model](https://build.fhir.org/ig/medcomdk/dk-medcom-document/index.html#general-document-model). This includes the resources Bundle, Composition, Organization, Patient and if relevant Practitioner. To hold information about the patient's condition(s), the resource Condition is also included
+ConditionList follows the [general MedCom FHIR Document model](https://build.fhir.org/ig/medcomdk/dk-medcom-document/index.html#general-document-model). This includes the resources Bundle, Composition, Organization, Patient and if relevant Practitioner. To hold information about the patient's condition(s), the resource Condition is also included.
+
+#### Profiles
 The following sections describe the overall purpose of each profile.
 
 ##### MedComDocumentBundle
