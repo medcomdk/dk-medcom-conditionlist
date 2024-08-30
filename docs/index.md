@@ -11,7 +11,7 @@
 <br> 
 <br>
 
-This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize all patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. Together with the patient, the general practitioners maintain list for diagnosis, coordinating all diagnoses across the healthcare system. The lists are available for both patients and healthcare providers.
+This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize all patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. Together with the patient, the general practitioners maintain list for diagnosis, coordinating all diagnoses across the healthcare system. The lists are available for both patients, relatives with power of attorney and healthcare providers.
 
 The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP). A simple illustration of the flow of data is depicted in <a href="Fig1">Figure 1</a>. A short description of the flow follows: 1) The general practitioner and the patient will at a consultation go through the patient's diagnoses and share them. The diagnoses are then stored in a database with relevant information. 2) Another healthcare professional with the right authorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patient's diagnoses. 
 
@@ -57,7 +57,7 @@ The technical specification for the ConditionList standard is composed by profil
 
 
 ### 1.4 Mapping from logical data model to ConditionList
-The page is intended to help translate the logical data model to the FHIR standard. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
+The page is intended to help translate the logical data model to the FHIR standard. Be aware that **not all FHIR elements are represented** in the document; thus, it cannot stand alone for implementation. 
 
 [Danish: Mapping](assets/documents/Mapping-DA.md)
 
