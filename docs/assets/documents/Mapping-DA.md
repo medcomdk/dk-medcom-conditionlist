@@ -214,7 +214,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
 </tbody></table>
 
-## 1.2.1.7 ICPC2
+## 1.2.1.7 ICPC-2-DK
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -233,7 +233,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">ICPC2</span></td>
+    <td class="tg-dgf3"><span style="color:black">ICPC-2-DK</span></td>
     <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> hvor Condition.code.coding.system = <br>’ urn:oid:1.2.208.176.2.31’</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
