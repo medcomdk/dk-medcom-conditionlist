@@ -17,7 +17,7 @@ As described on [page for the MedComCondtionListCondition](./StructureDefinition
 
 [5th ConditionList](Bundle-96d37376-e176-4c6a-9c49-2b56e7aae665.html) contains no code nor text describing the diagnosis. The only information for this diagnoses is the date it was registered in the GP's system.
 
-[6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead. No text is included.
+[6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't an SKS-D nor ICPC-2-DK code, but a SNOMED CT code instead. No text is included.
 
 
 ### Example for DocumentReference
