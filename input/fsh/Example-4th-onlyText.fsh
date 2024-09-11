@@ -1,9 +1,8 @@
-
 Instance: a4630688-dc6b-4484-9ef7-b9a08148c407
-InstanceOf: MedComDocumentBundle
+InstanceOf: MedComConditionListBundle
 Usage: #example
-Title: "Bundle instance - 5th ConditionList"
-Description: "Bundle instance - 5th ConditionList - incl. text without code"
+Title: "Bundle instance - 4th ConditionList"
+Description: "Bundle instance - 4th ConditionList - incl. text without code"
 * type = #document
 * timestamp = 2024-07-10T12:50:00+01:00
 * identifier.system = "urn:ietf:rfc:3986"
@@ -21,12 +20,11 @@ Description: "Bundle instance - 5th ConditionList - incl. text without code"
 Instance: 2590fc0b-d6fb-4d7f-86fb-60b7474d59a5
 InstanceOf: MedComConditionListComposition
 Usage: #example
-Title: "Composition instance - 5th ConditionList"
-Description: "Composition instance - 5th ConditionList"
+Title: "Composition instance - 4th ConditionList"
+Description: "Composition instance - 4th ConditionList"
 * status = #final
-* type = $loinc#29308-4 "Diagnosis"
+* type = $loinc#11450-4 "Problem list"
 * language = #da "Danish"
-* category = $loinc#11503-0 "Medical records" 
 * subject = Reference(Patient/19bdc614-503b-481d-ae65-4040daf7060d)
 * date = "2024-07-10T12:50:00+01:00"
 * author[institution] = Reference(Organization/465b576f-9620-4394-adc7-ff00a95971d1)
@@ -38,8 +36,8 @@ Description: "Composition instance - 5th ConditionList"
 
 Instance: 19bdc614-503b-481d-ae65-4040daf7060d
 InstanceOf: MedComDocumentPatient
-Title: "Patient instance - 5th ConditionList"
-Description: "Patient instance - 5th ConditionList - Knut Odvar Test Mosebryggersen"
+Title: "Patient instance - 4th ConditionList"
+Description: "Patient instance - 4th ConditionList - Knut Odvar Test Mosebryggersen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "1502829995"
 * name[official].use = #official
@@ -54,16 +52,16 @@ Description: "Patient instance - 5th ConditionList - Knut Odvar Test Mosebrygger
 Instance: 465b576f-9620-4394-adc7-ff00a95971d1
 InstanceOf: MedComConditionListOrganization
 Usage: #example
-Title: "Organization instance - 5th ConditionList"
-Description: "Organization instance - 5th ConditionList - incl. SOR-ID"
+Title: "Organization instance - 4th ConditionList"
+Description: "Organization instance - 4th ConditionList - incl. SOR-ID"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
 
 
 Instance: 5af29fb2-f724-4918-94b2-cfeb18e263ac
 InstanceOf: MedComConditionListCondition
-Title: "Condition instance - 5th ConditionList"
-Description: "Condition instance - 5th ConditionList - KOL"
+Title: "Condition instance - 4th ConditionList"
+Description: "Condition instance - 4th ConditionList - KOL"
 Usage: #example
 * code.text = "KOL"
 * subject = Reference(Patient/19bdc614-503b-481d-ae65-4040daf7060d)

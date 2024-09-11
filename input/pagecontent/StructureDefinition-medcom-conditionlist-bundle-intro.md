@@ -1,0 +1,3 @@
+### Scope and usage 
+
+The MedComConditionListBundle profile describes the Bundle resource that shall be used in all documents exchanged as ConditionLists. MedComConditionListBundle inherits from MedComDocumentBundle, and is the container for the content in a document. As this profile is the used in a document, the element type shall always be ‘document’. This entails that the first resource in the entry element shall be a MedComConditionListComposition, which can be found in the slicing on Bundle.entry.

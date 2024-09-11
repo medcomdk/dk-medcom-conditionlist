@@ -1,6 +1,5 @@
-
 Instance: 7ffa0111-1aa2-4d68-99f8-1fbf57448c8c
-InstanceOf: MedComDocumentBundle
+InstanceOf: MedComConditionListBundle
 Usage: #example
 Title: "Bundle instance - 6th ConditionList"
 Description: "Bundle instance - 6th ConditionList - other CodeSystem"
@@ -24,9 +23,8 @@ Usage: #example
 Title: "Composition instance - 6th ConditionList"
 Description: "Composition instance - 6th ConditionList"
 * status = #final
-* type = $loinc#29308-4 "Diagnosis"
+* type = $loinc#11450-4 "Problem list"
 * language = #da "Danish"
-* category = $loinc#11503-0 "Medical records" 
 * subject = Reference(Patient/170b6e56-125d-42bf-9002-298166c4ff98)
 * date = "2024-07-10T12:50:00+01:00"
 * author[institution] = Reference(Organization/50b53da4-90cf-48b2-b579-dfeebee73428)

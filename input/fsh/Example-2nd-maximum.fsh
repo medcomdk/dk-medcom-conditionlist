@@ -1,6 +1,6 @@
 
 Instance: 23d8ece4-7cff-47c1-9680-571377c6ea74
-InstanceOf: MedComDocumentBundle
+InstanceOf: MedComConditionListBundle
 Usage: #example
 Title: "Bundle instance - 1st ConditionList"
 Description: "Bundle instance - 1st ConditionList - Maximum example"
@@ -30,9 +30,8 @@ Usage: #example
 Title: "Composition instance - 1st ConditionList"
 Description: "Composition instance - 1st ConditionList"
 * status = #final
-* type = $loinc#29308-4 "Diagnosis"
+* type = $loinc#11450-4 "Problem list"
 * language = #da "Danish"
-* category = $loinc#11503-0 "Medical records" 
 * subject = Reference(Patient/69e475df-20c8-4f54-8cea-9843568205fd)
 * date = "2024-05-01T12:00:00+01:00"
 * author[institution] = Reference(Organization/fd3206c6-c265-49f9-82c3-8b4c96280403)

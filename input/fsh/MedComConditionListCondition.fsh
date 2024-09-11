@@ -28,10 +28,22 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * category ^short = "Type of the diagnose (Danish: Diagnosetype). 'Kontaktdiagnose' = 'encounter-diagnosis', 'Forløbsdiagnose' = 'problem-list-item'"
 * clinicalStatus 0..1 MS
 * clinicalStatus ^short = "The clinical status for this diagnoses (Danish: Diagnosestatus). 'Aktuel' = 'active', 'Relevant' = 'inactive'"
-* clinicalStatus obeys medcom-conditionList-2
+* clinicalStatus from MedComConditionListClinicalStatus
 
-Invariant: medcom-conditionList-2
+/* Invariant: medcom-conditionList-2
 Description: "ClinicalStatus must be 'active' or 'inactive'"
 Severity: #error
 Expression: "coding.code = 'active' or 'inactive'"
+ */
 
+
+ValueSet: MedComConditionListClinicalStatus
+Id: medcom-conditionlist-clinical-status-valueset
+Title: "MedComConditionListClinicalStatus"
+Description: "MedComConditionListClinicalStatus used to define the status of a condition"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2024-09-15"
+* ^experimental = false
+* $clinical-status#active
+* $clinical-status#inactive
