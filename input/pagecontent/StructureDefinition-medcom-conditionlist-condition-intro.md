@@ -12,7 +12,8 @@ The quality of the registered diagnose is not always as expected with two codes 
 * If no code, but a text is available, the text must be included in the text element 
 * If one or both SKS-D or ICPC-2-DK codes are available, but no text is available, the codes must be included in the respective elements
 * If neither code nor text is available, a Condition instance must still be created with the remaining information
-* If a code from another CodeSystem than SKS-D or ICPC-2-DK is available, this code must be included in a new slice with a suited system, code and if available a display name.
+* If a code from another CodeSystem than SKS-D or ICPC-2-DK is available, this code must be included in a new slice with a suited system, code and if available a display name. Available CodeSystems can be found in the Snapshot Table below.
+* If no CodeSystem exists, none should be included.
 
 The above cases are illustrated on the [example page](examples.html).
 
