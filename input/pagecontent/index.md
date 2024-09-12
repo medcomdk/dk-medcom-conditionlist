@@ -17,7 +17,7 @@ ConditionList follows the [general MedCom FHIR Document model](https://build.fhi
 The following sections describe the overall purpose of each profile.
 
 ##### MedComConditionListBundle
-[MedComConditionListBundle](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-bundle.html) is used as the Bundle profile for the standard. The Bundle profile acts as the container for all included resources and they must all be referenced from the Bundle.entry element. There wasn't identified further needs for restricting the profile.
+[MedComConditionListBundle](./StructureDefinition-medcom-conditionlist-bundle.html) is used as the Bundle profile for the standard. The Bundle profile acts as the container for all included resources and they must all be referenced from the Bundle.entry element, which is illustrated in the [examples](examples.html). 
 
 ##### MedComConditionListComposition
 [MedComConditionListComposition](./StructureDefinition-medcom-conditionlist-composition.html) creates the structure of the document. It is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-composition.html). The key differences are: the Composition.type is fixed to "Medical records" to standardize the document type; the Composition.title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'"; and the Composition.section.entry is restricted to reference [MedComConditionListCondition](./StructureDefinition-medcom-conditionlist-condition.html).
@@ -47,15 +47,16 @@ A ConditionList includes several timestamps. These timestamps are present in the
 * Condition.onsetDateTime: Actual or estimated date the condition began, in the opinion of the patient's general practitioner (Danish: debutdato).
 * Condition.abatementDateTime: The date or estimated date that the condition resolved or went into remission (Danish: afslutningsdato). 
 
+The [2nd example](Bundle-23d8ece4-7cff-47c1-9680-571377c6ea74.html) includes all the above timestamps.
 
 #### Examples
-The [examples page](examples.html) illustrates the different .
+The [examples page](examples.html) different examples of the ConditionList standard. Each example is accompanied by a short description of the example.
 
 #### Terminology
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
 #### Dependencies
-This IG has a dependency to the [MedCom Core IG](http://medcomfhir.dk/ig/core/), [MedCom FHIR Document IG](LINK) and [DK-core v. 3.2.0](https://hl7.dk/fhir/core/), where the latter is defined by [HL7 Denmark](https://hl7.dk/). 
+This IG has a dependency to the [MedCom Core IG](http://medcomfhir.dk/ig/core/), [MedCom FHIR Document IG](https://build.fhir.org/ig/medcomdk/dk-medcom-document) and [DK-core v. 3.2.0](https://hl7.dk/fhir/core/), where the latter is defined by [HL7 Denmark](https://hl7.dk/). 
 
 ### Download
 Content in this IG can be downloaded in npm format under [Download](downloads.html). This can be used to validate local FHIR profiles against.
