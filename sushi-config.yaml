@@ -26,7 +26,7 @@ publisher:
 #
 dependencies:
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.document: current
+  medcom.fhir.dk.document: dev
   hl7.fhir.dk.core: 3.2.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
