@@ -1,6 +1,6 @@
-The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a>, to the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
+The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a>, to the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. The mapping takes its starting point from the data in the logical data model and maps in the associated FHIR element. Therefore, aren't all FHIR elements from the ConditionList standard presented in the tables below, and the mapping cannot stand alone for implementation. See the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">IG for ConditionList</a> to find all the requirements for the standard.
 
-The following documentation is in Danish, to maintain the exact wording from the model. Only the name from the model is presented, to avoid redundant information and maintainance. 
+The following documentation is in Danish, to maintain the exact wording from the logical data model. Only the name of the data from the model is presented, to avoid redundant information and maintainance. 
 
 # 1.2 Klasser og attributter
 
@@ -18,8 +18,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -50,8 +50,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -82,8 +82,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -114,8 +114,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -151,8 +151,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -204,8 +204,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -228,8 +228,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -252,8 +252,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -284,8 +284,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -309,8 +309,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -346,8 +346,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </colgroup>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Profil/element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>

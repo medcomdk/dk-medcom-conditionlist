@@ -59,7 +59,7 @@ The technical specification for the ConditionList standard is composed by profil
 
 
 ### 1.4 Mapping from logical data model to ConditionList
-The page is intended to help translate the logical data model to the FHIR standard. Be aware that **not all FHIR elements are represented** in the document; thus, it cannot stand alone for implementation. 
+The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a> to the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. More information about the mapping can be found on the following page.
 
 [Danish: Mapping](assets/documents/Mapping-DA.md)
 
