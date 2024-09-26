@@ -21,9 +21,9 @@ The above cases are illustrated on the [example page](examples.html).
 As mentioned the GP has in most cases selected a text that represents the diagnosis the best (Danish: Diagnosetekst). This text must be included in the element Condition.code.text. It is further allowed for the GP to add an additional, short description of the diagnosis (Danish: Tillægstekst). If this is available, the text must be included in the element Condition.note.text. 
 
 #### Condition status and category 
-Both the status and category are selected by the GP. If the status is available, the Condition must contain information in the element Condition.clinicalStatus. This status can either be 'active' (Danish: aktuel), which represents conditions that the patient is currently experiencing, or 'inactive' (Danish: relevant), which represents condition that the patient no longer receives treatment for. 
+Both the status and category are selected by the GP. If the status is available, the Condition must contain information in the element Condition.category, using the slice status. This status can either be 'current' (Danish: aktuel), which represents conditions that the patient is currently experiencing, or 'resolved' (Danish: relevant), which represents condition that the patient no longer receives treatment for. 
 
-If the category is available, the Condition must contain information in the element Condition.category, representing the type of diagnoses. The category can either be a 'problem-list-item' (Danish: forløbsdiagnose), which represents a condition that is managed over time, or a 'encounter-diagnosis' (Danish: kontaktdiagnose), which represents a diagnose that has been subject during an encounter. 
+If the category is available, the Condition must contain information in the element Condition.category, representing the type of diagnoses, using the slice type. The category can either be a 'problem-list-item' (Danish: forløbsdiagnose), which represents a condition that is managed over time, or a 'encounter-diagnosis' (Danish: kontaktdiagnose), which represents a diagnose that has been subject during an encounter. 
 
 #### Timestamps
 There can be different timestamp associated with a diagnosis. They must be included when the information is available:

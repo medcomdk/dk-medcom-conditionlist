@@ -24,12 +24,30 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
 * recordedDate ^short = "Date of registration of the diagnosis in the general practitioner's own system (Danish: Registreringsdato)"
 * abatementDateTime 0..1 MS
 * abatementDateTime ^short = "Date of the abate end of the condition (Danish: Afslutningsdato)"
-* category 0..1 MS
-* category ^short = "Type of the diagnose (Danish: Diagnosetype). 'Kontaktdiagnose' = 'encounter-diagnosis', 'Forløbsdiagnose' = 'problem-list-item'"
-* clinicalStatus 0..1 MS
+* category MS
+* category ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "coding.code"
+  * ^slicing.rules = #open
+  * ^slicing.ordered = false
+  * ^slicing.description = "Slice based on the coding.code value to differentiate the category of the condition"
+* category contains
+    type 0..1 MS and
+    status 0..1 MS 
+* category[type] ^short = "Type of the diagnose (Danish: Diagnosetype). 'Kontaktdiagnose' = 'encounter-diagnosis', 'Forløbsdiagnose' = 'problem-list-item'"
+  * coding.system 1.. MS
+  * coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+  * coding.code 1.. MS
+  * coding.code from http://hl7.org/fhir/ValueSet/condition-category
+* category[status] ^short = "The status for this diagnoses (Danish: Diagnosestatus). 'Aktuel' = 'current', 'Relevant' = 'resolved'"
+  * coding.code from MedComConditionListStatus 
+  * coding.system 1.. MS
+  * coding.system = $sct
+  * coding.code 1.. MS
+
+/* * clinicalStatus 0..1 MS
 * clinicalStatus ^short = "The clinical status for this diagnoses (Danish: Diagnosestatus). 'Aktuel' = 'active', 'Relevant' = 'inactive'"
 * clinicalStatus from MedComConditionListClinicalStatus
-
+ */
 /* Invariant: medcom-conditionList-2
 Description: "ClinicalStatus must be 'active' or 'inactive'"
 Severity: #error
@@ -37,7 +55,7 @@ Expression: "coding.code = 'active' or 'inactive'"
  */
 
 
-ValueSet: MedComConditionListClinicalStatus
+/* ValueSet: MedComConditionListClinicalStatus
 Id: medcom-conditionlist-clinical-status-valueset
 Title: "MedComConditionListClinicalStatus"
 Description: "MedComConditionListClinicalStatus used to define the status of a condition"
@@ -46,4 +64,15 @@ Description: "MedComConditionListClinicalStatus used to define the status of a c
 * ^date  =  "2024-09-15"
 * ^experimental = false
 * $clinical-status#active
-* $clinical-status#inactive
+* $clinical-status#inactive */
+
+ValueSet: MedComConditionListStatus
+Id: medcom-conditionlist-status-valueset
+Title: "MedComConditionListStatus"
+Description: "MedComConditionListStatus used to define the status of a condition"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2024-09-15"
+* ^experimental = false
+* $sct#723506003 // "resolved"
+* $sct#15240007 // "current"

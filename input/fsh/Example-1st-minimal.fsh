@@ -62,8 +62,8 @@ InstanceOf: MedComConditionListCondition
 Title: "Condition instance - 2nd ConditionList"
 Description: "Condition instance - 2nd ConditionList - Depression"
 Usage: #example
-* clinicalStatus = $clinical-status#active
-* category = $category#problem-list-item
+* category[0] = $category#problem-list-item
+* category[1] = $sct#15240007
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DF329
 * code.coding[1] = urn:oid:1.2.208.176.2.31#P76
 * code.text = "Depression"

@@ -63,7 +63,7 @@ Title: "Condition instance - 6th ConditionList"
 Description: "Condition instance - 6th ConditionList - Overweight (SNOMED CT code)"
 Usage: #example
 * code = $sct#238131007 "Overweight"
-* category = $category#problem-list-item
+* category[0] = $category#problem-list-item
+* category[1] = $sct#15240007
 * subject = Reference(Patient/170b6e56-125d-42bf-9002-298166c4ff98)
 * recordedDate = "2020-03-15"
-* clinicalStatus = $clinical-status#active

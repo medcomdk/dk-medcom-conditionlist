@@ -64,5 +64,5 @@ Description: "Condition instance - 3rd ConditionList - Hoste"
 Usage: #example
 * code = urn:oid:1.2.208.176.2.31#R05
 * subject = Reference(Patient/ea75a3fe-b8f7-4326-9a12-8c950c63dd6f)
-* clinicalStatus = $clinical-status#active
+* category = $sct#15240007
 * recordedDate = "2024-07-01"

@@ -9,13 +9,13 @@ The first and second example, are examples of how the content of a ConditionList
 
 As described on [page for the MedComCondtionListCondition](./StructureDefinition-medcom-conditionlist-condition.html) the quality of the registered diagnoses is not always as expected. However, it is decided to exchange the available information despite of the incompleteness. In the following examples, the Composition instances will include the minimum required information and it is mainly the content of the Conditions that varies.
 
-[3rd ConditionList](Bundle-df3915a2-6f88-4dea-955a-1b0008b23853.html) contains a IPCP2 code (Condition.code.code), but without a display value (Condition.code.display) and a text (Condition.code.text) describing the diagnosis. Further, the status (Condition.clinicalStatus) of the diagnosis is active.
+[3rd ConditionList](Bundle-df3915a2-6f88-4dea-955a-1b0008b23853.html) contains a IPCP2 code (Condition.code.code), but without a display value (Condition.code.display) and a text (Condition.code.text) describing the diagnosis. Further, the status (Condition.category) of the diagnosis is current.
 
-[4th ConditionList](Bundle-a4630688-dc6b-4484-9ef7-b9a08148c407.html) contains a text (Condition.code.text) describing the diagnosis, a active status (Condition.clinicalStatus), onset (Condition.onsetDateTime) and recorded date (Condition.recordedDate). However, no codes (Condition.code.code) for the diagnosis is included. 
+[4th ConditionList](Bundle-a4630688-dc6b-4484-9ef7-b9a08148c407.html) contains a text (Condition.code.text) describing the diagnosis, a current status (Condition.category), onset (Condition.onsetDateTime) and recorded date (Condition.recordedDate). However, no codes (Condition.code.code) for the diagnosis is included. 
 
 [5th ConditionList](Bundle-96d37376-e176-4c6a-9c49-2b56e7aae665.html) contains no code nor text describing the diagnosis (Condition.code). The only information for this diagnoses is the date it was registered in the GP's system (Condition.recordedDate).
 
-[6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead (Condition.code.code). No text is included (Condition.code.text). Further, a category (Condition.category) is included and the status is active (Condition.clinicalStatus).
+[6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead (Condition.code.code). No text is included (Condition.code.text). Further, a category (Condition.category) is included and the status is current (Condition.category).
 
 [7th ConditionList](Bundle-9d923ef7-c817-4e41-a0c2-01c80e8bde0c.html) contains a code (Condition.code.code) without a system (Condition.code.system) and text (Condition.code.text).
 

@@ -75,8 +75,9 @@ InstanceOf: MedComConditionListCondition
 Title: "Condition instance - 1st ConditionList"
 Description: "Condition instance - 1st ConditionList - Type 2-diabetes"
 Usage: #example
-* clinicalStatus = $clinical-status#active
-* category = $category#problem-list-item
+//* clinicalStatus = $sct#15240007
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DE11 "Type 2-diabetes"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#T90 "Diabetes type 2"
 * code.text = "Type 2-diabetes"
@@ -90,8 +91,8 @@ InstanceOf: MedComConditionListCondition
 Title: "Condition instance - 1st ConditionList"
 Description: "Condition instance - 1st ConditionList - Modermærkekræft"
 Usage: #example
-* clinicalStatus = $clinical-status#inactive
-* category = $category#encounter-diagnosis
+* category[0] = $sct#723506003
+* category[1] = $category#encounter-diagnosis
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DC43 "Modermærkekræft i huden"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#S77 "Hudkræft"
 * code.text = "Modermærkekræft"
@@ -106,8 +107,8 @@ InstanceOf: MedComConditionListCondition
 Title: "Condition instance - 1st ConditionList"
 Description: "Condition instance - 1st ConditionList - Hypertension"
 Usage: #example
-* clinicalStatus = $clinical-status#active
-* category = $category#problem-list-item
+* category[0] = $sct#15240007
+* category[1] = $category#problem-list-item
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DI109 "Essentiel Hypertension"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#K86 "Ukompliceret Hypertension"
 * code.text = "Hypertensio arterialis essentialis"

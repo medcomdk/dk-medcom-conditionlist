@@ -67,4 +67,4 @@ Usage: #example
 * subject = Reference(Patient/19bdc614-503b-481d-ae65-4040daf7060d)
 * recordedDate = "2020-03-15"
 * onsetDateTime = "2019-11-25"
-* clinicalStatus = $clinical-status#active
+* category = $sct#15240007
