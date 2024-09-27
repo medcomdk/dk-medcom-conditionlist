@@ -101,6 +101,7 @@ Usage: #example
 * recordedDate = "2023-05-01"
 * onsetDateTime = "2023-03-20"
 * abatementDateTime = "2023-06-07"
+* clinicalStatus = #resolved
 
 Instance: f90a8472-6495-4865-be5d-fae6650a033e
 InstanceOf: MedComConditionListCondition

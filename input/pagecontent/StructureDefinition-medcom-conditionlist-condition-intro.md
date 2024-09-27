@@ -30,3 +30,5 @@ There can be different timestamp associated with a diagnosis. They must be inclu
 * Condition.recordedDate: The date of the individual diagnosis entry in the database (Danish: registreringsdato).
 * Condition.onsetDateTime: Actual or estimated date the condition began, in the opinion of the patient's GP (Danish: debutdato).
 * Condition.abatementDateTime: The date or estimated date that the condition resolved or went into remission (Danish: afslutningsdato). 
+
+Due to invariant con-4 in the Condition resource, the element Condition.clinicalStatus must be 'inactive', 'resolved' or 'remission' when an abatementDataTime is included. Therefore, is the clinicalStatus element marked with a MustSupport flag, and it is recommended to set it to 'resolved' when Condition.abatementDataTime is included. 
