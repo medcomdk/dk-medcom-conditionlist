@@ -9,9 +9,9 @@ Description: "An example profile of the Condition resource."
 * identifier ^short = "[DiagnosisId - Unikt diagnose id] Of the type GUID"
 * code.coding[ICPC2code] ^short = "[ICPCCode]"
 * code.coding[ICPC2code].code 1..1 
-* code.coding[ICPC2code].code ^short = "[ICPCCode - ICPC-2 kode]"
+* code.coding[ICPC2code].code ^short = "[ICPCCode - ICPC-2-DK kode]"
 * code.coding[ICPC2code].display 1..1 
-* code.coding[ICPC2code].display ^short = "[ICPCName - ICPC-2 navn]"
+* code.coding[ICPC2code].display ^short = "[ICPCName - ICPC-2-DK navn]"
 //* code.coding contains ICD10code ..1
 //* code.coding[ICD10code].code 1..1 
 /* * code.coding[ICD10code] ^short = "[ICD10Code]"

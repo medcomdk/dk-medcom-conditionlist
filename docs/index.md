@@ -11,9 +11,11 @@
 <br> 
 <br>
 
-This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize all patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. Together with the patient, the general practitioners maintain list for diagnosis, coordinating all diagnoses across the healthcare system. The lists are available for both patients and healthcare providers.
+This page presents the project Shared Condition Overview (Danish: Deling af diagnoseoversigt), to which MedCom has developed the FHIR standard called ConditionList. The purpose of the project is to centralize selected patient/citizen diagnoses from general practice and other healthcare providers in a standardized way using document sharing. The general practitioner and the patient will review the patient’s diagnoses during a consultation, identifying and marking only relevant conditions to be shared in a ConditionList. 
+Only selected diagnoses are shared in order to ensure clarity in the patient’s records. The term "diagnoses" do not exclusively refer to diseases in the context of the ConditionList, but also includes relevant current diseases, prior diseases, significant events, and conditions. It is the responsibility of the general practitioner to establish the ConditionList in consultation with the patient and subsequently update it as new information is received, including discharge summaries (Danish: Epikriser) and new diagnoses. This practice is already widely adopted among general practitioners who regularly utilize the list (Danish: Diagnosekortet) for coordinated care across the healthcare system.
+The list is available for both patients, relatives with power of attorney and healthcare providers.
 
-The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP). A simple illustration of the flow of data is depicted in <a href="Fig1">Figure 1</a>. A short description of the flow follows: 1) The general practitioner and the patient will at a consultation go through the patient's diagnoses and share them. The diagnoses are then stored in a database with relevant information. 2) Another healthcare professional with the right authorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patient's diagnoses. 
+The ConditionList standard is implemented as a FHIR Document and shared over the National Service Platform (NSP) in Denmark. A simple illustration of the flow of data is depicted in <a href="#Fig1">Figure 1</a>. A short description of the flow follows: 1) The general practitioner and the patient will at a consultation go through the patient's diagnoses and share a selected list from them. The diagnoses are then stored in a database with relevant information. 2) Another healthcare professional with the right authorization then requests the ConditionList. 3) A document is generated with the available information. 4) The healthcare professional can now see the patient's diagnoses. 
 
 <figure>
 <img src="assets/Images/SharedConditionOverview-pixi.png" alt="Illustrates the flow of data when a ConditionList is created and requested." style="width:40%" id="Fig1">
@@ -40,7 +42,7 @@ On this page, provided by MedCom, additional information on how to implement the
 ### 1.1 User stories
 A user story is an informal, general description of a systems functionality as perceived from the user's perspective. User stories have the end user at the centre of the dialogue about system functionality. User stories describe which needs the end user wants fulfilled, so that the developer understands the context of the development task: why they are developing the function and what value it must provide the end user. Not all user stories will be supported with this current implementation, which is noted for the specific user story.
 
-[Danish: User stories (docx)](assets/documents/UserStories_SharedConditionOverview.docx) <br> 
+[Danish: User stories (pdf)](assets/documents/UserStories_SharedConditionOverview.pdf) <br> 
 
 
 ### 1.2 Use Cases
@@ -57,7 +59,7 @@ The technical specification for the ConditionList standard is composed by profil
 
 
 ### 1.4 Mapping from logical data model to ConditionList
-The page is intended to help translate the logical data model to the FHIR standard. Be aware that not all FHIR elements are represented in the document; thus, it cannot stand alone for implementation. 
+The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a> to the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. More information about the mapping can be found on the following page.
 
 [Danish: Mapping](assets/documents/Mapping-DA.md)
 
