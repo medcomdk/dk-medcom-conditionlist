@@ -40,7 +40,7 @@ Description: "An instanceof the MedCom ConditionList Condition resource."
   * coding.code 1.. MS
   * coding.code from http://hl7.org/fhir/ValueSet/condition-category
 * category[status] ^short = "The status for this diagnoses (Danish: Diagnosestatus). 'Aktuel' = 'current', 'Relevant' = 'resolved'"
-  * coding.code from MedComConditionListStatus 
+  * coding.code from http://medcomfhir.dk/ig/terminology/ValueSet/medcom-conditionlist-status-valueset
   * coding.system 1.. MS
   * coding.system = $sct
   * coding.code 1.. MS

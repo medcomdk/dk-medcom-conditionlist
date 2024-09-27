@@ -31,7 +31,7 @@ Description: "Composition instance - 5th ConditionList"
 * title = "Diagnoseoversigt for 2509479989"
 * confidentiality = #N
 * section[0].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ff9f7978-3995-4280-9956-1101861df51e</b></p><a name=\"ff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"hcff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"hcff9f7978-3995-4280-9956-1101861df51e-en-US\"> </a><p><b>subject</b>: <a href=\"Patient-da0f8262-1be9-420c-98fb-ecc7b5a2333c.html\">Else Test Lauridsen (official) Female, DoB: 1991-01-02 ( urn:oid:1.2.208.176.1.2#0201919990)</a></p><p><b>recordedDate</b>: 2021-06-15</p></div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ff9f7978-3995-4280-9956-1101861df51e</b></p><a name=\"ff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"hcff9f7978-3995-4280-9956-1101861df51e\"> </a><a name=\"ff9f7978-3995-4280-9956-1101861df51e-en-US\"> </a><p><b>subject</b>: <a href=\"Patient-da0f8262-1be9-420c-98fb-ecc7b5a2333c.html\">Else Test Lauridsen (official) Female, DoB: 1991-01-02 ( urn:oid:1.2.208.176.1.2#0201919990)</a></p><p><b>recordedDate</b>: 2021-06-15</p></div>"
 * section[0].entry[0] = Reference(Condition/ff9f7978-3995-4280-9956-1101861df51e)
 
 Instance: da0f8262-1be9-420c-98fb-ecc7b5a2333c
