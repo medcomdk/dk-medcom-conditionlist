@@ -7,4 +7,4 @@ The Composition.section.entry for this standard is the diagnoses which are repre
 
 The Composition.title must be (in Danish) "Diagnoseoversigt for 'CPR-nummer'", where 'CPR-nummer' is the actual identifier for the patient (Patient.identifier.value).
 
-The Composition.type is fixed to the LOINC code "11503-0 Medical records", as it represents the content of the document on a high level.
+The Composition.type is fixed to the LOINC code "11450-4 Problem list", as it represents the content of the document on a high level.

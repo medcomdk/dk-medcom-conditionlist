@@ -1,6 +1,5 @@
-
 Instance: 7ffa0111-1aa2-4d68-99f8-1fbf57448c8c
-InstanceOf: MedComDocumentBundle
+InstanceOf: MedComConditionListBundle
 Usage: #example
 Title: "Bundle instance - 6th ConditionList"
 Description: "Bundle instance - 6th ConditionList - other CodeSystem"
@@ -24,16 +23,15 @@ Usage: #example
 Title: "Composition instance - 6th ConditionList"
 Description: "Composition instance - 6th ConditionList"
 * status = #final
-* type = $loinc#29308-4 "Diagnosis"
+* type = $loinc#11450-4 "Problem list"
 * language = #da "Danish"
-* category = $loinc#11503-0 "Medical records" 
 * subject = Reference(Patient/170b6e56-125d-42bf-9002-298166c4ff98)
 * date = "2024-07-10T12:50:00+01:00"
 * author[institution] = Reference(Organization/50b53da4-90cf-48b2-b579-dfeebee73428)
 * title = "Diagnoseoversigt for 2509479989"
 * confidentiality = #N
 * section[0].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 1b66f0a7-6d59-4e6a-a2bc-874cd194674b</b></p><a name=\"1b66f0a7-6d59-4e6a-a2bc-874cd194674b\"> </a><a name=\"hc1b66f0a7-6d59-4e6a-a2bc-874cd194674b\"> </a><a name=\"hc1b66f0a7-6d59-4e6a-a2bc-874cd194674b-en-US\"> </a><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 238131007}\">Overweight</span></p><p><b>subject</b>: <a href=\"Patient-170b6e56-125d-42bf-9002-298166c4ff98.html\">Pia Test Berggren (official) Female, DoB: 2005-05-05 ( urn:oid:1.2.208.176.1.2#0505059996)</a></p><p><b>recordedDate</b>: 2020-03-15</p></div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 1b66f0a7-6d59-4e6a-a2bc-874cd194674b</b></p><a name=\"1b66f0a7-6d59-4e6a-a2bc-874cd194674b\"> </a><a name=\"hc1b66f0a7-6d59-4e6a-a2bc-874cd194674b\"> </a><a name=\"1b66f0a7-6d59-4e6a-a2bc-874cd194674b-en-US\"> </a><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span>, <span title=\"Codes:{http://snomed.info/sct 15240007}\">Current</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 238131007}\">Overweight</span></p><p><b>subject</b>: <a href=\"Patient-170b6e56-125d-42bf-9002-298166c4ff98.html\">Pia Test Berggren (official) Female, DoB: 2005-05-05 ( urn:oid:1.2.208.176.1.2#0505059996)</a></p><p><b>recordedDate</b>: 2020-03-15</p></div>"
 * section[0].entry[0] = Reference(Condition/1b66f0a7-6d59-4e6a-a2bc-874cd194674b)
 
 Instance: 170b6e56-125d-42bf-9002-298166c4ff98
@@ -65,7 +63,7 @@ Title: "Condition instance - 6th ConditionList"
 Description: "Condition instance - 6th ConditionList - Overweight (SNOMED CT code)"
 Usage: #example
 * code = $sct#238131007 "Overweight"
-* category = $category#problem-list-item
+* category[0] = $category#problem-list-item
+* category[1] = $sct#15240007
 * subject = Reference(Patient/170b6e56-125d-42bf-9002-298166c4ff98)
 * recordedDate = "2020-03-15"
-* clinicalStatus = $clinical-status#active
