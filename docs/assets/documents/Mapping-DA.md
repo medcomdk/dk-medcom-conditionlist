@@ -1,4 +1,4 @@
-The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a>, to the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. The mapping takes its starting point from the data in the logical data model and maps in the associated FHIR element. Therefore, aren't all FHIR elements from the ConditionList standard presented in the tables below, and the mapping cannot stand alone for implementation. See the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">IG for ConditionList</a> to find all the requirements for the standard.
+The page is intended to help translate the <a href="https://www.nspop.dk/display/ESP/Indhold+og+forretningsregler+diagnoser" target="_blank">logical data model</a> (Danish website), to the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">FHIR ConditionList standard</a>. The mapping takes its starting point from the data in the logical data model and maps in the associated FHIR element. Therefore, aren't all FHIR elements from the ConditionList standard presented in the tables below, and the mapping cannot stand alone for implementation. See the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-shareddiagnoses/" target="_blank">IG for ConditionList</a> to find all the requirements for the standard.
 
 The following documentation is in Danish, to maintain the exact wording from the logical data model. Only the name of the data from the model is presented, to avoid redundant information and maintainance. 
 
@@ -18,8 +18,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -27,7 +27,7 @@ The following documentation is in Danish, to maintain the exact wording from the
     <td class="tg-dgf3"><span style="color:black">MedComDocumentPatient</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
   <tr>
-    <td class="tg-jxgv"><span style="color:black">id</span></td>
+    <td class="tg-jxgv"><span style="color:black">id (Danish CPR-number)</span></td>
     <td class="tg-jxgv"><span style="color:black">Patient.identifier</span></td>
   </tr>
   <tr>
@@ -50,8 +50,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -59,7 +59,7 @@ The following documentation is in Danish, to maintain the exact wording from the
     <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
   <tr>
-    <td class="tg-jxgv"><span style="color:black">diagnosekode</span></td>
+    <td class="tg-jxgv"><span style="color:black">diagnoseKode</span></td>
     <td class="tg-jxgv"><span style="color:black">Condition.code.coding.code</span></td>
   </tr>
   <tr>
@@ -82,8 +82,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -114,8 +114,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -123,14 +123,14 @@ The following documentation is in Danish, to maintain the exact wording from the
     <td class="tg-dgf3"><span style="color:black">MedComConditionListOrganization <br>MedComDocumentPatient<br>MedComConditionListComposition
 </span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
-  <tr>
+<!--   <tr>
     <td class="tg-jxgv"><span style="color:black">ansvarligOrg</span></td>
     <td class="tg-jxgv"><span style="color:black">Organization.name</span></td>
-  </tr>
-  <tr>
+  </tr> -->
+<!--   <tr>
     <td class="tg-jxgv"><span style="color:black">BorgerId</span></td>
     <td class="tg-jxgv"><span style="color:black">Patient.identifier</span></td>
-  </tr>
+  </tr> -->
   <tr>
     <td class="tg-jxgv"><span style="color:black">senestOpdateret</span></td>
     <td class="tg-jxgv"><span style="color:black">Composition.date</span></td>
@@ -151,17 +151,17 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">Diagnoseoversigt </span></td>
+    <td class="tg-dgf3"><span style="color:black">Helbredstilstand</span></td>
     <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition
 </span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
   <tr>
-    <td class="tg-jxgv"><span style="color:black">afslutningsDato</span></td>
+    <td class="tg-jxgv"><span style="color:black">afslutningsdato</span></td>
     <td class="tg-jxgv"><span style="color:black">Condition.abatementDateTime</span></td>
   </tr>
   <tr>
@@ -190,7 +190,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
 </tbody></table>
 
-## 1.2.1.6 ICD10 
+## 1.2.1.6 ICD-10 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -204,13 +204,13 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">ICD10</span></td>
-    <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> hvor Condition.code.coding.system = <br>’ urn:oid:1.2.208.176.2.4.12’ (fra SKS-D)</span><span style="background-color:#E5E5E5"> </span></td>
+    <td class="tg-dgf3"><span style="color:black">ICD-10</span></td>
+    <td class="tg-dgf3"><span style="color:black">ICD-10 is incorporated into SKS-D and is therefore not used independently (See 1.2.1.9)</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
 
@@ -228,8 +228,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -252,8 +252,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -270,7 +270,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
 </tbody></table>
 
-## 1.2.1.9 SKS
+## 1.2.1.9 SKS-D
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -284,13 +284,13 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">SKS</span></td>
-    <td class="tg-dgf3"><span style="color:black">Se under ICD10</span><span style="background-color:#E5E5E5"> </span></td>
+    <td class="tg-dgf3"><span style="color:black">SKS-D</span></td>
+    <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> where Condition.code.coding.system = <br>’ urn:oid:1.2.208.176.2.4.12’</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
 
@@ -309,8 +309,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
@@ -319,11 +319,11 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">aktuel</span></td>
-    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = ’active’</span></td>
+    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = current</span></td>
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">relevant</span></td>
-    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = ’inactive’</span></td>
+    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = ’resolved’</span></td>
   </tr>
 </tbody></table>
 
@@ -346,8 +346,8 @@ The following documentation is in Danish, to maintain the exact wording from the
 </colgroup>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-4pqp"><span style="color:white">Navn i logisk data model</span></th>
-    <th class="tg-4pqp"><span style="color:white">Ressource.element i FHIR</span></th>
+    <th class="tg-4pqp"><span style="color:white">Name in logical data model</span></th>
+    <th class="tg-4pqp"><span style="color:white">Ressource.element in FHIR</span></th>
   </tr></thead>
 <tbody>
   <tr>
