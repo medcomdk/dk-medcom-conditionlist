@@ -76,7 +76,8 @@ MedComs FHIR profiles and extension are managed in GitHub under MedCom: [Source 
 A description of [governance concerning change management and versioning](https://medcomdk.github.io/MedComLandingPage/#4-change-management-and-versioning) of MedComs FHIR artefacts, can be found on the link.
 
 #### Quality Assurance Report
-[TBD - a description of the potential errors in the QA report]
+In the Quality Assurance report (QA-report) for this IG, there is an error with the following description: '*Reference is remote which isn’t supported by the specified aggregation mode(s) for the reference (bundled)*'. The error occurs when creating instances of the Composition profile, and is due to some elements having a Bundled flag {b}. However, the referenced profiles are not included in a Bundle, since the instance only represents a part of the entire document. This must not influence the implementation by IT-vendors.
+
 
 ### Contact 
 [MedCom](https://www.medcom.dk/) is responsible for this IG.
