@@ -30,7 +30,7 @@ Usage: #example
 Title: "Composition instance - 1st ConditionList"
 Description: "Composition instance - 1st ConditionList"
 * status = #final
-* type = $loinc#11450-4 "Problem list"
+* type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/69e475df-20c8-4f54-8cea-9843568205fd)
 * date = "2024-05-01T12:00:00+01:00"
@@ -101,7 +101,7 @@ Usage: #example
 * recordedDate = "2023-05-01"
 * onsetDateTime = "2023-03-20"
 * abatementDateTime = "2023-06-07"
-* clinicalStatus = #resolved
+* clinicalStatus = $clinical-status#resolved
 
 Instance: f90a8472-6495-4865-be5d-fae6650a033e
 InstanceOf: MedComConditionListCondition

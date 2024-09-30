@@ -23,7 +23,7 @@ Usage: #example
 Title: "Composition instance - 6th ConditionList"
 Description: "Composition instance - 6th ConditionList"
 * status = #final
-* type = $loinc#11450-4 "Problem list"
+* type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/170b6e56-125d-42bf-9002-298166c4ff98)
 * date = "2024-07-10T12:50:00+01:00"
