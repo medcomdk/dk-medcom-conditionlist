@@ -170,7 +170,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">diagnoseStatus</span></td>
-    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus</span></td>
+    <td class="tg-jxgv"><span style="color:black">Condition.category</span></td>
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">diagnoseTekst</span></td>
@@ -209,8 +209,8 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">ICD-10</span></td>
-    <td class="tg-dgf3"><span style="color:black">ICD-10 is incorporated into SKS-D and is therefore not used independently (See 1.2.1.9)</span><span style="background-color:#E5E5E5"> </span></td>
+    <td class="tg-dgf3"><span style="color:black">ICD 10</span></td>
+    <td class="tg-dgf3"><span style="color:black">ICD-10 is incorporated into SKS and is therefore not used independently (See 1.2.1.9)</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
 
@@ -233,7 +233,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">ICPC-2-DK</span></td>
+    <td class="tg-dgf3"><span style="color:black">ICPC2-DK</span></td>
     <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> hvor Condition.code.coding.system = <br>’ urn:oid:1.2.208.176.2.31’</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
@@ -270,7 +270,7 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
 </tbody></table>
 
-## 1.2.1.9 SKS-D
+## 1.2.1.9 SKS
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -289,8 +289,9 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-dgf3"><span style="color:black">SKS-D</span></td>
-    <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> where Condition.code.coding.system = <br>’ urn:oid:1.2.208.176.2.4.12’</span><span style="background-color:#E5E5E5"> </span></td>
+    <td class="tg-dgf3"><span style="color:black">SKS</span></td>
+    <td class="tg-dgf3"><span style="color:black">MedComConditionListCondition, <br> where Condition.code.coding.system = <br> ’urn:oid:1.2.208.176.2.4.12’ <br> (SKS is represented with the OID: 1.2.208.176.2.4. In <a href="https://hl7.dk/fhir/core/StructureDefinition-dk-core-condition.html
+" target="_blank">DkCoreCondition</a> it is specified that only a diagnosis from the D-hierarki of SKS is allowed to be included, why the OID: 1.2.208.176.2.4.12 is included in the profile.)</span><span style="background-color:#E5E5E5"> </span></td>
   </tr>
 </tbody></table>
 
@@ -319,11 +320,11 @@ The following documentation is in Danish, to maintain the exact wording from the
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">aktuel</span></td>
-    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = current</span></td>
+    <td class="tg-jxgv"><span style="color:black">Condition.category = ’current’</span></td>
   </tr>
   <tr>
     <td class="tg-jxgv"><span style="color:black">relevant</span></td>
-    <td class="tg-jxgv"><span style="color:black">Condition.clinicalStatus = ’resolved’</span></td>
+    <td class="tg-jxgv"><span style="color:black">Condition.category = ’resolved’</span></td>
   </tr>
 </tbody></table>
 
