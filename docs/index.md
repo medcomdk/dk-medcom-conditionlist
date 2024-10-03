@@ -42,14 +42,14 @@ On this page, provided by MedCom, additional information on how to implement the
 ### 1.1 User stories
 A user story is an informal, general description of a systems functionality as perceived from the user's perspective. User stories have the end user at the centre of the dialogue about system functionality. User stories describe which needs the end user wants fulfilled, so that the developer understands the context of the development task: why they are developing the function and what value it must provide the end user. Not all user stories will be supported with this current implementation, which is noted for the specific user story.
 
-[Danish: User stories (pdf)](assets/documents/UserStories_SharedConditionOverview.pdf) <br> 
+[User stories (pdf)](assets/documents/UserStories_SharedConditionOverview.pdf) <br> 
 
 
 ### 1.2 Use Cases
 
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the ConditionList standard. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
-[Danish: Use cases (docx)](assets/documents/UseCases_SharedConditionOverview.docx) <br>
+[Use cases (pdf)](assets/documents/UseCases_SharedConditionOverview.pdf) <br>
 
 ### 1.3 Technical specification
 
