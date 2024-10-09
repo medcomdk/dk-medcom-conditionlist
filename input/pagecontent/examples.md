@@ -1,6 +1,8 @@
 ### Examples related to ConditionList
 This page contains examples for different scenarios of the ConditionList document, where each example is a Bundle with different content. <!-- Below are the examples divided into two; 1) examples containing important information, and 2) examples missing important information but is still valid. -->
 
+Note: Examples are displayed in three formats: JSON, XML and TTL. In the project Shared Condition Overview, PLSP will only display documents in JSON format.
+
 The first and second example, are examples of how the content of a ConditionList is expected to be inmost cases. 
 
 [1st ConditionList](Bundle-b991dcb7-6f2a-4e56-96f9-6b4b23cb9472.html) can be seen as a minimum example. It contains one diagnose for a patient, where two codes, a text, status and dates are included, but without the display values for the codes. The Composition includes the minimum required information.
