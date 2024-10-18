@@ -1,10 +1,10 @@
 Alias: $v3-Confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
 Alias: $loinc = http://loinc.org
 
-Alias: $CondTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-cond-typecode-VS
-Alias: $CondHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-homeCommunityId-VS
-Alias: $CondFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-cond-formatcode-VS
-Alias: $CondContentType = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-mimetype-fhir-VS
+Alias: $PcaTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-pca-typecode-VS
+Alias: $PcaHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-homeCommunityId-VS
+Alias: $PcaFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-pca-formatcode-VS
+Alias: $PcaContentType = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-mimetype-fhir-VS
 
 //used for instances
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS
