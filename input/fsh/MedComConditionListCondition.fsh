@@ -6,6 +6,9 @@ Profile: MedComConditionListCondition
 Parent: DkCoreCondition
 Id: medcom-conditionlist-condition
 Description: "An instance of the MedCom ConditionList Condition resource."
+* code.coding.code MS
+* code.coding.system MS
+* code.coding.display MS
 * code.coding[ICPC2code].code 0..1 MS
 * code.coding[ICPC2code].display 0..1 MS
 * code.coding[ICPC2code].system MS
