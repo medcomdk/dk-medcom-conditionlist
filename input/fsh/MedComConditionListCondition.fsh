@@ -36,13 +36,13 @@ Description: "An instance of the MedCom ConditionList Condition resource."
   * ^slicing.description = "Slice based on the coding.code value to differentiate the category of the condition"
 * category contains
     type 0..1 MS and
-    status 0..1 MS 
-* category[type] ^short = "Type of the diagnose (Danish: Diagnosetype). 'Kontaktdiagnose' = 'encounter-diagnosis', 'Forløbsdiagnose' = 'problem-list-item'"
+    status 1..1 MS 
+* category[type] ^short = "Type of the diagnosis (Danish: Diagnosetype). 'Kontaktdiagnose' = 'encounter-diagnosis', 'Forløbsdiagnose' = 'problem-list-item'"
   * coding.system 1.. MS
   * coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
   * coding.code 1.. MS
   * coding.code from http://hl7.org/fhir/ValueSet/condition-category
-* category[status] ^short = "The status for this diagnoses (Danish: Diagnosestatus). 'Aktuel' = 'current', 'Relevant' = 'resolved'"
+* category[status] ^short = "The status for this diagnosis (Danish: Diagnosestatus). 'Aktuel' = 'current', 'Relevant' = 'resolved'"
   * coding.code from http://medcomfhir.dk/ig/terminology/ValueSet/medcom-conditionlist-status-valueset
   * coding.system 1.. MS
   * coding.system = $sct

@@ -63,4 +63,5 @@ Title: "Condition instance - 5th ConditionList"
 Description: "Condition instance - 5th ConditionList - no diagnosis"
 Usage: #example
 * subject = Reference(Patient/da0f8262-1be9-420c-98fb-ecc7b5a2333c)
+* category = $sct#15240007
 * recordedDate = "2021-06-15"

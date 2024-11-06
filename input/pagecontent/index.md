@@ -7,7 +7,7 @@ This IG contains profiles for MedCom ConditionList. The purpose of a ConditionLi
 More information about the project [Shared Condition Overview](https://medcomdk.github.io/dk-medcom-conditionlist/) can be found here.
 
 #### ConditionList
-The structure of a ConditionList is depicted on the following diagram:
+The structure of a ConditionList is depicted in the following diagram:
 
 <img alt="Shows the general MedCom document model. Each document must at least contain the following resources: Bundle, Composition, Organization, Patient and Condition." src="./DocumentModel.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
