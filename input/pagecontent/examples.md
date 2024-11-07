@@ -5,7 +5,7 @@ Note: Examples are displayed in three formats: JSON, XML and TTL. In the project
 
 The first and second example, are examples of how the content of a ConditionList is expected to be inmost cases. 
 
-[1st ConditionList](Bundle-b991dcb7-6f2a-4e56-96f9-6b4b23cb9472.html) can be seen as a minimum example. It contains one diagnose for a patient, where two codes, a text, status and dates are included, but without the display values for the codes. The Composition includes the minimum required information.
+[1st ConditionList](Bundle-b991dcb7-6f2a-4e56-96f9-6b4b23cb9472.html) can be seen as a minimum example. It contains one diagnosis for a patient, where two codes, a text, status and dates are included, but without the display values for the codes. The Composition includes the minimum required information.
 
 [2nd ConditionList](Bundle-23d8ece4-7cff-47c1-9680-571377c6ea74.html) can be seen as a maximum example. It contains three diagnoses for a patient, which illustrates how to include several condition within the same section in a Composition. Together the three diagnoses contain all the allowed elements for a condition. The Composition includes, besides the mandatory elements, an attester and author person. Only the Composition.event element is left out, since this is not relevant for the ConditionList.
 
@@ -15,7 +15,7 @@ As described on [page for the MedComCondtionListCondition](./StructureDefinition
 
 [4th ConditionList](Bundle-a4630688-dc6b-4484-9ef7-b9a08148c407.html) contains a text (Condition.code.text) describing the diagnosis, a current status (Condition.category), onset (Condition.onsetDateTime) and recorded date (Condition.recordedDate). However, no codes (Condition.code.code) for the diagnosis is included. 
 
-[5th ConditionList](Bundle-96d37376-e176-4c6a-9c49-2b56e7aae665.html) contains no code nor text describing the diagnosis (Condition.code). The only information for this diagnoses is the date it was registered in the GP's system (Condition.recordedDate).
+[5th ConditionList](Bundle-96d37376-e176-4c6a-9c49-2b56e7aae665.html) contains no code nor text describing the diagnosis (Condition.code). The only information for this diagnoses is the date it was registered in the GP's system (Condition.recordedDate) and the status (Condition.category).
 
 [6th ConditionList](Bundle-7ffa0111-1aa2-4d68-99f8-1fbf57448c8c.html) contains a code which isn't a SKS-D nor ICPC2 code, but a SNOMED CT code instead (Condition.code.code). No text is included (Condition.code.text). Further, a category (Condition.category) is included and the status is current (Condition.category).
 

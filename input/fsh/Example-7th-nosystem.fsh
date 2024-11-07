@@ -23,7 +23,7 @@ Usage: #example
 Title: "Composition instance - 7th ConditionList"
 Description: "Composition instance - 7th ConditionList"
 * status = #final
-* type = $loinc#11450-4 "Problem list - Reported"
+* type = $loinc#11450-4 "Problem List"
 * language = #da "Danish"
 * subject = Reference(Patient/be8156f3-41d1-47e3-847a-4b064a3b42b2)
 * date = "2024-07-10T12:50:00+01:00"
@@ -64,4 +64,5 @@ Description: "Condition instance - 7th ConditionList - Overweight (SNOMED CT cod
 Usage: #example
 * code = #ACB 
 * subject = Reference(Patient/be8156f3-41d1-47e3-847a-4b064a3b42b2)
+* category = $sct#15240007
 * recordedDate = "2024-03-15"

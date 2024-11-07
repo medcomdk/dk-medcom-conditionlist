@@ -23,7 +23,7 @@ Usage: #example
 Title: "Composition instance - 5th ConditionList"
 Description: "Composition instance - 5th ConditionList"
 * status = #final
-* type = $loinc#11450-4 "Problem list - Reported"
+* type = $loinc#11450-4 "Problem List"
 * language = #da "Danish"
 * subject = Reference(Patient/da0f8262-1be9-420c-98fb-ecc7b5a2333c)
 * date = "2024-07-10T12:50:00+01:00"
@@ -63,4 +63,5 @@ Title: "Condition instance - 5th ConditionList"
 Description: "Condition instance - 5th ConditionList - no diagnosis"
 Usage: #example
 * subject = Reference(Patient/da0f8262-1be9-420c-98fb-ecc7b5a2333c)
+* category = $sct#15240007
 * recordedDate = "2021-06-15"

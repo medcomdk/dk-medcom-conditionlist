@@ -7,11 +7,11 @@ This IG contains profiles for MedCom ConditionList. The purpose of a ConditionLi
 More information about the project [Shared Condition Overview](https://medcomdk.github.io/dk-medcom-conditionlist/) can be found here.
 
 #### ConditionList
-The structure of a ConditionList is depicted on the following diagram:
+The structure of a ConditionList is depicted in the following diagram:
 
 <img alt="Shows the general MedCom document model. Each document must at least contain the following resources: Bundle, Composition, Organization, Patient and Condition." src="./DocumentModel.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
-ConditionList follows the [general MedCom FHIR Document model](https://build.fhir.org/ig/medcomdk/dk-medcom-document/index.html#general-document-model). This includes the resources Bundle, Composition, Organization, Patient and if relevant Practitioner. To hold information about the patient's condition(s), the resource Condition is also included.
+ConditionList follows the [general MedCom FHIR Document model](https://medcomfhir.dk/ig/document/index.html#general-document-model). This includes the resources Bundle, Composition, Organization, Patient and if relevant Practitioner. To hold information about the patient's condition(s), the resource Condition is also included.
 
 #### Profiles
 The following sections describe the overall purpose of each profile.
@@ -20,19 +20,19 @@ The following sections describe the overall purpose of each profile.
 [MedComConditionListBundle](./StructureDefinition-medcom-conditionlist-bundle.html) is used as the Bundle profile for the standard. The Bundle profile acts as the container for all included resources and they must all be referenced from the Bundle.entry element, which is illustrated in the [examples](examples.html). 
 
 ##### MedComConditionListComposition
-[MedComConditionListComposition](./StructureDefinition-medcom-conditionlist-composition.html) creates the structure of the document. It is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-composition.html). The key differences are: the Composition.type is fixed to "Medical records" to standardize the document type; the Composition.title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'"; and the Composition.section.entry is restricted to reference [MedComConditionListCondition](./StructureDefinition-medcom-conditionlist-condition.html).
+[MedComConditionListComposition](./StructureDefinition-medcom-conditionlist-composition.html) creates the structure of the document. It is specifically designed for structuring patients' diagnoses in ConditionList, inheriting from [MedComDocumentComposition](https://medcomfhir.dk/ig/document/StructureDefinition-medcom-document-composition.html). The key differences are: the Composition.type is fixed to "Medical records" to standardize the document type; the Composition.title must be the following in Danish: "Diagnoseoversigt for 'CPR-nummer'"; and the Composition.section.entry is restricted to reference [MedComConditionListCondition](./StructureDefinition-medcom-conditionlist-condition.html).
 
 ##### MedComConditionListCondition
 [MedComConditionListCondition](./StructureDefinition-medcom-conditionlist-condition.html) is the profile that specifies each diagnosis in a ConditionList. It inherits from [DkCoreCondition](https://hl7.dk/fhir/core/StructureDefinition-dk-core-condition.html) and further restricts the profile, for example is only codes from [SKS-D](https://medinfo.dk/sks/brows.php?s_nod=6314) or [ICPC-2-DK](https://kiap.dk/kiap/praksis/services/koder/icpc/icpc2.php) that is allowed in the standard. 
 
 ##### MedComDocumentPatient
-[MedComDocumentPatient](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-patient.html) describes the basic requirements for information about citizens and patients when exchanging a document. The profile inherits from [DkCorePatient](https://hl7.dk/fhir/core/StructureDefinition-dk-core-patient.html) and further limit the requirements, e.g. may documents only be exchanged for patients with a CPR-number. It is not allowed to add a replacement-CPR (Danish: erstatningsCPR), as this is not supported in the infrastructure. To limit the MustSupport elements, this profiles does not inherit from MedComCorePatient. 
+[MedComDocumentPatient](https://medcomfhir.dk/ig/document/StructureDefinition-medcom-document-patient.html) describes the basic requirements for information about citizens and patients when exchanging a document. The profile inherits from [DkCorePatient](https://hl7.dk/fhir/core/StructureDefinition-dk-core-patient.html) and further limit the requirements, e.g. may documents only be exchanged for patients with a CPR-number. It is not allowed to add a replacement-CPR (Danish: erstatningsCPR), as this is not supported in the infrastructure. To limit the MustSupport elements, this profiles does not inherit from MedComCorePatient. 
 
 ##### MedComDocumentOrganization
-[MedComDocumentOrganization](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-organization.html) is a profile representing Danish healthcare organizations that acts as the author institution in FHIR Documents. The profile inherits from [MedComCoreOrganization](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html). It allows for an additional identifier, called "Ydernummer". 
+[MedComDocumentOrganization](https://medcomfhir.dk/ig/document/StructureDefinition-medcom-document-organization.html) is a profile representing Danish healthcare organizations that acts as the author institution in FHIR Documents. The profile inherits from [MedComCoreOrganization](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-organization.html). It allows for an additional identifier, called "Ydernummer". 
 
 ##### MedComDocumentPractitioner
-[MedComDocumentPractitioner](https://build.fhir.org/ig/medcomdk/dk-medcom-document/StructureDefinition-medcom-document-practitioner.html) represents the health care professional that acts as the author person. The profile inherits from [MedComCorePractitioner](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitioner.html) and further requires a given and family name to be present. 
+[MedComDocumentPractitioner](https://medcomfhir.dk/ig/document/StructureDefinition-medcom-document-practitioner.html) represents the health care professional that acts as the author person. The profile inherits from [MedComCorePractitioner](https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-practitioner.html) and further requires a given and family name to be present. 
 
 
 ##### MedComConditionListDocumentReference
@@ -56,7 +56,7 @@ The [examples page](examples.html) different examples of the ConditionList stand
 On [MedCom Terminology IG](http://medcomfhir.dk/ig/terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.
 
 #### Dependencies
-This IG has a dependency to the [MedCom Core IG](http://medcomfhir.dk/ig/core/), [MedCom FHIR Document IG](https://build.fhir.org/ig/medcomdk/dk-medcom-document) and [DK-core v. 3.2.0](https://hl7.dk/fhir/core/), where the latter is defined by [HL7 Denmark](https://hl7.dk/). 
+This IG has a dependency to the [MedCom Core IG](http://medcomfhir.dk/ig/core/), [MedCom FHIR Document IG](https://medcomfhir.dk/ig/document/) and [DK-core v. 3.2.0](https://hl7.dk/fhir/core/), where the latter is defined by [HL7 Denmark](https://hl7.dk/). 
 
 ### Download
 Content in this IG can be downloaded in npm format under [Download](downloads.html). This can be used to validate local FHIR profiles against.
