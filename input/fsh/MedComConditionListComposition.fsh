@@ -5,6 +5,7 @@ Profile: MedComConditionListComposition
 Parent: MedComDocumentComposition
 Id: medcom-conditionlist-composition
 Description: "A profile for the MedCom ConditionList Composition resource."
+* type.coding MS
 * type.coding.code MS
 * type.coding.system MS
 * type.coding.display MS
