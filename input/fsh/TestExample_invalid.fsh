@@ -1,8 +1,8 @@
 Instance: a1b2c3d4e5f6g7h8i9j0
 InstanceOf: MedComConditionListBundle
 Usage: #example
-Title: "Bundle instance - Testexample Missing Content (4)"
-Description: "Bundle instance - Testexample Missing Content (4)"
+Title: "Bundle instance - Testexample Invalid"
+Description: "Bundle instance - Testexample Invalid"
 * type = #document
 * timestamp = 2024-12-28T11:04:57Z // Tidspunkt i Zulu-tid                 
 * identifier.system = "urn:uyk5453-3ytj4-5-tr"
@@ -26,8 +26,8 @@ Description: "Bundle instance - Testexample Missing Content (4)"
 Instance: a1b1c1d1e1f1g1h1i1j1
 InstanceOf: MedComConditionListComposition
 Usage: #example
-Title: "Composition instance - Testexample Missing Content (4)"
-Description: "Composition instance - Testexample Missing Content (4)"
+Title: "Composition instance - Testexample Invalid"
+Description: "Composition instance - Testexample Invalid"
 * status = #final
 * type = $loinc#11450-4 "Problem List"
 * language = #da "Danish"
@@ -46,8 +46,8 @@ Description: "Composition instance - Testexample Missing Content (4)"
 
 Instance: b2c2d2e2f2g2h2i2j2k2
 InstanceOf: MedComDocumentPatient
-Title: "Patient instance - Testexample Missing Content (4)"
-Description: "Patient instance - Testexample Missing Content (4) - Elmer Test Hansen"
+Title: "Patient instance - Testexample Invalid"
+Description: "Patient instance - Testexample Invalid - Elmer Test Hansen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "2509479989"
 * name[official].use = #official
@@ -61,8 +61,8 @@ Description: "Patient instance - Testexample Missing Content (4) - Elmer Test Ha
 Instance: c3d3e3f3g3h3i3j3k3l3
 InstanceOf: MedComConditionListOrganization
 Usage: #example
-Title: "Organization instance - Testexample Missing Content (4)"
-Description: "Organization instance - Testexample Missing Content (4) - incl. SOR-ID and Ydernummer as identifiers"
+Title: "Organization instance - Testexample Invalid"
+Description: "Organization instance - Testexample Invalid - incl. SOR-ID and Ydernummer as identifiers"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
 * identifier[Ydernummer].value = "091034"
@@ -71,8 +71,8 @@ Description: "Organization instance - Testexample Missing Content (4) - incl. SO
 // Diagnose 2
 Instance: e5f5g5h5i5j5k5l5m5n5
 InstanceOf: MedComConditionListCondition
-Title: "Condition instance - Testexample Missing Content (4)"
-Description: "Condition instance - Testexample Missing Content (4) - Hyperlipidæmi"
+Title: "Condition instance - Testexample Invalid"
+Description: "Condition instance - Testexample Invalid - Hyperlipidæmi"
 Usage: #example
 * category[0].coding = $category#encounter-diagnosis //Da: forløbsdiagnose
 * category[1].coding = $sct#15240007 //current
@@ -84,8 +84,8 @@ Usage: #example
 // Diagnose 3
 Instance: f6g6h6i6j6k6l6m6n6o6
 InstanceOf: MedComConditionListCondition
-Title: "Condition instance - Testexample Missing Content (4)"
-Description: "Condition instance - Testexample Missing Content (4) - Astma"
+Title: "Condition instance - Testexample Invalid"
+Description: "Condition instance - Testexample Invalid - Astma"
 Usage: #example
 * category[0].coding = $sct#723506003 
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#R96 "Astma uden specifikation"
@@ -98,8 +98,8 @@ Usage: #example
 //Diagnose 4
 Instance: g7h7i7j7k7l7m7n7o7p7
 InstanceOf: MedComConditionListCondition
-Title: "Condition instance - Testexample Missing Content (4)"
-Description: "Condition instance - Testexample Missing Content (4)"
+Title: "Condition instance - Testexample Invalid"
+Description: "Condition instance - Testexample Invalid"
 Usage: #example
 * code.coding[0] = $sct#A04  // SNOMED-kode uden display-værdi
 * category[0].coding = $sct#723506003 
