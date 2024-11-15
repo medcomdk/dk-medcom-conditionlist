@@ -54,8 +54,8 @@ Use cases describe the different scenarios a standard support. For a certain rea
 ### 1.3 Technical specification
 
 The technical specification for the ConditionList standard is composed by profiles from two IGs.
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-document/" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-conditionlist/" target="_blank">MedCom Condition List</a>, which provides the requirements specific for the use of the ConditionList standard.
+* <a href="http://medcomfhir.dk/ig/document" target="_blank">MedCom Document</a>, which provides the overall document structure and base requirements
+* <a href="http://medcomfhir.dk/ig/conditionlist" target="_blank">MedCom Condition List</a>, which provides the requirements specific for the use of the ConditionList standard.
 
 
 ### 1.4 Mapping from logical data model to ConditionList
@@ -70,10 +70,11 @@ Certification of a system implies both an approved test protocol and run-through
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification">Click here to find the description of test and certification of FHIR standards in MedCom.</a> 
 
 **Providing a ConditionList document**
-  * Test protocol [Link will be provided]
+  * [Test protocol](assets/documents/SharedConditionOverview_Testprotocol_Send.docx)
   * TouchStone Testscripts [Link will be provided]
 <p>&nbsp;</p>
  
 **Receiving a ConditionList document**
-  * Test protocol [Link will be provided]
+  * [Test protocol](assets/documents/SharedConditionOverview_Testprotocol_Receive.docx)
+  * [Test examples for receive test protocol](assets/ExampleFiles.zip)
 <p>&nbsp;</p>
