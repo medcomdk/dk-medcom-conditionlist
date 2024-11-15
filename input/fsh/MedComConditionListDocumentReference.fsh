@@ -7,7 +7,7 @@ Description: "A profile for the MedCom ConditionListDocumentReference resource."
 //* content.attachment.contentType from $ContentType (required)
 //* content.attachment.language from $Language (required)
 * content.format from $PlrFormatCode (required)
-* content.attachment.contentType from $PlrContentType
+//* content.attachment.contentType from $PlrContentType
 //* context.event from $PcaEventCode (required)
 //* context.facilityType from $ApdFacilityType (required)
 //* context.practiceSetting from $ApdPracticeSetting (required)
@@ -26,7 +26,7 @@ Description: "DocumentReference instance"
 * masterIdentifier.value = "urn:uuid:bf1bb63b-d405-4dfe-9810-37b16b333a01"
 * status = #current "Current"
 * identifier.value = "urn:uuid:7c596b9a-112e-4386-ae71-5ecdd3ed7c50"
-* type = $LoincOID#11450-4 "Problem List"
+* type = $LoincOID#11450-4 "Problem list - Reported"
 * authenticator = Reference(1fcad31f-8967-4f49-b6af-7e64082e8fec)
 * category = $DanishiheOID#001 "Klinisk rapport"
 * author[institution] = Reference(fd3206c6-c265-49f9-82c3-8b4c96280403)
