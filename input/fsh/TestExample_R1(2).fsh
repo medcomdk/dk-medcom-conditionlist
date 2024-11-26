@@ -62,9 +62,9 @@ InstanceOf: MedComConditionListOrganization
 Usage: #example
 Title: "Organization instance - Testexample R1(2)"
 Description: "Organization instance - Testexample R1(2) - incl. SOR-ID and Ydernummer as identifiers"
-* name = "MedCom Testcenter"
-* identifier[SOR-ID].value = "325381000016008"
-* identifier[Ydernummer].value = "091034"
+* name = "Lægeklinik Ølgod"
+* identifier[SOR-ID].value = "1339531000016004"
+* identifier[Ydernummer].value = "123456"
 
 // Diagnose 1
 Instance: cdd180e9-9370-48d8-90db-96469f40c921
@@ -77,7 +77,7 @@ Usage: #example
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DM86 "Modermærkekræft"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#C43 "Malignant melanoma"
 * code.text = "Modermærkekræft"
-* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
+//* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/d78e8bca-ae99-49da-a250-d77d0ce4b0a5)
 * onsetDateTime = "2020-02-20"
 * recordedDate = "2023-03-15"

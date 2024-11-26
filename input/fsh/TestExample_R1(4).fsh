@@ -75,7 +75,7 @@ Usage: #example
 * category[0].coding = $sct#15240007 //current
 * code.coding[0] = urn:oid:1.2.208.176.1.2#T90 "Type 2 diabetes"  // ICPC2-kode
 * code.text = "Type 2 diabetes"  // DA: diagnosetekst
-* note.text = "Patienten har diagnosticeret type 2 diabetes og modtager løbende behandling."  // DA: tillægstekst
+//* note.text = "Patienten har diagnosticeret type 2 diabetes og modtager løbende behandling."  // DA: tillægstekst
 * subject = Reference(Patient/64fc8e8d-398f-4a19-88ad-cc3f15ff40ac)
 * onsetDateTime = "2019-05-10"  // DA: debutdato
 * recordedDate = "2023-04-10"  // DA: registreringsdato

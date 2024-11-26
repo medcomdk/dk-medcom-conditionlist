@@ -71,7 +71,7 @@ Usage: #example
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DM86 "Modermærkekræft"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#C43 "Malignant melanoma"
 * code.text = "Modermærkekræft"
-* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
+//* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/d78e8bca-ae99-49da-a250-d77d0ce4b0a5)
 * onsetDateTime = "2020-02-20"
 * recordedDate = "2023-03-15"
