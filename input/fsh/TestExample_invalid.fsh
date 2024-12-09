@@ -5,8 +5,8 @@ Title: "Bundle instance - Testexample Invalid"
 Description: "Bundle instance - Testexample Invalid"
 * type = #document
 * timestamp = 2024-12-28T11:04:57Z // Tidspunkt i Zulu-tid                 
-* identifier.system = "urn:uyk5453-3ytj4-5-tr"
-* identifier.value = "urn:uuid:u1v2w3x4y5z6a7b8c9d0"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:b365694b-0fc7-490e-8176-38a334838e1f"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/a1b1c1d1e1f1g1h1i1j1"
 * entry[=].resource = a1b1c1d1e1f1g1h1i1j1
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/b2c2d2e2f2g2h2i2j2k2"

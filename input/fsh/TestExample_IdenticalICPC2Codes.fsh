@@ -5,8 +5,8 @@ Title: "Bundle instance - Testexample Identical ICPC2 codes"
 Description: "Bundle instance - Testexample Identical ICPC2 codes"
 * type = #document
 * timestamp = 2024-12-24T11:04:57Z // Tidspunkt i Zulu-tid                 
-* identifier.system = "urn:ietf:123.123.154615.15"
-* identifier.value = "urn:uuid:ldtjnh-547-fdha33444-gfdsj"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:8cb17256-7f00-48a6-b7cd-32bce511afcc"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/c56f4603-9d3d-4544-9c84-5a1757527ffe"
 * entry[=].resource = c56f4603-9d3d-4544-9c84-5a1757527ffe
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/32f99769-cc52-4a66-8915-e72f0748503e"
