@@ -72,7 +72,7 @@ Title: "Condition instance - TestExample R1(3)"
 Description: "Condition instance - TestExample R1(3) - Modermærkekræft"
 Usage: #example
 * category[0].coding = $category#encounter-diagnosis
-* category[1].coding = $sct#723506003
+* category[1].coding = $sct#723506003 "Current"
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DM86 "Modermærkekræft"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#C43 "Malignant melanoma"
 * code.text = "Modermærkekræft"

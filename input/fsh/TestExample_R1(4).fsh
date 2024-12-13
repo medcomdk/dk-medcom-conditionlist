@@ -100,7 +100,7 @@ InstanceOf: MedComConditionListCondition
 Title: "Condition instance - TestExample R1(4)"
 Description: "Condition instance - TestExample R1(4) - Astma"
 Usage: #example
-* category[0].coding = $sct#723506003 
+* category[0].coding = $sct#723506003 "Current"
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#R96 "Astma uden specifikation"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#DI10 "Astma"
 * code.text = "Patienten er diagnosticeret astma med lejlighedsvise anfald, kontrolleret gennem medicinsk behandling og inhalator ved behov."
