@@ -23,7 +23,7 @@ Usage: #example
 Title: "Composition instance - Testexample With note.text"
 Description: "Composition instance - Testexample With note.text"
 * status = #final
-* type = $loinc#11450-4 "Problem List"
+* type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/892eb287-2fe2-4716-bd81-8b2389100a86)
 * date = "2024-05-01T12:00:00+01:00"

@@ -25,7 +25,7 @@ Usage: #example
 Title: "Composition instance - Testexample Identical ICPC2 codes"
 Description: "Composition instance - Testexample Identical ICPC2 codes"
 * status = #final
-* type = $loinc#11450-4 "Problem List"
+* type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/32f99769-cc52-4a66-8915-e72f0748503e)
 * date = "2024-12-24T11:00:00Z" //zulu tid
