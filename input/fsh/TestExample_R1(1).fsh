@@ -60,7 +60,7 @@ Description: "Organization instance - Testexample R1(1) - incl. SOR-ID and Ydern
 * identifier[SOR-ID].value = "325381000016008"
 * identifier[Ydernummer].value = "091034"
 
-// Diagnose 1
+// Diagnosis 1
 Instance: 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
 InstanceOf: MedComConditionListCondition
 Title: "Condition instance - TestExample R1(1)"
@@ -69,7 +69,7 @@ Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#723506003
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DJ449 "Kronisk obstruktiv lungesygdom UNS"
-* code.coding[1] = urn:oid:1.2.208.176.2.31#R25 "Kronisk obstruktiv lungesygdom"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#R95 "Kronisk obstruktiv lungesygdom"
 * code.text = "Kronisk obstruktiv lungesygdom UNS"
 //* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
