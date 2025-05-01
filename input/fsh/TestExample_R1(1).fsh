@@ -71,7 +71,7 @@ Usage: #example
 * code.coding[0] = urn:oid:1.2.208.176.2.4.12#DJ449 "Kronisk obstruktiv lungesygdom UNS"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#R95 "Kronisk obstruktiv lungesygdom"
 * code.text = "Kronisk obstruktiv lungesygdom UNS"
-//* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
+* note.text = "Rygning og asbest"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * onsetDateTime = "2003-01-01T14:20:00+01:00"
 * recordedDate = "2019-06-08T12:16:00+01:00"
