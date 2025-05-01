@@ -1,4 +1,23 @@
-Instance: a1b2c3d4e5f6g7h8i9j0
+//OBS: Remove the Condition.category:status before handing out the example. This is what makes it invalid.
+Instance: d5b6fce6-6443-47a7-b86c-c13feddceb1a
+InstanceOf: MedComConditionListBundle
+Usage: #example
+Title: "Bundle instance - TestExample invalid"
+Description: "Bundle instance - TestExample invalid"
+* type = #document
+* timestamp = 2025-04-29T16:12:57+02:00                   
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:5a029237-8dfc-4639-8614-12949de65cbd"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/253a7428-2269-4f76-a206-5b93618ce842"
+* entry[=].resource = 253a7428-2269-4f76-a206-5b93618ce842 
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
+* entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563"
+* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+
+/* Instance: a1b2c3d4e5f6g7h8i9j0
 InstanceOf: MedComConditionListBundle
 Usage: #example
 Title: "Bundle instance - Testexample Invalid"
@@ -105,3 +124,4 @@ Usage: #example
 * category[0].coding = $sct#723506003 
 * recordedDate = "2002-02-02"
 * subject = Reference(Patient/b2c2d2e2f2g2h2i2j2k2)
+ */

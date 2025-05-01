@@ -11,8 +11,8 @@ Description: "Bundle instance - Testexample R(3))"
 * entry[=].resource = fd321b50-bcd0-4a3e-8282-eb146459e95c
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/41f37059-82d7-4b6b-bd29-9ee0577378e7"
-* entry[=].resource = 41f37059-82d7-4b6b-bd29-9ee0577378e7
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563"
 * entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/kdjfbh-527463748dfthftj-47segt"
@@ -31,7 +31,7 @@ Description: "Composition instance - Testexample R1(3)"
 * language = #da "Danish"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2025-01-01T10:30:00+01:00"
-* author[institution] = Reference(Organization/41f37059-82d7-4b6b-bd29-9ee0577378e7)
+* author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
@@ -56,14 +56,14 @@ Description: "Patient instance - Testexample R1(3) - Elmer Test Hansen"
 * gender = #male */
 
 
-Instance: 41f37059-82d7-4b6b-bd29-9ee0577378e7
+/* Instance: 41f37059-82d7-4b6b-bd29-9ee0577378e7
 InstanceOf: MedComConditionListOrganization
 Usage: #example
 Title: "Organization instance - Testexample R1(3)"
 Description: "Organization instance - Testexample R1(3) - incl. SOR-ID and Ydernummer as identifiers"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
-* identifier[Ydernummer].value = "091034"
+* identifier[Ydernummer].value = "091034" */
 
 /* // Diagnose 1
 Instance: 14297196-7fa4-467c-b909-de95dbb5aa3a

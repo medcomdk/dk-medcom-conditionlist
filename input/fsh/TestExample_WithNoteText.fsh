@@ -1,3 +1,4 @@
+//Not used in this version of test protocol
 Instance: bf4a2ab7-f551-42ff-8027-63a2e9f289d0
 InstanceOf: MedComConditionListBundle
 Usage: #example

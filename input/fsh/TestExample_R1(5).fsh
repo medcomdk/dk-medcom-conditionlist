@@ -11,8 +11,8 @@ Description: "Bundle instance - Testexample R1(5)"
 * entry[=].resource = 95d3679d-c5d0-420e-b46b-f6e32efa3533
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/61393c90-34fb-4dac-8f09-ceb20f3ec988"
-* entry[=].resource = 61393c90-34fb-4dac-8f09-ceb20f3ec988
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1)
 * entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2)
@@ -32,7 +32,7 @@ Description: "Composition instance - Testexample R1(5)"
 * language = #da "Danish"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2024-04-17T15:00:00Z" //zulu tid
-* author[institution] = Reference(Organization/61393c90-34fb-4dac-8f09-ceb20f3ec988)
+* author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
@@ -59,14 +59,14 @@ Description: "Patient instance - Testexample R1(5) - Elmer Test Hansen"
 * gender = #male
  */
 
-Instance: 61393c90-34fb-4dac-8f09-ceb20f3ec988
+/* Instance: 61393c90-34fb-4dac-8f09-ceb20f3ec988
 InstanceOf: MedComConditionListOrganization
 Usage: #example
 Title: "Organization instance - Testexample R1(5)"
 Description: "Organization instance - Testexample R1(5) - incl. SOR-ID and Ydernummer as identifiers"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
-* identifier[Ydernummer].value = "091034"
+* identifier[Ydernummer].value = "091034" */
 
 // Diagnose 1
 //Instance: 9d27e9bf-b552-499c-b32d-dc5f5bb290a0

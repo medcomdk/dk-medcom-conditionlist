@@ -11,8 +11,8 @@ Description: "Bundle instance - Testexample R1(2)"
 * entry[=].resource = 1c4a93bb-dc56-4bac-9740-d733caaedf7a
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/2520f13f-dd80-432a-bbb9-981149d03263"
-* entry[=].resource = 2520f13f-dd80-432a-bbb9-981149d03263
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Found in TestExample_R1(1)
 * entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687"
@@ -31,7 +31,7 @@ Description: "Composition instance - Testexample R1(2)"
 * language = #da "Danish"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2024-01-12T09:23:00+01:00"
-* author[institution] = Reference(Organization/2520f13f-dd80-432a-bbb9-981149d03263)
+* author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
@@ -56,14 +56,14 @@ Description: "Patient instance - Testexample R1(2) - Emma Carlsen Sundheddk"
 //* identifier.use = #official
 
 
-Instance: 2520f13f-dd80-432a-bbb9-981149d03263
+/* Instance: 2520f13f-dd80-432a-bbb9-981149d03263
 InstanceOf: MedComConditionListOrganization
 Usage: #example
 Title: "Organization instance - Testexample R1(2)"
 Description: "Organization instance - Testexample R1(2) - incl. SOR-ID and Ydernummer as identifiers"
 * name = "Lægeklinik Ølgod"
 * identifier[SOR-ID].value = "1339531000016004"
-* identifier[Ydernummer].value = "123456"
+* identifier[Ydernummer].value = "123456" */
 
 
 // Diagnosis 2

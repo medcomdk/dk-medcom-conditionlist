@@ -11,8 +11,8 @@ Description: "Bundle instance - Testexample R1(4))"
 * entry[=].resource = 23c33aa6-c5df-42f6-a13b-adee2074ee32
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/7d961548-c915-4e58-8b29-14230c2f044b"
-* entry[=].resource = 7d961548-c915-4e58-8b29-14230c2f044b
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1)
 * entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2)
@@ -35,7 +35,7 @@ Description: "Composition instance - Testexample R1(4)"
 * language = #da "Danish"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2024-03-15T13:00:00Z" //zulu tid
-* author[institution] = Reference(Organization/7d961548-c915-4e58-8b29-14230c2f044b)
+* author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
@@ -62,14 +62,14 @@ Description: "Patient instance - Testexample R1(4) - Elmer Test Hansen"
 * gender = #male
  */
 
-Instance: 7d961548-c915-4e58-8b29-14230c2f044b
+/* Instance: 7d961548-c915-4e58-8b29-14230c2f044b
 InstanceOf: MedComConditionListOrganization
 Usage: #example
 Title: "Organization instance - Testexample R1(4)"
 Description: "Organization instance - Testexample R1(4) - incl. SOR-ID and Ydernummer as identifiers"
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
-* identifier[Ydernummer].value = "091034"
+* identifier[Ydernummer].value = "091034" */
 
 // Diagnosis 4
 Instance: 8a6fc1e2-5dae-481c-8021-5c70517c1069

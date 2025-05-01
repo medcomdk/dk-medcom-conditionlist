@@ -2,7 +2,7 @@ Instance: 262da5d0-0f4e-48e8-97ca-8506d0c76064
 InstanceOf: MedComConditionListBundle
 Usage: #example
 Title: "Bundle instance - Testexample R1(1)"
-Description: "Bundle instance - Testexample R1(1) - Maximum example"
+Description: "Bundle instance - Testexample R1(1)"
 * type = #document
 * timestamp = 2025-04-29T12:04:57+02:00                   
 * identifier.system = "urn:ietf:rfc:3986"
@@ -36,17 +36,16 @@ Description: "Composition instance - Testexample R1(1)"
 * section[0].entry[0] = Reference(Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563)
 
 
-
 Instance: 76ceb895-4de3-4582-83e0-5e65a3fb1242
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - Testexample R1(1)"
-Description: "Patient instance - Testexample R1(1) - Emma Carlsen Sundheddk"
+Description: "Patient instance - Testexample R1(1) - Emma Receive Carlsen"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "0511699884"
 * name[official].use = #official
-* name[official].family = "Sundheddk"
+* name[official].family = "Carlsen"
 * name[official].given[0] = "Emma"
-* name[official].given[1] = "Carlsen"
+* name[official].given[1] = "Receive"
 * birthDate = "1969-11-05"
 * gender = #female
 
@@ -59,6 +58,7 @@ Description: "Organization instance - Testexample R1(1) - incl. SOR-ID and Ydern
 * name = "MedCom Testcenter"
 * identifier[SOR-ID].value = "325381000016008"
 * identifier[Ydernummer].value = "091034"
+
 
 // Diagnosis 1
 Instance: 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
@@ -74,7 +74,7 @@ Usage: #example
 * note.text = "Rygning og asbest"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * onsetDateTime = "2003-01-01T14:20:00+01:00"
-* recordedDate = "2019-06-08T12:16:00+01:00"
+* recordedDate = "2019-06-08T12:16:00+02:00"
 * abatementDateTime = "2023-03-03T13:43:00+01:00"
 * clinicalStatus = $clinical-status#resolved
 
