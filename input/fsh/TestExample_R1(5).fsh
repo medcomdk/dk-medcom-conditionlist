@@ -4,22 +4,23 @@ Usage: #example
 Title: "Bundle instance - Testexample R1(5)"
 Description: "Bundle instance - Testexample R1(5)"
 * type = #document
-* timestamp = 2024-12-28T11:04:57Z // Tidspunkt i Zulu-tid                 
+* timestamp = 2025-04-29T13:15:14+02:00                 
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:56525dfa-1196-4247-b5e8-e6c75060cd64"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/95d3679d-c5d0-420e-b46b-f6e32efa3533"
 * entry[=].resource = 95d3679d-c5d0-420e-b46b-f6e32efa3533
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7"
-* entry[=].resource = f9a33901-2dbc-4100-9d7f-bc51c736d6d7
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
+* entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/61393c90-34fb-4dac-8f09-ceb20f3ec988"
 * entry[=].resource = 61393c90-34fb-4dac-8f09-ceb20f3ec988
-//* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/9d27e9bf-b552-499c-b32d-dc5f5bb290a0"
-//* entry[=].resource = 9d27e9bf-b552-499c-b32d-dc5f5bb290a0
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/dzkfjhgou-fdhrt-678"
-* entry[=].resource = dzkfjhgou-fdhrt-678
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/ebce735d-ce63-469e-86eb-555651a84ac1"
-* entry[=].resource = ebce735d-ce63-469e-86eb-555651a84ac1
-
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1)
+* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2)
+* entry[=].resource = 123btjledikg-sdfljg215687
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5" //Diagnosis 3 R1(2)
+* entry[=].resource = b1b0260e-b2ea-460c-ac57-95efaa6423c5
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/sdfhtj-dfhsftjh435754-457" //Diagnosis 5 R1(4)
+* entry[=].resource = sdfhtj-dfhsftjh435754-457
 
 Instance: 95d3679d-c5d0-420e-b46b-f6e32efa3533
 InstanceOf: MedComConditionListComposition
@@ -29,20 +30,22 @@ Description: "Composition instance - Testexample R1(5)"
 * status = #final
 * type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
-* subject = Reference(Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7)
-* date = "2024-12-28T11:00:00Z" //zulu tid
+* subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
+* date = "2024-04-17T15:00:00Z" //zulu tid
 * author[institution] = Reference(Organization/61393c90-34fb-4dac-8f09-ceb20f3ec988)
-* title = "Diagnoseoversigt for 2509479989"
+* title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
 //* section[0].text.status = #generated
 //* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 9d27e9bf-b552-499c-b32d-dc5f5bb290a0</b></p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 15240007}\">Chronic Condition</span>,<span title=\"Codes:{http://snomed.info/sct 723506003}\">Resolved</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.1.2 T90}\">Type 2 diabetes</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2019-05-10</p><p><b>recordedDate</b>: 2023-04-10</p><p><b>note</b>: Patienten har diagnosticeret type 2 diabetes og modtager løbende behandling.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2019-05-10</p><p><b>abatement date</b>: 2025-12-31</p></div>"
 //* section[0].entry[0] = Reference(Condition/9d27e9bf-b552-499c-b32d-dc5f5bb290a0)
-* section[0].entry[1] = Reference(Condition/dzkfjhgou-fdhrt-678)
-* section[0].entry[0] = Reference(Condition/9617c097-93f5-4cec-aee2-d3e2b04192a3)
+* section[0].entry[0] = Reference(Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563)
+* section[0].entry[1] = Reference(Condition/123btjledikg-sdfljg215687)
+* section[0].entry[2] = Reference(Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5)
+* section[0].entry[3] = Reference(Condition/sdfhtj-dfhsftjh435754-457)
 
 
-Instance: f9a33901-2dbc-4100-9d7f-bc51c736d6d7
+/* Instance: f9a33901-2dbc-4100-9d7f-bc51c736d6d7
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - Testexample R1(5)"
 Description: "Patient instance - Testexample R1(5) - Elmer Test Hansen"
@@ -54,7 +57,7 @@ Description: "Patient instance - Testexample R1(5) - Elmer Test Hansen"
 * name[official].given[1] = "Test"
 * birthDate = "1947-09-25"
 * gender = #male
-
+ */
 
 Instance: 61393c90-34fb-4dac-8f09-ceb20f3ec988
 InstanceOf: MedComConditionListOrganization
@@ -83,7 +86,7 @@ Description: "Organization instance - Testexample R1(5) - incl. SOR-ID and Ydern
 //* clinicalStatus = $sct#723506003 "resolved"
 
 // Diagnose 2
-Instance: dzkfjhgou-fdhrt-678
+/* Instance: dzkfjhgou-fdhrt-678
 InstanceOf: MedComConditionListCondition
 Title: "Condition instance - TestExample R1(5)"
 Description: "Condition instance - TestExample R1(5) - Hyperlipidæmi"
@@ -107,3 +110,4 @@ Usage: #example
 * subject = Reference(Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7)
 * recordedDate = "2015-11-28"
 * bodySite.coding[0] = $sct#4011000179103 "Lunger"  // SNOMED-kode for lunger som bodySite
+ */

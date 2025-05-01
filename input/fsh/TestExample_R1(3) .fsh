@@ -32,7 +32,7 @@ Description: "Composition instance - Testexample R1(3)"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2025-01-01T10:30:00+01:00"
 * author[institution] = Reference(Organization/41f37059-82d7-4b6b-bd29-9ee0577378e7)
-* title = "Diagnoseoversigt for 2509479989"
+* title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
 //* section[0].text.status = #generated

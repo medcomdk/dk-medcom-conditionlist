@@ -13,15 +13,15 @@ Description: "Bundle instance - Testexample R1(4))"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/7d961548-c915-4e58-8b29-14230c2f044b"
 * entry[=].resource = 7d961548-c915-4e58-8b29-14230c2f044b
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1) //OK
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1)
 * entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2) //OK
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2)
 * entry[=].resource = 123btjledikg-sdfljg215687
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5" //Diagnosis 3 R1(2) //OK
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5" //Diagnosis 3 R1(2)
 * entry[=].resource = b1b0260e-b2ea-460c-ac57-95efaa6423c5
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/8a6fc1e2-5dae-481c-8021-5c70517c1069" //Diagnosis 4 //OK
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/8a6fc1e2-5dae-481c-8021-5c70517c1069" //Diagnosis 4
 * entry[=].resource = 8a6fc1e2-5dae-481c-8021-5c70517c1069
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/sdfhtj-dfhsftjh435754-457"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/sdfhtj-dfhsftjh435754-457" //Diagnosis 5
 * entry[=].resource = sdfhtj-dfhsftjh435754-457
 
 
@@ -36,7 +36,7 @@ Description: "Composition instance - Testexample R1(4)"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * date = "2024-03-15T13:00:00Z" //zulu tid
 * author[institution] = Reference(Organization/7d961548-c915-4e58-8b29-14230c2f044b)
-* title = "Diagnoseoversigt for 2509479989"
+* title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
 * attester.mode = #official
 //* section[0].text.status = #generated
