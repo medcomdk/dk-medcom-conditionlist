@@ -96,8 +96,8 @@ Description: "Condition instance - TestExample R1(4) - Hyperlipidæmi"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#723506003 //resolved
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB342a "COVID-19-infektion uden angivelse af lokalisation"
-* code.coding[1] = urn:oid:1.2.208.176.2.31#A77 "Virusinfektion IKA"
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB342a
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A77
 * code.text = "COVID-19-infektion uden angivelse af lokalisation"
 //* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)

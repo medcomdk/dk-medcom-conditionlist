@@ -91,8 +91,8 @@ Description: "Condition instance - TestExample R1(3) - Essential Hypertension"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#723506003
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DE119a
-* code.coding[1] = urn:oid:1.2.208.176.2.31#T90 "Diabetes Type 2"
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DE119a "Type 2-diabetes UNS"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#T90 "Diabetes type 2"
 * code.text = "Diabetes Type 2"
 //* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)

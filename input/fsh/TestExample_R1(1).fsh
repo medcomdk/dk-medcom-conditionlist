@@ -68,7 +68,7 @@ Description: "Condition instance - TestExample R1(1) - Kronisk obstruktiv lunges
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#723506003
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DJ449 "Kronisk obstruktiv lungesygdom UNS"
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DJ449 "Kronisk obstruktiv lungesygdom uden specifikation"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#R95 "Kronisk obstruktiv lungesygdom"
 * code.text = "Kronisk obstruktiv lungesygdom UNS"
 * note.text = "Rygning og asbest"
