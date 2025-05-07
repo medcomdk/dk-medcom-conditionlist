@@ -41,20 +41,6 @@ Description: "Composition instance - Testexample R1(2)"
 * section[0].entry[1] = Reference(Condition/123btjledikg-sdfljg215687)
 * section[0].entry[2] = Reference(Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5)
 
-/* Instance: d78e8bca-ae99-49da-a250-d77d0ce4b0a5
-InstanceOf: MedComDocumentPatient
-Title: "Patient instance - Testexample R1(2)"
-Description: "Patient instance - Testexample R1(2) - Emma Carlsen Sundheddk"
-* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
-* identifier[cpr].value = "0511699884"
-* name[official].use = #official
-* name[official].family = "Sundheddk"
-* name[official].given[0] = "Emma"
-* name[official].given[1] = "Carlsen"
-* birthDate = "1969-11-05"
-* gender = #female */
-//* identifier.use = #official
-
 
 /* Instance: 2520f13f-dd80-432a-bbb9-981149d03263
 InstanceOf: MedComConditionListOrganization

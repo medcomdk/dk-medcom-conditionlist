@@ -90,11 +90,11 @@ Description: "Composition instance - Testexample Missing Content"
 Instance: 46ae468d-f7fc-4749-a59e-e2a9c5e22327
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - Testexample Missing Content"
-Description: "Patient instance - Testexample Missing Content - William ManyDiagnoses Thomsen"
+Description: "Patient instance - Testexample Missing Content - William ManyDiagnoses ThomsenE"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "2701779899"
 * name[official].use = #official
-* name[official].family = "Thomsen"
+* name[official].family = "ThomsenE"
 * name[official].given[0] = "William"
 * name[official].given[1] = "ManyDiagnoses"
 * birthDate = "1977-01-27"

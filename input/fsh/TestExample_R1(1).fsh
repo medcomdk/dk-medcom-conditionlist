@@ -39,11 +39,11 @@ Description: "Composition instance - Testexample R1(1)"
 Instance: 76ceb895-4de3-4582-83e0-5e65a3fb1242
 InstanceOf: MedComDocumentPatient
 Title: "Patient instance - Testexample R1(1)"
-Description: "Patient instance - Testexample R1(1) - Emma Receive Carlsen"
+Description: "Patient instance - Testexample R1(1) - Emma Receive CarlsenE"
 * identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
 * identifier[cpr].value = "0511699884"
 * name[official].use = #official
-* name[official].family = "Carlsen"
+* name[official].family = "CarlsenE"
 * name[official].given[0] = "Emma"
 * name[official].given[1] = "Receive"
 * birthDate = "1969-11-05"
