@@ -29,7 +29,7 @@ Usage: #example
 Title: "Composition instance - Testexample Missing Content (3)"
 Description: "Composition instance - Testexample Missing Content (3)"
 * status = #final
-* type = $loinc#11450-4 "Problem List"
+* type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/5f0c27f8-fe52-4eff-bcd2-c32fd5f47f0c)
 * date = "2024-12-28T11:00:00Z" //zulu tid
