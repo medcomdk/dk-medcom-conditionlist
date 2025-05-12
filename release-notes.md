@@ -1,1 +1,1 @@
-Initial commit of DK MedCom ConditionList IG
+Fix pathing issues in IG

@@ -1,14 +1,14 @@
 {
     "package-id": "medcom.fhir.dk.conditionlist",
-    "version": "1.0.0",
-    "path": "http://medcomfhir.dk/ig/conditionlist/1.0.0",
+    "version": "1.0.1",
+    "path": "http://medcomfhir.dk/ig/conditionlist/1.0.1",
     "status": "release",
     "sequence": "Release",
-    "first" : true,
+    "first" : false,
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-medcom-conditionlist",
-    "milestone" : true,
+    "mode" : "milestone",
     "title": "DK MedCom Condition List",
-    "category": "MedCom ConditionList",
+    "category": "Patient Summary",
     "introduction": "The MedCom ConditionList Implementation Guide includes profiles developed exchange a patients diagnoses in a FHIR-document.",
     "descmd": "@release-notes.md"
 }
