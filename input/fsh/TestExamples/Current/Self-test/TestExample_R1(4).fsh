@@ -75,7 +75,7 @@ Description: "Organization instance - Testexample R1(4) - incl. SOR-ID and Ydern
 Instance: 8a6fc1e2-5dae-481c-8021-5c70517c1069
 InstanceOf: MedComConditionListCondition
 Title: "Condition instance - TestExample R1(4)"
-Description: "Condition instance - TestExample R1(4) - Type 2 diabetes"
+Description: "Condition instance - TestExample R1(4) - Periodisk depression UNS"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007 //current
@@ -92,12 +92,12 @@ Usage: #example
 Instance: sdfhtj-dfhsftjh435754-457
 InstanceOf: MedComConditionListCondition
 Title: "Condition instance - TestExample R1(4)"
-Description: "Condition instance - TestExample R1(4) - Hyperlipidæmi"
+Description: "Condition instance - TestExample R1(4) - COVID-19-infektion uden angivelse af lokalisation"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#723506003 //resolved
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB342a
-* code.coding[1] = urn:oid:1.2.208.176.2.31#A77
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB342a "COVID-19-infektion uden angivelse af lokalisation"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A77 "Virusinfektion IKA"
 * code.text = "COVID-19-infektion uden angivelse af lokalisation"
 //* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)

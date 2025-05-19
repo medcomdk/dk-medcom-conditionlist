@@ -119,8 +119,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD5400
-* code.coding[1] = urn:oid:1.2.208.176.2.31#0
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD5400 "Herpes simplex labialis"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#0 "Herpes simplex labialis"
 * code.text = "Herpes simplex labialis"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2003-01-03T12:24:05+01:00"
@@ -135,8 +135,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D?
-* code.coding[1] = urn:oid:1.2.208.176.2.31#?
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D? "[DIAGNOSE EJ PÅFØRT]"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#? "[DIAGNOSE EJ PÅFØRT]"
 * code.text = "[DIAGNOSE EJ PÅFØRT]"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * recordedDate = "2013-07-15T14:16:30+02:00"
@@ -150,8 +150,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#m431
-* code.coding[1] = urn:oid:1.2.208.176.2.31#?
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#m431 "Spondylolisthesis"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#? "Spondylolisthesis"
 * code.text = "Spondylolisthesis"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2022-01-02T13:16:30+01:00"
@@ -166,8 +166,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D93.00
-* code.coding[1] = urn:oid:1.2.208.176.2.31#4
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D93.00 "Asthma bronchiale"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#4 "Asthma bronchiale"
 * code.text = "Asthma bronchiale"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * recordedDate = "2022-01-02T13:16:30+01:00"
@@ -181,8 +181,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD-
-* code.coding[1] = urn:oid:1.2.208.176.2.31#A00
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD- "-"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A00 "A   ALMENT OG USPECIFICERET"
 * code.text = "-"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2020-02-17T15:16:30+01:00"
@@ -198,7 +198,8 @@ Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
 * code.coding[0].system = "urn:oid:1.2.208.176.2.4.12"
-* code.coding[1] = urn:oid:1.2.208.176.2.31#A00
+* code.coding[0].display = "Årlig FU. Tamoxifen"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A00 "Årlig FU. Tamoxifen"
 * code.text = "Årlig FU. Tamoxifen"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2020-02-17T15:16:30+01:00"
@@ -226,7 +227,9 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#C509
+* code.coding[0].system = "urn:oid:1.2.208.176.2.31"
+* code.coding[0].display = "Brystkræft UNS"
+* code.coding[1] = urn:oid:1.2.208.176.2.4.12#C509 "Brystkræft UNS"
 * code.text = "Brystkræft UNS"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2020-02-17T15:16:30+01:00"
@@ -241,6 +244,10 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
+* code.coding[0].system = "urn:oid:1.2.208.176.2.31"
+* code.coding[0].display = "Angsttilstand/angstneurose"
+* code.coding[1].system = "urn:oid:1.2.208.176.2.4.12"
+* code.coding[1].display = "Angsttilstand/angstneurose"
 * code.text = "Angsttilstand/angstneurose"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * recordedDate = "2014-02-17T15:16:30+01:00"
@@ -254,7 +261,7 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#M501
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#M501 "Cervikal diskusprolaps med radikulopati"
 * code.text = "Cervikal diskusprolaps med radikulopati"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2021-01-29T08:16:30+01:00"
@@ -281,7 +288,7 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#?
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#? "Lipidforstyrrelse"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#T93 "Lipidforstyrrelse"
 * code.text = "Lipidforstyrrelse"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
@@ -297,8 +304,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#a869
-* code.coding[1] = urn:oid:1.2.208.176.2.31#N71 "Meningit/encefalit"
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#a869 "NULL"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#N71 "Encephalitis viralis uden specifikation"
 * code.text = "NULL"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2020-02-17T15:16:30+01:00"
@@ -313,7 +320,7 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DZ246A
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DZ246A "#I/T"
 * code.coding[1] = urn:oid:1.2.208.176.2.31#A98 "Helbredsbevar/forebyggende tiltag"
 * code.text = "#I/T"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
@@ -328,7 +335,7 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB001
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB001 "Herpes simplex"
 * code.text = "Herpes simplex"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * recordedDate = "2020-02-17T15:16:30+01:00"
@@ -357,7 +364,7 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.31#F00
+* code.coding[0] = urn:oid:1.2.208.176.2.31#F00 "* ukendt *"
 * code.text = "* ukendt *"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * recordedDate = "2020-02-17T15:16:30+01:00"
@@ -371,8 +378,8 @@ Description: "Condition instance - TestExample Missing Content"
 Usage: #example
 * category[0].coding = $category#problem-list-item
 * category[1].coding = $sct#15240007
-* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DN39 "Andre sygdomme i urinvejene"
-* code.coding[1] = urn:oid:1.2.208.176.2.31#U71 "Blærebetændelse/urinvejsinfekt IKA"
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DN39 "Cystit/anden urinvejsinfektion"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#U71 "0"
 * code.text = "Cystit/anden urinvejsinfektion"
 * subject = Reference(Patient/46ae468d-f7fc-4749-a59e-e2a9c5e22327)
 * onsetDateTime = "2020-02-17T15:16:30+01:00"
