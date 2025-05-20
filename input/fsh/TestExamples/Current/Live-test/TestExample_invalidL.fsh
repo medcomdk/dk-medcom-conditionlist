@@ -7,7 +7,7 @@ Description: "Bundle instance - TestExample invalid"
 * type = #document
 * timestamp = 2025-04-29T16:12:57+02:00                   
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:5a029237-8dfc-4639-8614-12949de65cbd"
+* identifier.value = "urn:uuid:c1b2f9e0-cea9-41f3-b299-d8470b177484"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/8a54f2f4-5fcd-428c-bf26-c14d5ff3226d"
 * entry[=].resource = 8a54f2f4-5fcd-428c-bf26-c14d5ff3226d 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/cee69158-0e0b-4c37-b7b3-28e42345383c"

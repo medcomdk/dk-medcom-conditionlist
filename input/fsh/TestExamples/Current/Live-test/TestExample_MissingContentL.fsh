@@ -6,7 +6,7 @@ Description: "Bundle instance - Testexample Missing Content"
 * type = #document
 * timestamp = 2025-04-29T17:03:44+02:00                   
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:8e35fe86-dc72-49cc-b35c-44200ba86983"
+* identifier.value = "urn:uuid:d4fb9bd2-5c9e-4944-88db-57587eed735d"
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/5490305e-4d74-4ea6-9f78-305ddde20f7e"
 * entry[=].resource = 5490305e-4d74-4ea6-9f78-305ddde20f7e 
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16"
