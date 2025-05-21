@@ -1,3 +1,4 @@
+// OBS: for Diagnosis 15: change DB001 to D B001 in output file (sushi will not allow this while compiling)
 Instance: d2ae8f24-7e3b-4d12-b4db-b34ceb27569b
 InstanceOf: MedComConditionListBundle
 Usage: #example
@@ -60,7 +61,7 @@ Description: "Composition instance - Testexample Missing Content"
 * type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
-* date = "2023-03-03T13:43:00+01:00" //RET
+* date = "2025-01-20T14:16:40+01:00"
 * author[institution] = Reference(Organization/339c8c93-3fb9-43c6-a5ab-81cfd5a4e0fd)
 * title = "Diagnoseoversigt for 1210889876"
 * confidentiality = #N

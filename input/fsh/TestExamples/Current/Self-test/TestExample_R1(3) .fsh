@@ -30,7 +30,7 @@ Description: "Composition instance - Testexample R1(3)"
 * type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
-* date = "2025-01-01T10:30:00+01:00"
+* date = "2024-05-06"
 * author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
@@ -96,9 +96,9 @@ Usage: #example
 * code.text = "Diabetes Type 2"
 //* note.text = "Patienten har diagnosticeret modermærkekræft og behandling er afsluttet."
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
-* onsetDateTime = "2022-03-14T14:26:00+01:00"
-* recordedDate = "2022-03-14T14:26:00+01:00"
-* abatementDateTime = "2024-05-06T11:15:00+02:00"
+* onsetDateTime = "2022-03-14"
+* recordedDate = "2022-03-14"
+* abatementDateTime = "2024-05-06"
 * clinicalStatus = $clinical-status#resolved
 
 /* // Diagnose 3

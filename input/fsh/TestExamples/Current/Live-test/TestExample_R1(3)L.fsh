@@ -30,7 +30,7 @@ Description: "Composition instance - Testexample R1(3)"
 * type = $loinc#11450-4 "Problem list - Reported"
 * language = #da "Danish"
 * subject = Reference(Patient/cee69158-0e0b-4c37-b7b3-28e42345383c)
-* date = "2025-01-01T10:30:00+01:00"
+* date = "2024-05-06"
 * author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
 * title = "Diagnoseoversigt for 0511699884"
 * confidentiality = #N
