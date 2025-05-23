@@ -70,13 +70,13 @@ Certification of a system implies both an approved test protocol and run-through
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification">Click here to find the description of test and certification of FHIR standards in MedCom.</a> 
 
 **Providing a ConditionList document**
-  * [Test protocol](assets/documents/ConditionList_Testprotocol_Send.docx)
+  * [Test protocol for sending a ConditionList](assets/documents/ConditionList_Testprotocol_Send.docx)
   * [List of diagnoses for test protocol](assets/ConditionList_Diagnoses_Send.docx)
   * [TouchStone test script suite for sending a ConditionList](https://touchstone.aegis.net/touchstone/conformance/current?suite=FHIR4-0-1-ConditionList-send-Client)
 
 <p>&nbsp;</p>
  
 **Receiving a ConditionList document**
-  * [Test protocol](assets/documents/ConditionList_Testprotocol_Receive.docx)
+  * [Test protocol for receiving a ConditionList](assets/documents/ConditionList_Testprotocol_Receive.docx)
   * [Test examples for receive test protocol](assets/TestExamples.zip)
 <p>&nbsp;</p>
