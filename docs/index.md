@@ -72,7 +72,8 @@ Certification of a system implies both an approved test protocol and run-through
 **Providing a ConditionList document**
   * [Test protocol for sending a ConditionList](assets/documents/ConditionList_Testprotocol_Send.docx)
   * [List of diagnoses for test protocol](assets/ConditionList_Diagnoses_Send.docx)
-  * [TouchStone test script suite for sending a ConditionList](https://touchstone.aegis.net/touchstone/conformance/current?suite=FHIR4-0-1-ConditionList-send-Client)
+  * [MedCom guide: TouchStone getting started](https://touchstone.aegis.net/touchstone/conformance/current?suite=FHIR4-0-1-ConditionList-send-Client)
+    * [TouchStone test script suite for sending a ConditionList](https://medcomdk.github.io/MedComLandingPage/assets/documents/TouchStoneGettingStarted.html)
 
 <p>&nbsp;</p>
  
