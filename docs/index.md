@@ -75,9 +75,9 @@ Certification of a system implies both an approved test protocol and run-through
   * [TouchStone test script suite for sending a ConditionList](https://touchstone.aegis.net/touchstone/conformance/current?suite=FHIR4-0-1-ConditionList-send-Client)
     * [MedCom guide: TouchStone getting started](https://medcomdk.github.io/MedComLandingPage/assets/documents/TouchStoneGettingStarted.html)
     *  Please note this about Touchstone and [MedCom's FHIR-server](https://fhir.medcom.dk/): During validation, you may encounter warnings related to terminology that are currently allowed and cannot be avoided. These include warnings about:
-    1) Codes not found in expected value sets
-    2) Missing or untranslated display texts for LOINC
-    3) Use of pre-calculated (cached) value set expansions
+    1) Codes not found in expected value sets.
+    2) Missing or untranslated display texts for LOINC.
+    3) Use of pre-calculated (cached) value set expansions.
 
 <p>&nbsp;</p>
  
