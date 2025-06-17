@@ -74,12 +74,10 @@ Certification of a system implies both an approved test protocol and run-through
   * [List of diagnoses for test protocol](assets/ConditionList_Diagnoses_Send.docx)
   * [TouchStone test script suite for sending a ConditionList](https://touchstone.aegis.net/touchstone/conformance/current?suite=FHIR4-0-1-ConditionList-send-Client)
     * [MedCom guide: TouchStone getting started](https://medcomdk.github.io/MedComLandingPage/assets/documents/TouchStoneGettingStarted.html)
-    *  Note: In Touchstone and [MedComs FHIR-server](https://fhir.medcom.dk/), the following warnings/information are permitted and can appear, as they cannot currently be avoided:
-      * `WARNING: (TerminologyEngine) No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1'`
-      * `WARNING: (TerminologyEngine) No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1'; The provided code 'http://loinc.org#11450-4 ('Problem list - Reported')' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1'; There are no valid display names found for the code http://loinc.org#11450-4 for language(s) 'da'. The display is 'Problem list - Reported' the default language display.`
-      * `WARNING: (TerminologyEngine) No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/condition-category|4.0.1'`
-      * `WARNING: (TerminologyEngine) No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/condition-category|4.0.1'; The provided code 'http://snomed.info/sct#15240007' was not found in the value set 'http://hl7.org/fhir/ValueSet/condition-category|4.0.1'.`
-      * `Code validation occurred using a ValueSet expansion that was pre-calculated at 2024-11-19T15:25:29.282+00:00`
+    *  Please note about Touchstone and [MedComs FHIR-server](https://fhir.medcom.dk/): During validation, you may encounter warnings related to terminology that are currently allowed and cannot be avoided. These include warnings about:
+    1) Codes not found in expected value sets
+    2) Missing or untranslated display texts for LOINC
+    3) Use of pre-calculated (cached) value set expansions
 
 <p>&nbsp;</p>
  
