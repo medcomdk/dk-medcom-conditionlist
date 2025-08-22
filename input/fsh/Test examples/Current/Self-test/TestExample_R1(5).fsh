@@ -1,0 +1,113 @@
+Instance: 0f9e8d30-1a45-4461-a6a4-72214f81022c
+InstanceOf: MedComConditionListBundle
+Usage: #example
+Title: "Bundle instance - Testexample R1(5)"
+Description: "Bundle instance - Testexample R1(5)"
+* type = #document
+* timestamp = 2025-04-29T13:15:14+02:00                 
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:56525dfa-1196-4247-b5e8-e6c75060cd64"
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Composition/95d3679d-c5d0-420e-b46b-f6e32efa3533"
+* entry[=].resource = 95d3679d-c5d0-420e-b46b-f6e32efa3533
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242"
+* entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
+* entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Diagnosis 1 R1(1)
+* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687" //Diagnosis 2 R1(2)
+* entry[=].resource = 123btjledikg-sdfljg215687
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5" //Diagnosis 3 R1(2)
+* entry[=].resource = b1b0260e-b2ea-460c-ac57-95efaa6423c5
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/sdfhtj-dfhsftjh435754-457" //Diagnosis 5 R1(4)
+* entry[=].resource = sdfhtj-dfhsftjh435754-457
+
+Instance: 95d3679d-c5d0-420e-b46b-f6e32efa3533
+InstanceOf: MedComConditionListComposition
+Usage: #example
+Title: "Composition instance - Testexample R1(5)"
+Description: "Composition instance - Testexample R1(5)"
+* status = #final
+* type = $loinc#11450-4 "Problem list - Reported"
+* language = #da "Danish"
+* subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
+* date = "2024-04-17T15:00:00Z" //zulu tid
+* author[institution] = Reference(Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9)
+* title = "Diagnoseoversigt for 0511699884"
+* confidentiality = #N
+* attester.mode = #official
+//* section[0].text.status = #generated
+//* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 9d27e9bf-b552-499c-b32d-dc5f5bb290a0</b></p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 15240007}\">Chronic Condition</span>,<span title=\"Codes:{http://snomed.info/sct 723506003}\">Resolved</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.1.2 T90}\">Type 2 diabetes</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2019-05-10</p><p><b>recordedDate</b>: 2023-04-10</p><p><b>note</b>: Patienten har diagnosticeret type 2 diabetes og modtager løbende behandling.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2019-05-10</p><p><b>abatement date</b>: 2025-12-31</p></div>"
+//* section[0].entry[0] = Reference(Condition/9d27e9bf-b552-499c-b32d-dc5f5bb290a0)
+* section[0].entry[0] = Reference(Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563)
+* section[0].entry[1] = Reference(Condition/123btjledikg-sdfljg215687)
+* section[0].entry[2] = Reference(Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5)
+* section[0].entry[3] = Reference(Condition/sdfhtj-dfhsftjh435754-457)
+
+
+/* Instance: f9a33901-2dbc-4100-9d7f-bc51c736d6d7
+InstanceOf: MedComDocumentPatient
+Title: "Patient instance - Testexample R1(5)"
+Description: "Patient instance - Testexample R1(5) - Elmer Test Hansen"
+* identifier[cpr].system = "urn:oid:1.2.208.176.1.2"
+* identifier[cpr].value = "2509479989"
+* name[official].use = #official
+* name[official].family = "Hansen"
+* name[official].given[0] = "Elmer"
+* name[official].given[1] = "Test"
+* birthDate = "1947-09-25"
+* gender = #male
+ */
+
+/* Instance: 61393c90-34fb-4dac-8f09-ceb20f3ec988
+InstanceOf: MedComConditionListOrganization
+Usage: #example
+Title: "Organization instance - Testexample R1(5)"
+Description: "Organization instance - Testexample R1(5) - incl. SOR-ID and Ydernummer as identifiers"
+* name = "MedCom Testcenter"
+* identifier[SOR-ID].value = "325381000016008"
+* identifier[Ydernummer].value = "091034" */
+
+// Diagnose 1
+//Instance: 9d27e9bf-b552-499c-b32d-dc5f5bb290a0
+//InstanceOf: MedComConditionListCondition
+//Title: "Condition instance - TestExample R1(4)"
+//Description: "Condition instance - TestExample R1(4) - Type 2 diabetes"
+//Usage: #example
+//* category[0].coding = $category#encounter-diagnosis
+//* category[0].coding = $sct#15240007 //current
+//* code.coding[0] = urn:oid:1.2.208.176.1.2#T90 "Type 2 diabetes"  // ICPC2-kode
+//* code.text = "Type 2 diabetes"  // DA: diagnosetekst
+//* note.text = "Patienten har diagnosticeret type 2 diabetes og modtager løbende behandling."  // DA: tillægstekst
+//* subject = Reference(Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7)
+//* onsetDateTime = "2019-05-10"  // DA: debutdato
+//* recordedDate = "2023-04-10"  // DA: registreringsdato
+//* abatementDateTime = "2025-12-31"  // DA: afslutningsdato
+//* clinicalStatus = $sct#723506003 "resolved"
+
+// Diagnose 2
+/* Instance: dzkfjhgou-fdhrt-678
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample R1(5)"
+Description: "Condition instance - TestExample R1(5) - Hyperlipidæmi"
+Usage: #example
+* category[0].coding = $category#encounter-diagnosis //Da: forløbsdiagnose
+* category[1].coding = $sct#15240007 //current
+* code.coding[0] = urn:oid:1.2.208.176.2.31#E78.5 "Hyperlipidæmi, uspecificeret"  // SKS-D kode
+* subject = Reference(Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7)
+* recordedDate = "2015-11-06" //DA: Registreringsdato
+
+// Diagnose 3
+Instance: ebce735d-ce63-469e-86eb-555651a84ac1
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample R1(5)"
+Description: "Condition instance - TestExample R1(5) - Astma"
+Usage: #example
+* category[0].coding = $sct#723506003 
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#R96 "Astma uden specifikation"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#DI10 "Astma"
+* code.text = "Patienten er diagnosticeret astma med lejlighedsvise anfald, kontrolleret gennem medicinsk behandling og inhalator ved behov."
+* subject = Reference(Patient/f9a33901-2dbc-4100-9d7f-bc51c736d6d7)
+* recordedDate = "2015-11-28"
+* bodySite.coding[0] = $sct#4011000179103 "Lunger"  // SNOMED-kode for lunger som bodySite
+ */
