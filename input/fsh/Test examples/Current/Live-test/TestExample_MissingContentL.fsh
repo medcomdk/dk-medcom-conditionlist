@@ -14,42 +14,42 @@ Description: "Bundle instance - Testexample Missing Content"
 * entry[=].resource = e9279aea-6b62-49b8-96f6-b0b6c70a7b16
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/339c8c93-3fb9-43c6-a5ab-81cfd5a4e0fd"
 * entry[=].resource = 339c8c93-3fb9-43c6-a5ab-81cfd5a4e0fd
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/db90206b-b0ec-4d14-80d3-6ec7b092bb22" //1
-* entry[=].resource = db90206b-b0ec-4d14-80d3-6ec7b092bb22
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/23c85d17-761c-4c02-8be6-2190c31e0f75" //2
-* entry[=].resource = 23c85d17-761c-4c02-8be6-2190c31e0f75
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/379b80e7-9ad3-4bd9-96ad-49d6054fd6e9" //3
-* entry[=].resource = 379b80e7-9ad3-4bd9-96ad-49d6054fd6e9
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/6c2fdba5-eb3a-4271-b093-729ea92523ee" //4
-* entry[=].resource = 6c2fdba5-eb3a-4271-b093-729ea92523ee
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/45d92df8-a0e6-460e-af29-649e90b669d5" //5
-* entry[=].resource = 45d92df8-a0e6-460e-af29-649e90b669d5
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/c847a4c3-5b1a-41cb-8f31-0078965d793b" //6
-* entry[=].resource = c847a4c3-5b1a-41cb-8f31-0078965d793b
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b95a8723-36a0-47b7-8718-ec23754622ab" //7
-* entry[=].resource = b95a8723-36a0-47b7-8718-ec23754622ab
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/1e6235e8-2b81-4039-bea6-db6facb2f20b" //8
-* entry[=].resource = 1e6235e8-2b81-4039-bea6-db6facb2f20b
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/73d8a8d3-9fae-4328-8b69-4877e3d132d1" //9
-* entry[=].resource = 73d8a8d3-9fae-4328-8b69-4877e3d132d1
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/f985a49e-2f6e-4cc6-a8cf-cc289db22e20" //10
-* entry[=].resource = f985a49e-2f6e-4cc6-a8cf-cc289db22e20
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/a0867652-7bfd-4077-885f-966680a17b8d" //11
-* entry[=].resource = a0867652-7bfd-4077-885f-966680a17b8d
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/2f776d94-0835-4631-8e48-544cc790783a" //12
-* entry[=].resource = 2f776d94-0835-4631-8e48-544cc790783a
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/e4b9b596-68d8-45b1-a1cf-dab2104b61c8" //13
-* entry[=].resource = e4b9b596-68d8-45b1-a1cf-dab2104b61c8
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/89ff4e87-596d-4584-a6a2-e04d0bf746dd" //14
-* entry[=].resource = 89ff4e87-596d-4584-a6a2-e04d0bf746dd
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/dedc4f96-bbeb-4d6b-8134-0708a558c717" //15
-* entry[=].resource = dedc4f96-bbeb-4d6b-8134-0708a558c717
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/813178f3-6964-4566-a9ad-edf3a3a5e82d" //16
-* entry[=].resource = 813178f3-6964-4566-a9ad-edf3a3a5e82d
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7da363ff-ef2c-4a3d-9ab8-57f9ddc66790" //17
-* entry[=].resource = 7da363ff-ef2c-4a3d-9ab8-57f9ddc66790
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/4d95ac95-06cc-471b-a932-c4bf128e671a" //18
-* entry[=].resource = 4d95ac95-06cc-471b-a932-c4bf128e671a
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/1db756ba-80e3-47d6-a0b2-3fd11b0e964a" //1
+* entry[=].resource = 1db756ba-80e3-47d6-a0b2-3fd11b0e964a
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/ed7c96e8-95f5-4543-8be0-d2092e7ab0a8" //2
+* entry[=].resource = ed7c96e8-95f5-4543-8be0-d2092e7ab0a8
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/67a8ee30-6da8-4694-9a61-7f8017df446a" //3
+* entry[=].resource = 67a8ee30-6da8-4694-9a61-7f8017df446a
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/9c907031-240f-4b4d-982e-ff2c932c25cb" //4
+* entry[=].resource = 9c907031-240f-4b4d-982e-ff2c932c25cb
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/38f7a50b-d7a0-4656-8e8c-208251240283" //5
+* entry[=].resource = 38f7a50b-d7a0-4656-8e8c-208251240283
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/d9f46093-9a0f-453a-8da0-01d816c9b57a" //6
+* entry[=].resource = d9f46093-9a0f-453a-8da0-01d816c9b57a
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/dcea7cce-5281-4ca2-bdf7-07c0800f14fe" //7
+* entry[=].resource = dcea7cce-5281-4ca2-bdf7-07c0800f14fe
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/f178ce45-a873-44f8-8b7a-54613d0ce8ba" //8
+* entry[=].resource = f178ce45-a873-44f8-8b7a-54613d0ce8ba
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/e0c19752-45b3-4964-89a0-6cbd44e819c6" //9
+* entry[=].resource = e0c19752-45b3-4964-89a0-6cbd44e819c6
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/eaefc25b-e87c-40a8-a7c9-238bbac6a401" //10
+* entry[=].resource = eaefc25b-e87c-40a8-a7c9-238bbac6a401
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/60d36eb9-55b3-4826-aefd-4ddadd233bde" //11
+* entry[=].resource = 60d36eb9-55b3-4826-aefd-4ddadd233bde
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1799b3a-ecae-4ca7-97bc-26fa52f1eca3" //12
+* entry[=].resource = b1799b3a-ecae-4ca7-97bc-26fa52f1eca3
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/a0974afe-2aad-4b52-83cd-9348a37c426b" //13
+* entry[=].resource = a0974afe-2aad-4b52-83cd-9348a37c426b
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/185997b4-ab5a-41e0-a803-72539b354ea0" //14
+* entry[=].resource = 185997b4-ab5a-41e0-a803-72539b354ea0
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/c253ab1d-e8ca-4826-a671-2aaf21ea39b4" //15
+* entry[=].resource = c253ab1d-e8ca-4826-a671-2aaf21ea39b4
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/cfa7b8eb-19c2-4cfa-ad45-d56e9cc58bad" //16
+* entry[=].resource = cfa7b8eb-19c2-4cfa-ad45-d56e9cc58bad
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/8f4b1066-e1ad-4258-8ebe-3cfe4bd9810c" //17
+* entry[=].resource = 8f4b1066-e1ad-4258-8ebe-3cfe4bd9810c
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/8f03275b-bd5c-446b-925b-449625275376" //18
+* entry[=].resource = 8f03275b-bd5c-446b-925b-449625275376
 
 
 Instance: 5490305e-4d74-4ea6-9f78-305ddde20f7e
@@ -67,25 +67,25 @@ Description: "Composition instance - Testexample Missing Content"
 * confidentiality = #N
 * attester.mode = #official
 //* section[0].text.status = #generated
-//* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition db90206b-b0ec-4d14-80d3-6ec7b092bb22</b></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span>,<span title=\"Codes:{http://snomed.info/sct 15240007}\">Current</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DM86}, {urn:oid:1.2.208.176.2.31 C43}\">Modermærkekræft</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2020-02-20</p><p><b>recordedDate</b>: 2023-03-15</p><p><b>note</b>: Patienten har diagnosticeret modermærkekræft og behandling er afsluttet.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2020-02-20</p><p><b>abatement date</b>: 2024-11-01</p></div>"
-* section[0].entry[0] = Reference(Condition/db90206b-b0ec-4d14-80d3-6ec7b092bb22)
-* section[0].entry[1] = Reference(Condition/23c85d17-761c-4c02-8be6-2190c31e0f75)
-* section[0].entry[2] = Reference(Condition/379b80e7-9ad3-4bd9-96ad-49d6054fd6e9)
-* section[0].entry[3] = Reference(Condition/6c2fdba5-eb3a-4271-b093-729ea92523ee)
-* section[0].entry[4] = Reference(Condition/45d92df8-a0e6-460e-af29-649e90b669d5)
-* section[0].entry[5] = Reference(Condition/c847a4c3-5b1a-41cb-8f31-0078965d793b)
-* section[0].entry[6] = Reference(Condition/b95a8723-36a0-47b7-8718-ec23754622ab)
-* section[0].entry[7] = Reference(Condition/1e6235e8-2b81-4039-bea6-db6facb2f20b)
-* section[0].entry[8] = Reference(Condition/73d8a8d3-9fae-4328-8b69-4877e3d132d1)
-* section[0].entry[9] = Reference(Condition/f985a49e-2f6e-4cc6-a8cf-cc289db22e20)
-* section[0].entry[10] = Reference(Condition/a0867652-7bfd-4077-885f-966680a17b8d)
-* section[0].entry[11] = Reference(Condition/2f776d94-0835-4631-8e48-544cc790783a)
-* section[0].entry[12] = Reference(Condition/e4b9b596-68d8-45b1-a1cf-dab2104b61c8)
-* section[0].entry[13] = Reference(Condition/89ff4e87-596d-4584-a6a2-e04d0bf746dd)
-* section[0].entry[14] = Reference(Condition/dedc4f96-bbeb-4d6b-8134-0708a558c717)
-* section[0].entry[15] = Reference(Condition/813178f3-6964-4566-a9ad-edf3a3a5e82d)
-* section[0].entry[16] = Reference(Condition/7da363ff-ef2c-4a3d-9ab8-57f9ddc66790)
-* section[0].entry[17] = Reference(Condition/4d95ac95-06cc-471b-a932-c4bf128e671a)
+//* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 1db756ba-80e3-47d6-a0b2-3fd11b0e964a</b></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span>,<span title=\"Codes:{http://snomed.info/sct 15240007}\">Current</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DM86}, {urn:oid:1.2.208.176.2.31 C43}\">Modermærkekræft</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2020-02-20</p><p><b>recordedDate</b>: 2023-03-15</p><p><b>note</b>: Patienten har diagnosticeret modermærkekræft og behandling er afsluttet.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2020-02-20</p><p><b>abatement date</b>: 2024-11-01</p></div>"
+* section[0].entry[0] = Reference(Condition/1db756ba-80e3-47d6-a0b2-3fd11b0e964a)
+* section[0].entry[1] = Reference(Condition/ed7c96e8-95f5-4543-8be0-d2092e7ab0a8)
+* section[0].entry[2] = Reference(Condition/67a8ee30-6da8-4694-9a61-7f8017df446a)
+* section[0].entry[3] = Reference(Condition/9c907031-240f-4b4d-982e-ff2c932c25cb)
+* section[0].entry[4] = Reference(Condition/38f7a50b-d7a0-4656-8e8c-208251240283)
+* section[0].entry[5] = Reference(Condition/d9f46093-9a0f-453a-8da0-01d816c9b57a)
+* section[0].entry[6] = Reference(Condition/dcea7cce-5281-4ca2-bdf7-07c0800f14fe)
+* section[0].entry[7] = Reference(Condition/f178ce45-a873-44f8-8b7a-54613d0ce8ba)
+* section[0].entry[8] = Reference(Condition/e0c19752-45b3-4964-89a0-6cbd44e819c6)
+* section[0].entry[9] = Reference(Condition/eaefc25b-e87c-40a8-a7c9-238bbac6a401)
+* section[0].entry[10] = Reference(Condition/60d36eb9-55b3-4826-aefd-4ddadd233bde)
+* section[0].entry[11] = Reference(Condition/b1799b3a-ecae-4ca7-97bc-26fa52f1eca3)
+* section[0].entry[12] = Reference(Condition/a0974afe-2aad-4b52-83cd-9348a37c426b)
+* section[0].entry[13] = Reference(Condition/185997b4-ab5a-41e0-a803-72539b354ea0)
+* section[0].entry[14] = Reference(Condition/c253ab1d-e8ca-4826-a671-2aaf21ea39b4)
+* section[0].entry[15] = Reference(Condition/cfa7b8eb-19c2-4cfa-ad45-d56e9cc58bad)
+* section[0].entry[16] = Reference(Condition/8f4b1066-e1ad-4258-8ebe-3cfe4bd9810c)
+* section[0].entry[17] = Reference(Condition/8f03275b-bd5c-446b-925b-449625275376)
 
 
 Instance: e9279aea-6b62-49b8-96f6-b0b6c70a7b16
@@ -98,5 +98,280 @@ Description: "Patient instance - Testexample Missing Content - Alma ManyDiagnose
 * name[official].family = "BækL"
 * name[official].given[0] = "Alma"
 * name[official].given[1] = "ManyDiagnoses"
-* birthDate = "1977-01-27"
+* birthDate = "1988-10-12"
 * gender = #female
+
+// Diagnosis 1
+Instance: 1db756ba-80e3-47d6-a0b2-3fd11b0e964a
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD5400 "Herpes simplex labialis"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#0 "Herpes simplex labialis"
+* code.text = "Herpes simplex labialis"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2003-01-03T12:24:05+01:00"
+* recordedDate = "2019-07-09T14:15:30+02:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 2
+Instance: ed7c96e8-95f5-4543-8be0-d2092e7ab0a8
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D? "[DIAGNOSE EJ PÅFØRT]"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#? "[DIAGNOSE EJ PÅFØRT]"
+* code.text = "[DIAGNOSE EJ PÅFØRT]"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2013-07-15T14:16:30+02:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 3
+Instance: 67a8ee30-6da8-4694-9a61-7f8017df446a
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#m431 "Spondylolisthesis"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#? "Spondylolisthesis"
+* code.text = "Spondylolisthesis"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2022-01-02T13:16:30+01:00"
+* recordedDate = "2022-01-02T13:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 4
+Instance: 9c907031-240f-4b4d-982e-ff2c932c25cb
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#D93.00 "Asthma bronchiale"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#4 "Asthma bronchiale"
+* code.text = "Asthma bronchiale"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2022-01-02T13:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 5
+Instance: 38f7a50b-d7a0-4656-8e8c-208251240283
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD- "-"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A00 "A   ALMENT OG USPECIFICERET"
+* code.text = "-"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 6
+Instance: d9f46093-9a0f-453a-8da0-01d816c9b57a
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0].system = "urn:oid:1.2.208.176.2.4.12"
+* code.coding[0].display = "Årlig FU. Tamoxifen"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A00 "Årlig FU. Tamoxifen"
+* code.text = "Årlig FU. Tamoxifen"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2025-01-20T14:16:40+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 7
+Instance: dcea7cce-5281-4ca2-bdf7-07c0800f14fe
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.31#A00
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2018-06-20T15:45:12+02:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 8
+Instance: f178ce45-a873-44f8-8b7a-54613d0ce8ba
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0].system = "urn:oid:1.2.208.176.2.31"
+* code.coding[0].display = "Brystkræft UNS"
+* code.coding[1] = urn:oid:1.2.208.176.2.4.12#C509 "Brystkræft UNS"
+* code.text = "Brystkræft UNS"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 9
+Instance: e0c19752-45b3-4964-89a0-6cbd44e819c6
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0].system = "urn:oid:1.2.208.176.2.31"
+* code.coding[0].display = "Angsttilstand/angstneurose"
+* code.coding[1].system = "urn:oid:1.2.208.176.2.4.12"
+* code.coding[1].display = "Angsttilstand/angstneurose"
+* code.text = "Angsttilstand/angstneurose"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2014-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 10
+Instance: eaefc25b-e87c-40a8-a7c9-238bbac6a401
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#M501 "Cervikal diskusprolaps med radikulopati"
+* code.text = "Cervikal diskusprolaps med radikulopati"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2021-01-29T08:16:30+01:00"
+* recordedDate = "2021-01-29T08:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 11
+Instance: 60d36eb9-55b3-4826-aefd-4ddadd233bde
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2021-01-29T08:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 12
+Instance: b1799b3a-ecae-4ca7-97bc-26fa52f1eca3
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#? "Lipidforstyrrelse"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#T93 "Lipidforstyrrelse"
+* code.text = "Lipidforstyrrelse"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2018-02-17T15:16:30+01:00"
+* recordedDate = "2018-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 13
+Instance: a0974afe-2aad-4b52-83cd-9348a37c426b
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#a869 "NULL"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#N71 "Encephalitis viralis uden specifikation"
+* code.text = "NULL"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 14
+Instance: 185997b4-ab5a-41e0-a803-72539b354ea0
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DZ246A "#I/T"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#A98 "Helbredsbevar/forebyggende tiltag"
+* code.text = "#I/T"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 15 OBS: DB 001
+Instance: c253ab1d-e8ca-4826-a671-2aaf21ea39b4
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DB001 "Herpes simplex"
+* code.text = "Herpes simplex"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 16
+Instance: cfa7b8eb-19c2-4cfa-ad45-d56e9cc58bad
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DD10 "Godartede tumorer i læber, mundhulen og svælget"
+* code.text = "Godartede tumorer i læber, mundhulen og svælget"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 17
+Instance: 8f4b1066-e1ad-4258-8ebe-3cfe4bd9810c
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.31#F00 "* ukendt *"
+* code.text = "* ukendt *"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved
+
+// Diagnosis 18
+Instance: 8f03275b-bd5c-446b-925b-449625275376
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample Missing Content"
+Description: "Condition instance - TestExample Missing Content"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#15240007
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DN39 "Cystit/anden urinvejsinfektion"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#U71 "0"
+* code.text = "Cystit/anden urinvejsinfektion"
+* subject = Reference(Patient/e9279aea-6b62-49b8-96f6-b0b6c70a7b16)
+* onsetDateTime = "2020-02-17T15:16:30+01:00"
+* recordedDate = "2020-02-17T15:16:30+01:00"
+* clinicalStatus = $clinical-status#resolved

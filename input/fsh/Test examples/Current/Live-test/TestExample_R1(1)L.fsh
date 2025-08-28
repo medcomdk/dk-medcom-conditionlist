@@ -13,8 +13,8 @@ Description: "Bundle instance - Testexample R1(1)"
 * entry[=].resource = cee69158-0e0b-4c37-b7b3-28e42345383c
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
 * entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563"
-* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/5db4736d-4bc1-4f64-9df8-05565cf54b94"
+* entry[=].resource = 5db4736d-4bc1-4f64-9df8-05565cf54b94
 
 
 Instance: 8a54f2f4-5fcd-428c-bf26-c14d5ff3226d
@@ -32,8 +32,8 @@ Description: "Composition instance - Testexample R1(1)"
 * confidentiality = #N
 * attester.mode = #official
 //* section[0].text.status = #generated
-//* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 7aa1d33b-ae2f-43d3-8c08-d68159d8f563</b></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span>,<span title=\"Codes:{http://snomed.info/sct 15240007}\">Current</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DM86}, {urn:oid:1.2.208.176.2.31 C43}\">Modermærkekræft</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2020-02-20</p><p><b>recordedDate</b>: 2023-03-15</p><p><b>note</b>: Patienten har diagnosticeret modermærkekræft og behandling er afsluttet.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2020-02-20</p><p><b>abatement date</b>: 2024-11-01</p></div>"
-* section[0].entry[0] = Reference(Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563)
+//* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition 5db4736d-4bc1-4f64-9df8-05565cf54b94</b></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span>,<span title=\"Codes:{http://snomed.info/sct 15240007}\">Current</span></p><p><b>code</b>: <span title=\"Codes:{urn:oid:1.2.208.176.2.4.12 DM86}, {urn:oid:1.2.208.176.2.31 C43}\">Modermærkekræft</span></p><p><b>subject</b>: Elmer Test Hansen (official) Male, DoB: 1947-09-25</p><p><b>onset</b>: 2020-02-20</p><p><b>recordedDate</b>: 2023-03-15</p><p><b>note</b>: Patienten har diagnosticeret modermærkekræft og behandling er afsluttet.</p><p><b>diagnosis type</b>: Encounter-diagnosis</p><p><b>debut date</b>: 2020-02-20</p><p><b>abatement date</b>: 2024-11-01</p></div>"
+* section[0].entry[0] = Reference(Condition/5db4736d-4bc1-4f64-9df8-05565cf54b94)
 
 
 Instance: cee69158-0e0b-4c37-b7b3-28e42345383c
@@ -46,5 +46,23 @@ Description: "Patient instance - Testexample R1(1) - Sebastian Receive FriisL"
 * name[official].family = "FriisL"
 * name[official].given[0] = "Sebastian"
 * name[official].given[1] = "Receive"
-* birthDate = "1969-11-05"
+* birthDate = "1962-11-19"
 * gender = #male
+
+// Diagnosis 1
+Instance: 5db4736d-4bc1-4f64-9df8-05565cf54b94
+InstanceOf: MedComConditionListCondition
+Title: "Condition instance - TestExample R1(1)"
+Description: "Condition instance - TestExample R1(1) - Kronisk obstruktiv lungesygdom UNS"
+Usage: #example
+* category[0].coding = $category#problem-list-item
+* category[1].coding = $sct#723506003
+* code.coding[0] = urn:oid:1.2.208.176.2.4.12#DJ449 "Kronisk obstruktiv lungesygdom UNS"
+* code.coding[1] = urn:oid:1.2.208.176.2.31#R95 "Kronisk obstruktiv lungesygdom"
+* code.text = "Kronisk obstruktiv lungesygdom UNS"
+* note.text = "Rygning og asbest"
+* subject = Reference(Patient/cee69158-0e0b-4c37-b7b3-28e42345383c)
+* onsetDateTime = "2003-01-01T14:20:00+01:00"
+* recordedDate = "2019-06-08T12:16:00+02:00"
+* abatementDateTime = "2023-03-03T13:43:00+01:00"
+* clinicalStatus = $clinical-status#resolved

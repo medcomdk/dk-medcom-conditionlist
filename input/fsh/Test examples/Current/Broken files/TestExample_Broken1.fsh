@@ -14,9 +14,9 @@ Description: "Bundle instance - Testexample Broken1"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
 * entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563" //Found in TestExample_R1(1)
-* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/123btjledikg-sdfljg215687"
-* entry[=].resource = 123btjledikg-sdfljg215687
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/b1b0260e-b2ea-460c-ac57-95efaa6423c5"
-* entry[=].resource = b1b0260e-b2ea-460c-ac57-95efaa6423c5
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/5db4736d-4bc1-4f64-9df8-05565cf54b94" //Found in TestExample_R1(1)
+* entry[=].resource = 5db4736d-4bc1-4f64-9df8-05565cf54b94
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/d5ce07d6-2d5f-417b9b5a"
+* entry[=].resource = d5ce07d6-2d5f-417b9b5a
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/f1813e13-c783-40e5-bf3a-021f8150fb86"
+* entry[=].resource = f1813e13-c783-40e5-bf3a-021f8150fb86

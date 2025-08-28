@@ -14,5 +14,5 @@ Description: "Bundle instance - TestExample Broken3"
 * entry[=].resource = 76ceb895-4de3-4582-83e0-5e65a3fb1242
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
 * entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563"
-* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/5db4736d-4bc1-4f64-9df8-05565cf54b94" //Found in TestExample_R1(1)
+* entry[=].resource = 5db4736d-4bc1-4f64-9df8-05565cf54b94

@@ -84,5 +84,6 @@ Usage: #example
 * subject = Reference(Patient/76ceb895-4de3-4582-83e0-5e65a3fb1242)
 * onsetDateTime = "2024-01-12T09:23:00+01:00"
 * recordedDate = "2024-01-12T09:23:00+01:00"
-* bodySite.coding[0] = $sct#4011000179103 "Lunger"  // SNOMED-kode for lunger som bodySite HVORFOR ER DEN MED?
+* clinicalStatus = $clinical-status#resolved
+* bodySite.coding[0] = $sct#4011000179103 "Lunger"
 

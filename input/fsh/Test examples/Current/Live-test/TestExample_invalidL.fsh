@@ -14,8 +14,8 @@ Description: "Bundle instance - TestExample invalid"
 * entry[=].resource = cee69158-0e0b-4c37-b7b3-28e42345383c
 * entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Organization/d39a8251-db8e-4b92-ae80-c89857fd1af9"
 * entry[=].resource = d39a8251-db8e-4b92-ae80-c89857fd1af9
-* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/7aa1d33b-ae2f-43d3-8c08-d68159d8f563"
-* entry[=].resource = 7aa1d33b-ae2f-43d3-8c08-d68159d8f563
+* entry[+].fullUrl = "http://medcomfhir.dk/ig/conditionlist/Condition/5db4736d-4bc1-4f64-9df8-05565cf54b94"
+* entry[=].resource = 5db4736d-4bc1-4f64-9df8-05565cf54b94
 
 /* Instance: a1b2c3d4e5f6g7h8i9j0
 InstanceOf: MedComConditionListBundle
